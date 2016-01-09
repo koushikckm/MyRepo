@@ -1,0 +1,10 @@
+---
+input: 
+ studentId: "1"
+ greScore: 380.00
+result: "0"
+---
+input: 
+ studentId: "2"
+ greScore: 800.00
+result: "1"
