@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- ========================= RESOURCE DEFINITIONS ========================= -->
+	   
+   
+    <beans:bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+        destroy-method="close">
+        <beans:property name="driverClass">
+            <beans:value>${MMG.DATABASE.DRIVER}</beans:value>
+
+        </beans:property>
+        <beans:property name="jdbcUrl">
+            <beans:value>${MMG.DATABASE.URL}</beans:value>
+        </beans:property>
+ 
+        <beans:property name="properties">
+            <beans:props>
+                <beans:prop key="user">${MMG.DATABASE.USERNAME}</beans:prop>
+                <beans:prop key="password">${MMG.DATABASE.PASSWORD}</beans:prop>
+            </beans:props>
+        </beans:property>
+
+        <beans:property name="idleConnectionTestPeriod">
+            <beans:value>${MMG.DATABASE.POOLING.C3PO.IDLETESTPERIOD}</beans:value>
+        </beans:property>
+        <beans:property name="maxIdleTime">
+            <beans:value>${MMG.DATABASE.POOLING.C3PO.TIMEOUT}</beans:value>
+        </beans:property>
+
+
+
+    </beans:bean>
+
+	<!-- Hibernate SessionFactory
+       
+        -->
+    <beans:bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+        <beans:property name="dataSource">
+            <beans:ref local="dataSource" />
+        </beans:property>
+   
+        
+        <beans:property name="hibernateProperties">
+            <beans:props>
+                <beans:prop key="hibernate.dialect">${MMG.DATABASE.DIALECT}</beans:prop>
+                <beans:prop key="hibernate.show_sql">${MMG.DATABASE.HIBERNATE.SHOWSQL}</beans:prop>
+
+                 <!-- Configuring the C3P0 properties for the Connection Pooling -->
+                <beans:prop key="hibernate.c3p0.min_size">${MMG.DATABASE.POOLING.C3PO.MINSIZE}</beans:prop>
+                <beans:prop key="hibernate.c3p0.max_size">${MMG.DATABASE.POOLING.C3PO.MAXSIZE} </beans:prop>
+                <beans:prop key="hibernate.c3p0.idle_test_period">${MMG.DATABASE.POOLING.C3PO.IDLETESTPERIOD}</beans:prop>
+                <beans:prop key="hibernate.c3p0.timeout">${MMG.DATABASE.POOLING.C3PO.TIMEOUT}</beans:prop>
+                <beans:prop key="hibernate.c3p0.max_statements">${MMG.DATABASE.POOLING.C3PO.MAXSTATEMENTS}</beans:prop>
+                <beans:prop key="hibernate.c3p0.acquire_increment">${MMG.DATABASE.POOLING.C3PO.INCREMENT}</beans:prop>
+                <beans:prop key="hibernate.c3p0.validate">true</beans:prop>   <!-- THis is an Important Part -->
+                <beans:prop key="hibernate.c3p0.preferredTestQuery">select 1;</beans:prop>  
+                
+
+                <!-- All the Hibernate Second Level Catch Settings are being defined here 
+                <prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.SingletonEhCacheProvider</prop>
+                <prop key="hibernate.cache.use_query_cache">true</prop>
+                <prop key="hibernate.cache.use_second_level_cache">true</prop>-->
+                
+            </beans:props>
+        </beans:property>
+
+        <beans:property name="annotatedClasses">
+            <beans:list>
+                <!-- -->
+                <beans:value>com.mazdausa.mmg.db.vo.ConstantVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.ApplicationDetailsVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.ApplicationInstallationDetailsVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.CustomerVINRecallVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.ServiceReminderVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.UserVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.UserVehicleVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.AccessLogVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.VehicleCodeVO</beans:value>
+                <beans:value>com.mazdausa.mmg.db.vo.MmgRecallControlTableVO</beans:value>                
+            </beans:list>
+        </beans:property>
+    </beans:bean>
+
+	<!-- Transaction manager for a single Hibernate SessionFactory(alternative to JTA) -->
+    <beans:bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <beans:property name="sessionFactory">
+            <beans:ref local="sessionFactory" />
+        </beans:property>
+    </beans:bean>
+
+    <!-- Configuring the Hibernate ORM Template as provided by Spring -->
+    <beans:bean id="hibernateTemplate"
+            class="org.springframework.orm.hibernate3.HibernateTemplate" >
+        <beans:property name="sessionFactory">
+            <beans:ref local="sessionFactory" />
+        </beans:property>
+    </beans:bean>
+
+    <!-- Configurign the Open Session VIEW Interceptor --> 
+    <beans:bean id="openSessionInViewInterceptor" class="org.springframework.orm.hibernate3.support.OpenSessionInViewInterceptor">
+        <beans:property name="sessionFactory"  ref="sessionFactory"/>
+
+        <!-- Specifying the FLUSH MODE -->
+        <beans:property name="flushModeName">
+            <beans:value>FLUSH_ALWAYS</beans:value>
+        </beans:property>
+    </beans:bean>
+  
+   <beans:bean id="musadataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+        destroy-method="close">
+		
+        <beans:property name="driverClass">
+            <beans:value>${MUSA.DATABASE.DRIVER}</beans:value>
+        </beans:property>
+        <beans:property name="jdbcUrl">
+            <beans:value>${MUSA.DATABASE.URL}</beans:value>
+        </beans:property>
+        <beans:property name="properties">
+            <beans:props>
+                <beans:prop key="user">${MUSA.DATABASE.USERNAME}</beans:prop>
+                <beans:prop key="password">${MUSA.DATABASE.PASSWORD}</beans:prop>
+            </beans:props>
+        </beans:property>
+        <beans:property name="idleConnectionTestPeriod">
+            <beans:value>${MUSA.DATABASE.POOLING.C3PO.IDLETESTPERIOD}</beans:value>
+        </beans:property>
+        <beans:property name="maxIdleTime">
+            <beans:value>${MUSA.DATABASE.POOLING.C3PO.TIMEOUT}</beans:value>
+        </beans:property>
+        
+	</beans:bean>
+
+</beans:beans>

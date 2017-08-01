@@ -1,0 +1,400 @@
+#loadingmessage {
+	background: no-repeat center center;
+	position: fixed;
+    top: calc(50% - 16px);
+    left: calc(50% - 16px);
+    display: block;
+	 height: 32px;
+	 width: 32px;	
+}
+.ServiceCoupons-Page1 .nav-tab-div .responsive-tab .accordion-div:nth-last-child(-n+2) .panel-div{
+	border: 0px !important;
+}
+.loading {
+	z-index: 9001;
+}
+.tab-pane .accordion-div:last-child .panel-div{border-bottom: 0px solid $font-color-gray !important;}
+.nav {top: 0;left: 0;}
+.nav-container {background: #333;position:fixed;top:0px;left: 0;z-index: 9999;overflow-y: auto;visibility: hidden;width:250px;height: 100%;min-height: 100%;padding: 0;-webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;-webkit-transform: translateX(-100%);-ms-transform: translateX(-100%);transform: translateX(-100%);-webkit-overflow-scrolling: touch;}
+.nav-container.is-visible {visibility: visible;-webkit-transform: translateX(-250px);-ms-transform: translateX(-250px);transform: translateX(-250px);}
+.container-fluid{-webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;-webkit-transform: translateX(0%);-ms-transform: translateX(0%);transform: translateX(0%);-webkit-overflow-scrolling: touch;}
+.container-fluid.is-visible {visibility: visible;-webkit-transform: translateX(250px);-ms-transform: translateX(250px);transform: translateX(250px);}
+.nav-toggle {width:300px;padding: 14px 11px;background:#fff;-webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;-webkit-transform: translateX(-250px);-ms-transform: translateX(-250px);transform: translateX(-250px);-webkit-overflow-scrolling: touch;}
+.nav-toggle .icon-menu {font-size:32px;float:right;clear:both;color:#fff;}
+.nav-toggle.is-visible {visibility: visible;-webkit-transform: translateX(-250px);-ms-transform: translateX(-250px);transform: translateX(-250px);}
+.menu {list-style: none;margin: 0;padding: 0;}
+.nav-menu {-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.nav-menu .menu-item { border-top: 1px solid #bbb;}
+
+.nav-menu > .menu-item:last-child { }
+.nav-menu > .menu-item:hover,
+.nav-menu > .menu-item.is-active { }
+.nav-menu .menu-link {display: block;text-decoration: none;color: #999;font-weight: normal;font-size: 13px !important;}
+.has-dropdown {position: relative;cursor: pointer;}
+.has-dropdown > .menu-link { display: inline-block; }
+.has-dropdown:after {font-size: 21px;position: absolute;top: 6px;right: 1rem;font-family:'FontAwesome';content:"\f055";color: #222;vertical-align: middle;fill: none;}
+.has-dropdown.is-active:after { font-family:'FontAwesome';content:"\f056";}
+.nav-dropdown {display: none;background-color: #fff !important;}
+.has-dropdown.is-active > .nav-dropdown { display: block;}
+.nav-dropdown .menu-link{color:#191919 !important}
+.nav-menu{width:250px;background:#d6d6d6;}
+.overlay {   	   
+    display:none;position:fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-animation: fade 500ms;
+    -moz-animation: fade 500ms;
+    -o-animation: fade 500ms;
+    animation: fade 500ms;
+}
+.overlay-hide{
+     overflow: hidden;position: fixed;
+}
+ @media (min-width: 768px) {
+	.nav-container .mid-menu-links{float:right;margin-left: 100px !important;}
+	.nav-container .mid-menu-links li{margin:0px !important;padding:0px !important;}		
+	.nav-menu li a:hover {
+		color:#fff !important;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	.nav-menu li ul li a:hover {
+		color:#999 !important;
+		-o-transition:.3s;
+		-ms-transition:.3s;
+		-moz-transition:.3s;
+		-webkit-transition:.3s;
+		transition:.3s;
+	}
+	.nav-container .mid-menu-links .nav-dropdown {
+	 position: absolute;width: 100% !important;display: inline-table;left:0px !important;margin-left: 0px !important; opacity: 0;margin:0 0 0 0 !important;visibility: hidden;padding: 10px 0 20px 0 !important;
+  }
+.nav-container .mid-menu-links .mid-menu-drop ul, .nav-container .mid-menu-links .mid-menu-drop1 ul, .nav-container .mid-menu-links 
+	.mid-menu-drop2 ul{
+		background: none !important;
+		margin-top: 25px !important;
+		margin-left: 4px !important;
+		padding: 5px !important;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+.nav-container .mid-menu-links .nav-dropdown{min-width: 300px;}
+.nav-container .mid-menu-links .owner-dropdown{min-width: 585px;}
+.nav-container .mid-menu-links .warranty-dropmenu{min-width: 346px;}
+.nav-container .mid-menu-links .sr-dropmenu {min-width: 441px;}
+.nav-container .mid-menu-links #vehicle{min-width: 500px;}
+.nav-container .mid-menu-links #vehicle li{width:auto !important;}
+.nav-container .mid-menu-links .nav-dropdown li{width:100%;float:left;}
+.nav-container .mid-menu-links .owner-dropdown li{width:50%;float:left;}
+.nav-container .mid-menu-links .nav-dropdown #vehicleList li{width:auto !important;float:left;}
+
+.nav-menu .menu-link {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #999 !important;
+	padding: 5px 0px 16px 25px !important;
+	font-family: "InterstateBold",helvetica,arial,sans-serif !important;
+    font-size: 13px !important;
+    font-weight: bold!important;
+    letter-spacing: .2em;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+.nav-dropdown .menu-link{
+	text-align: left !important;
+	color: #191919 !important;
+	padding:6px 10px 6px 16px !important;
+	font-size: 16px !important;
+	font-family: "InterstateLight",helvetica,arial,sans-serif !important;
+	font-weight: normal !important;
+	text-transform: none;
+	letter-spacing: 0.05em;
+	-webkit-font-smoothing: antialiased;
+}
+.has-dropdown:hover {
+	color: #fff !important;
+	height: 100px; 
+	background: url("../images/menu_line_red.png") no-repeat; 
+	background-position: -13px 17px;
+}
+.nav-container{background: none;width:100%;}
+.nav-menu > .menu-item:hover,.nav-menu > .menu-item.is-active {}
+.nav-menu{width:auto;background:none;text-align:right;}
+.nav,.nav-container,.nav-container.is-visible {position: static;top: auto;left: auto;-webkit-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0);}
+.nav-container, .nav-container.is-visible {visibility: visible;height: auto;min-height: 0;overflow-y: visible; margin-top: 10px;}
+.nav-toggle { display: none;}
+.nav-menu > .menu-item, .nav-menu > .menu-item.is-active {display: inline-block;background-color: transparent;border: 0;}
+
+.has-dropdown:after { content: "" !important;}
+.nav-menu > .has-dropdown:after {display:none;position: absolute;top: 50%;right: 1rem;width: 0;height: 0;margin-top: -2px;margin-left: -4px;content: "";border-width: 5px 5px 0 5px;border-style: solid;border-color: #444 transparent transparent transparent;}
+
+.nav-container .right-menu-links .nav-dropdown {display: block;opacity: 0;position: absolute;top: 100%;right:0px;width:250px;margin: 0;visibility: hidden;-webkit-transition: visibility 0s linear 0.25s,  opacity 0.25s linear;transition: visibility 0s linear 0.25s,  opacity 0.25s linear;padding: 10px 0 0px 20px !important;}
+.nav-container .right-menu-links .nav-dropdown li{float: none !important;}
+.right-menu-links .menu-link{padding:5px 0px 16px 0px !important;}
+.right-menu-links .mymazda-link .menu-link{padding-right: 23px !important;}
+.right-menu-links > .menu-item:last-child {float:right; }		
+.has-dropdown:hover > .nav-dropdown {visibility: visible;opacity: 1;-webkit-transition-delay: 0s;transition-delay: 0s;}
+.nav-dropdown .menu-item { border: 0;float:right;}
+.nav-dropdown .nav-dropdown {z-index: 9998;top: 0;left: 100%;}
+.content { margin-top: 0; }
+}
+@media (min-width: 832px) {
+ .nav-container .mid-menu-links .warranty-dropmenu{min-width: 346px;}
+ .nav-container .mid-menu-links .sr-dropmenu {min-width: 500px;}
+}
+@media (min-width: 900px) {
+ .nav-container .mid-menu-links #vehicle{min-width: 750px;}
+ .nav-container .mid-menu-links #vehicle li{width:auto !important;}
+ .nav-container .mid-menu-links .warranty-dropmenu{min-width: 280px;}
+ .nav-container .mid-menu-links .sr-dropmenu {min-width: 365px;}
+}
+.bg-w{background: #fff !important;width:100%;position: absolute;display: none;left:0px;height: 180px;margin-top:20px;}
+.bg-w1{background: #fff !important;width:100%;position: absolute;display: none;left:0px;height: 80px;margin-top:20px;}
+.bg-w2{background: #fff !important;width:100%;position: absolute;display: none;left:0px;height: 120px;margin-top:20px;}
+.bg-w3{background: #fff !important;width:100%;position: absolute;display: none;left:0px;height: 150px;margin-top:20px;}
+
+
+/*Dropdown*/
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 2px solid #666;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    height:40px;
+    background: #fff url("../images/dropdown_arrow1.png") no-repeat;
+	background-position:right center;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+    font-size: 13px !important;
+    color: #191919 !important;
+    letter-spacing: .1em !important;
+}
+.EditNewVehicle-Page .select-style,
+.AddService-page .select-style,
+.EditService-page .select-style{
+	margin-bottom: 10px;
+}
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+	height:40px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+/*--Radio Buttons--*/
+.radio {
+  padding-left: 20px;
+}
+.radio label {
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		padding-left: 5px;
+}
+.radio label::before {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		left: 0;
+		margin-left: -20px;
+		border: 2px solid #999;
+		border-radius: 50%;
+		background-color: #fff;
+		-webkit-transition: border 0.15s ease-in-out;
+		-o-transition: border 0.15s ease-in-out;
+		transition: border 0.15s ease-in-out;
+	 	outline: none !important;
+	 	outline: 0 !important;
+}
+.radio label::after {
+		display: inline-block;
+		position: absolute;
+		content: " ";
+		width: 11px;
+		height: 11px;
+		left: 3px;
+		top: 3px;
+		margin-left: -20px;
+		border-radius: 50%;
+		background-color: #555;
+		-webkit-transform: scale(0, 0);
+		-ms-transform: scale(0, 0);
+		-o-transform: scale(0, 0);
+		transform: scale(0, 0);
+		-webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+		-moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+		-o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+		transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.radio input[type="radio"] {
+		opacity: 0;
+		z-index: 1;
+}
+.radio input[type="radio"]:focus + label::before {
+		outline: none;
+		outline: 5px auto -webkit-focus-ring-color;
+		outline-offset: -2px;
+}
+.radio input[type="radio"]:checked + label::after {
+		-webkit-transform: scale(1, 1);
+		-ms-transform: scale(1, 1);
+		-o-transform: scale(1, 1);
+		transform: scale(1, 1); 
+		background-color: #333;
+}
+.radio input[type="radio"]:disabled + label {
+		opacity: 0.65; background-color: #fff;
+}
+.radio input[type="radio"]:disabled + label::before {
+		cursor: not-allowed; background-color: #fff;
+}
+.radio.radio-inline {
+		margin-top: 0; 
+}
+/*--Check Box---*/
+.checkbox {
+  padding-left: 20px;
+}
+.checkbox label {
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		padding-left: 5px !important;
+}
+.checkbox label::before {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		left: 0;
+		margin-left: -20px;
+		border: 1px solid #cccccc;
+		border-radius: 3px;
+		background-color: #fff;
+		-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+		-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+		transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	 margin-top: -2px;
+	 outline: none !important;outline: 0 !important;border: 0 !important;
+}
+.checkbox label::after {
+		display: inline-block;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0;
+		top: 0;
+		margin-left: -20px;
+		padding-left: 3px;
+		padding-top: 1px;
+		font-size: 11px;
+		color: #555555;
+	
+}
+.checkbox input[type="checkbox"], .checkbox input[type="radio"] {
+			opacity: 0;
+			z-index: 1;
+}
+.checkbox input[type="checkbox"] + label::before {
+	background: #555;
+	color:#fff;
+}
+.checkbox input[type="checkbox"]:focus + label::before,
+.checkbox input[type="radio"]:focus + label::before {
+	outline: none;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+	background: #101010;
+	color:#fff;
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="radio"]:checked + label::after {
+		font-family: "FontAwesome";
+		content: "\f00c";
+		color:#fff;
+}
+.checkbox input[type="checkbox"]:disabled + label,
+.checkbox input[type="radio"]:disabled + label {
+		opacity: 0.65;
+}
+.checkbox input[type="checkbox"]:disabled + label::before,
+.checkbox input[type="radio"]:disabled + label::before {
+		background-color: #eeeeee;
+		cursor: not-allowed;
+}
+.actionMessage li{list-style-type:none !important;width:100% !important;}
+.disabled{ 
+    pointer-events:none; 
+    opacity:0.4; 
+}
+@media (max-width: 767px) {
+	.select-style {    
+   height:40px !important;     
+ }
+	.select-style select {   
+	  height:40px !important;
+ }	
+}
+
+@media (max-width: 1045px) {
+	.has-dropdown:hover { background-position: -35px 17px; }
+}
+@media (max-width: 832px) {
+	.has-dropdown:hover { background-position: -30px 17px; }
+}
+
+.radioClass{padding-left:0px !important;}
+.radioClass input{display:none !important;}
+.radioClass label::before{background:none !important; border: none !important;}
+.radioClass label{padding-left:0px !important;}
+
+/*-----Mobile-Support Page Css------*/
+.mobile-page{background-color:#fff !important;width:100%;height:100%;}
+.M-HeaderDiv{background:#101010;padding:15px 0;}
+.M-HeaderDiv h1 {font-size:25px;color:#fff;text-align:center;}
+.M-getmazda{background:#fff;padding:30px 20px;}
+.M-getmazda h1 {font-size:25px;color:#535353;}
+.M-getmazda p{color:#999;font-size:16px;padding:20px 0 !important;}
+.M-access{background: url("../images/pattern_background.png") repeat;padding:30px 20px 30px 20px !important;}
+.M-access h1 {font-size:25px;color:#d00;}
+.M-access p{font-size:14px;color:#101010;padding:20px 0 0 0 !important}
+ .tooltip-disclaimer-mobile {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline!important;
+ }
+.Car-DivImg{padding-right:15px !important;width:100%;height:260px !important;}
+
+@media (max-width: 1036px) {
+	.Car-DivImg{padding-right:15px !important;width:100%;height:225px !important;}
+}
+@media (max-width: 900px) {
+	.Car-DivImg{padding-right:15px !important;width:100%;height:195px !important;}
+}
+@media (max-width: 767px) {
+	.Car-DivImg{padding-right:15px !important;width:100%;height:165px !important;}
+}
+@media (max-width: 630px) {
+	.Car-DivImg{padding-right:15px !important;width:100%;height:130px !important;}
+}

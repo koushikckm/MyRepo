@@ -1,0 +1,2601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ssg.xsl"?>
+<?altova_sps 1.93.sps?>
+<SSGData Model="CX-5" Year="2014" Trim="All" MaxOccurs="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SSG.xsd">
+	<Section Name="Keyless Entry System" Category="Keyless Entry System" ParentCategory="Keys/Doors" InPDC="N" MostPopular="Y" Priority="1">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Fob</keyword>
+			<keyword>Remote Control</keyword>
+		</MetaData>
+		<TextContent Title="Y">KEYLESS ENTRY SYSTEM</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Key_Remote.png">
+			<HotSpots Rows="5" Columns="1">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">Lock</TextContent>
+					<TextContent Title="N">• Push once to lock all doors.</TextContent>
+					<TextContent Title="N">• Push twice (within five seconds) for horn sound verification that all doors are locked.</TextContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="1">
+					<TextContent Title="Y">Unlock</TextContent>
+					<TextContent Title="N">• Push once to unlock driver’s door or all the doors (depending on personalization setting*).</TextContent>
+					<TextContent Title="N">• Push twice (within three seconds) to unlock all doors.</TextContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="1">
+					<TextContent Title="Y">Panic Alarm</TextContent>
+					<TextContent Title="N">• Push for one second or more to activate alarm.</TextContent>
+					<TextContent Title="N">• Push Lock, Unlock, or Panic Alarm to turn alarm off.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Back of Key</TextContent>
+		<ImageContent Source="..\Desktop/Auxiliary Key.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="Y">Emergency Vehicle Entry:</TextContent>
+					<TextContent Title="N">If the key cannot be used due to a malfunction or dead key battery, use the auxiliary key to lock or unlock the doors.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CAUTION icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">• Make sure vehicle is OFF and take the keyless entry system key with you when leaving the vehicle. There is no warning if the IGN is ON or ACC is ON and the key is taken out of the vehicle, OR if the key is locked inside the vehicle.</TextContent>
+					<TextContent Title="Y">• When locking doors using inside door switches or inside door-lock knobs, be careful not to leave the key inside the vehicle. With Advanced Keyless, there is a recognizable beep sound to alert you that the key is inside the vehicle.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_Door Lock.png">
+						</ImageContent>
+					<TextContent Title="Y">• The RED Key Indicator Light may illuminate if either advance key or keyless entry key is placed in the cup holder. The key can sometimes not be detected in the cup holder.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Advanced Keyless Entry System" Category="Advanced Keyless Entry System" ParentCategory="Keys/Doors" InPDC="N" MostPopular="Y" Priority="1">
+		<Trims>
+			<Trim TrimName="Touring"/>
+			<Trim TrimName="GT"/>
+		</Trims>
+		<MetaData>
+			<keyword>Remote Control</keyword>
+			<keyword>Fob</keyword>
+			<keyword>Button</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Touring and Grand Touring.</TextContent>
+		<TextContent Title="Y">ADVANCED KEYLESS ENTRY SYSTEM</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The Advanced Keyless Entry system improves convenience by allowing you to perform the following functions without taking the key out of your pocket or purse:</TextContent>
+					<TextContent Title="N">•	Lock or unlock the doors</TextContent>
+					<TextContent Title="N">•	Lock or unlock the trunk/liftgate</TextContent>
+					<TextContent Title="N">•	Turn the engine on or off</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is Advanced Keyless Entry? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/Door_request_switch.png">
+			<HotSpots Rows="3" Columns="4">
+				<HotSpot Row="2" Column="3">
+					<TextContent Title="Y">While Carrying the Advanced Key…</TextContent>
+					<TextContent Title="N">• Unlock the driver’s door by pushing the driver’s door request switch once.</TextContent>
+					<TextContent Title="N">• Unlock all doors by pushing the driver’s door request switch once or twice (depending on personalization setting) OR by pushing the passenger’s door request switch once.</TextContent>
+					<TextContent Title="N">• Lock all doors by pushing any request switch once.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CX5_liftgate Opener Switch.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="N">Lock or Unlock the liftgate by pushing the request switch while carring the advanced key.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• Vehicles equipped with the Advanced Keyless Entry System and the Keyless Entry System both use the same type of keyless entry transmitter. However, only vehicles equipped with the Advanced Keyless Entry System allow you to lock and unlock the doors with the door request switches.</TextContent>
+					<TextContent Title="N">• Vehicles equipped with the Keyless Entry System do not have request switches on the doors/liftgate. To lock and unlock the doors, the corresponding transmitter button must be pushed.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Starting the Engine" Category="Starting The Engine" ParentCategory="Keys/Doors" InPDC="Y" MostPopular="Y" Priority="1">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Jump</keyword>
+			<keyword>Starter</keyword>
+			<keyword>Shut off</keyword>
+			<keyword>Engine kill</keyword>
+		</MetaData>
+		<TextContent Title="Y">STARTING (AND STOPPING) THE ENGINE WITH START/STOP BUTTON</TextContent>
+		<TextContent Title="Y">Starting the Engine. Select START.</TextContent>
+		<TextContent Title="Y">Stopping the Engine. Select STOP.</TextContent>
+		<ImageContent Source="..\Desktop/START_STOP_Button.png">
+			<HotSpots Rows="3" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">While Carrying the Key•</TextContent>
+					<TextContent Title="N">• Start the engine by pushing the START/STOP button while pushing the clutch pedal (manual transmission) or the brake pedal (automatic transmission).</TextContent>
+					<TextContent Title="N">• Activate Accessories (ACC) by pushing the START/STOP button once without pushing the clutch or brake pedal.</TextContent>
+					<TextContent Title="N">• Turn the ignition to the ON position by pushing the START/STOP button twice without pushing the clutch or brake pedal.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">•  The key indicator light in the will show GREEN (engine ready to start) when the key is detected and the clutch pedal (M/T) or the brake pedal (A/T) is pushed. If the KEY warning light illuminates RED, or the START/STOP button indicator light flashes AMBER, this could indicate a problem with the engine starting system and the inability to start the engine or switch the ignition to ACC or ON. Have your vehicle inspected at an Authorized Mazda Dealer as soon as possible.</TextContent>
+								<TextContent Title="N">•  The RED Key Indicator Light may flash if the key is placed in the cup holder. The key may not be detected in the cup holder.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<TextContent Title="Y">Emergency Engine Start:</TextContent>
+					<TextContent Title="N">If the engine cannot be started due to a dead key battery:</TextContent>
+					<TextContent Title="N">1 Push the brake pedal (A/T) or the clutch pedal (M/T).</TextContent>
+					<TextContent Title="N">2 While the indicator light flashes GREEN, touch the START/STOP button using the back side of the transmitter (as shown).</TextContent>
+					<TextContent Title="N">3 After the GREEN indicator light illuminates constantly, push the START/STOP button with your finger to start the engine.</TextContent>
+					<ImageContent Source="..\Desktop/Keyless Emergency Engine Start.png">
+						</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="N">• Shut the engine OFF by setting the parking brake/placing the vehicle in Park (automatic transmission), then push the START/STOP button.</TextContent>
+					<TextContent Title="Y">Emergency Engine Stop:</TextContent>
+					<TextContent Title="N">Pushing and holding the START/STOP button or repeatedly pushing the button while the engine is running will turn the engine OFF. Use only in case of an emergency.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Accelerated Warm-Up System" Category="Accelerated Warm-Up System" ParentCategory="Keys/Doors" InPDC="Y" MostPopular="Y" Priority="1">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Noise</keyword>
+			<keyword>idle</keyword>
+			<keyword>Speed</keyword>
+			<keyword>Reving</keyword>
+		</MetaData>
+		<TextContent Title="Y">ACCELERATED WARM-UP SYSTEM (AWS)</TextContent>
+		<TextContent Title="Y">What is AWS? Select the hotspots below.</TextContent>
+		<ImageContent Source="..\Desktop/AWS.png">
+			<HotSpots Rows="3" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">Your vehicle is equipped with SKYACTIV combustion technology. This technology includes AWS (Accelerated Warm-up System) for optimal emission performance during cold starting conditions.</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">On start-up, the engine speed and sound are higher (1500 RPM) for less than 1 minute to quickly bring the catalyst to efficient operating temperature. The RPM will reduce to idle once the temperature is achieved. This is normal engine operation under cold start conditions.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">You can drive the vehicle during AWS activation, no need to wait.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="1">
+					<TextContent Title="N">This heats up the catalytic converter faster to reduce emissions and allows Mazda to use an exhaust header on the engine (to improve efficiency and horsepower).</TextContent>
+					<ImageContent Source="..\Desktop/SKYACTIV AWS.png">
+						</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Break In Period" Category="Break-in Period" ParentCategory="Driving" InPDC="N" MostPopular="Y" Priority="2">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Break In Period</keyword>
+		</MetaData>
+		<TextContent Title="Y">BREAK-IN PERIOD</TextContent>
+		<ImageContent Source="..\Desktop/SKYACTIV-G.png">
+		</ImageContent>
+		<TextContent Title="Y">No special break-in is necessary, but a few precautions in the first 600 miles should be observed.</TextContent>
+		<TextContent Title="N">• Do not race the engine.</TextContent>
+		<TextContent Title="N">• Do not maintain one constant speed, either slow or fast, for a long period of time.</TextContent>
+		<TextContent Title="N">• Avoid full-throttle starts.</TextContent>
+		<TextContent Title="N">• Avoid unnecessary hard stops.</TextContent>
+		<TextContent Title="N">• Do not drive constantly at full-throttle or high engine rpm for extended periods of time.</TextContent>
+	</Section>
+	<Section Name="Fuel Economy" Category="Fuel Economy" ParentCategory="Fuel" InPDC="Y" MostPopular="Y" Priority="2">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Gas</keyword>
+			<keyword>Pump</keyword>
+			<keyword>MPG</keyword>
+			<keyword>Miles per gallon</keyword>
+			<keyword>Distance</keyword>
+			<keyword>Distance to Empty</keyword>
+			<keyword>Average</keyword>
+		</MetaData>
+		<TextContent Title="Y">FUEL ECONOMY</TextContent>
+		<ImageContent Source="..\Desktop/Gas Pump icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">Visit www.http://fueleconomy.gov for more information.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">To achieve the best fuel economy:</TextContent>
+		<TextContent Title="N">• Drive sensibly. Speeding, rapid acceleration and excessive braking will lower fuel economy.</TextContent>
+		<TextContent Title="N">• Observe the speed limit. Fuel economy can decrease rapidly at speeds above 60 mph.</TextContent>
+		<TextContent Title="N">• Keep tires properly inflated. Under-inflated tires will lower fuel economy.</TextContent>
+		<TextContent Title="N">• Use the recommended grade of oil specified in the owner’s manual and keep the engine properly maintained. Visit your Authorized Mazda Dealer who specializes in the servicing of Mazda engines.</TextContent>
+		<TextContent Title="N">• Monitor the Current Fuel Economy. The current fuel economy is calculated every 2 seconds.</TextContent>
+		<TextContent Title="Y">Additional items that also help increase fuel economy:</TextContent>
+		<TextContent Title="N">• Remove excess weight. Heavy items in the vehicle will lower fuel economy.</TextContent>
+		<TextContent Title="N">• Avoid excessive idling. Idling for long periods will waste gas.</TextContent>
+		<TextContent Title="N">• Use cruise control. Using cruise control on the highway helps to maintain a constant speed and saves gas.</TextContent>
+		<TextContent Title="N">• Use overdrive gears. Using overdrive gearing reduces the vehicle’s engine speed, which saves gas and reduces engine wear.</TextContent>
+		<TextContent Title="N">• Use a quality gasoline with the recommended octane. Use of higher octane gasoline will not improve your fuel economy.</TextContent>
+	</Section>
+	<Section Name="Tire Pressure Monitoring System (TPMS)" Category="Tire Pressure Monitoring System" ParentCategory="Driving" InPDC="N" MostPopular="Y" Priority="1">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Tire Monitoring</keyword>
+			<keyword>Warning Indicator</keyword>
+			<keyword>Low</keyword>
+			<keyword>Air</keyword>
+			<keyword>PSI</keyword>
+			<keyword>Flat</keyword>
+		</MetaData>
+		<TextContent Title="Y">TIRE PRESSURE MONITORING SYSTEM (TPMS)</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The TPMS increases safety by notifying you when your vehicle's tire pressure is starting to get low. By helping you maintain proper tire pressure, the system:</TextContent>
+					<TextContent Title="N">•	Improves vehicle handling</TextContent>
+					<TextContent Title="N">•	Decreases tire wear</TextContent>
+					<TextContent Title="N">•	Reduces braking distance</TextContent>
+					<TextContent Title="N">•	Improves fuel economy</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is TPMS? Select the TPMS indicator light below.</TextContent>
+		<ImageContent Source="..\Desktop/M6_TPMS_Warning_Light.png">
+			<HotSpots Rows="2" Columns="4">
+				<HotSpot Row="2" Column="3">
+					<TextContent Title="N">For your safety, the Mazda CX-5 is equipped with TPMS that detects low tire pressure in one or more tires. If the tire pressure starts getting low in one or more tires, the system alerts the driver by turning on a light in the instrument cluster and sounding an alarm.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What to do?</TextContent>
+		<ImageContent Source="..\Desktop/Tire_Pressure_Guage.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">Don’t ignore the TPMS warning light. Stop and check your tire pressure (when tires are cold) and inflate them to the proper pressure. Tire pressure specification can be found on the door jam label. Properly inflated tires are safer, last longer, and increase fuel economy.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Reset Procedure. Select the TPMS SET switch.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_TPMS_RESET_Switch_Panel.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">In the following cases, the TPMS must be “initialized” so the system can operate normally.</TextContent>
+					<TextContent Title="N">• The tire pressure is adjusted (up or down) in one or more tires.</TextContent>
+					<TextContent Title="N">• A tire rotation is performed.</TextContent>
+					<TextContent Title="N">• Any tire or wheel is replaced.</TextContent>
+					<TextContent Title="N">• The vehicle’s battery is disconnected, replaced or completely dead.</TextContent>
+					<TextContent Title="Y">Initialization Process (TPMS Warning Light is Illuminated):</TextContent>
+					<TextContent Title="N">1 Park the vehicle in a safe place and firmly apply the parking brake.</TextContent>
+					<TextContent Title="N">2 Let the tires cool, then adjust the tire pressure to the specified pressure (See tire label located on the driver’s side door jam area) on all four (4) tires.</TextContent>
+					<TextContent Title="N">3 Switch the ignition ON, but leave the vehicle parked.</TextContent>
+					<TextContent Title="N">4 Push and hold the TPMS “Set Switch” (left side of dash) until the TPMS warning light in the instrument cluster flashes twice and a beep sound is heard once.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CAUTION icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">If the TPMS “Set Switch” is pushed without adjusting the tire pressure, the system cannot detect the normal tire pressure. The TPMS warning light may not turn on, even if the tire pressure is low, or it may turn on if the tire pressure is normal.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">Drastic changes in temperature or altitude may cause the TPMS warning light to turn on.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Power Seats" Category="Power Seats" ParentCategory="Seats" InPDC="N" MostPopular="Y" Priority="2">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Cushion</keyword>
+			<keyword>Head Restraints</keyword>
+			<keyword>Fold Down</keyword>
+			<keyword>Slide</keyword>
+			<keyword>Tilt</keyword>
+			<keyword>Split</keyword>
+			<keyword>Arm rest</keyword>
+		</MetaData>
+		<TextContent Title="Y">FRONT SEATS</TextContent>
+		<TextContent Title="Y">Headrest</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Headrest.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="1" Column="2">
+					<TextContent Title="N">For your safety, the front seats are equipped with active headrests that are not adjustable forward or backward, only up and down. An active headrest is designed to move forward in the event of a collision to close the gap between your head and the headrest (to prevent whiplash).</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Power Seat Controls</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Power_Seat.png">
+			<HotSpots Rows="4" Columns="5">
+				<HotSpot Row="4" Column="2">
+					<TextContent Title="Y">Seat Slide.</TextContent>
+					<TextContent Title="N">Move switch front or back and hold it.</TextContent>
+					<TextContent Title="Y">Seat Height</TextContent>
+					<TextContent Title="N">Move switch up or down and hold it.</TextContent>
+					<TextContent Title="Y">Front Height Adjustment of Seat Bottom</TextContent>
+					<TextContent Title="N">Raise or lower the front of the switch.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="3">
+					<TextContent Title="Y">Seat Slide.</TextContent>
+					<TextContent Title="N">Move switch front or back and hold it.</TextContent>
+					<TextContent Title="Y">Seat Height</TextContent>
+					<TextContent Title="N">Move switch up or down and hold it.</TextContent>
+					<TextContent Title="Y">Front Height Adjustment of Seat Bottom</TextContent>
+					<TextContent Title="N">Raise or lower the front of the switch.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="4">
+					<TextContent Title="Y">Seat Recline</TextContent>
+					<TextContent Title="N">Move the front or rear side of the reclining switch.</TextContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="4">
+					<TextContent Title="Y">Seat Recline</TextContent>
+					<TextContent Title="N">Move the front or rear side of the reclining switch.</TextContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="3">
+					<TextContent Title="Y">Lumbar Support</TextContent>
+					<TextContent Title="N">To increase firmness, press and hold the front part of the switch to the desired position and release it. Press the rear part of the switch to decrease firmness.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">FRONT SEAT WARMER</TextContent>
+		<TextContent Title="Y">Select the hotspot below for seat warmer operation.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Seat Warmer Location.png">
+			<HotSpots Rows="3" Columns="2">
+				<HotSpot Row="3" Column="2">
+					<TextContent Title="N">The driver and front passenger seats can be warmed by pushing the applicable seat warmer button while the ignition is ON.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_Seat Warmer.png">
+		</ImageContent>
+					<TextContent Title="N">Seat temperature increases with the number of illuminated indicator lights:</TextContent>
+					<TextContent Title="N">0 - OFF</TextContent>
+					<TextContent Title="N">1 - Low</TextContent>
+					<TextContent Title="N">2 - Mid</TextContent>
+					<TextContent Title="N">3 - High</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Manual Seats" Category="Manual Seats" ParentCategory="Seats" InPDC="N" MostPopular="Y" Priority="2">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Cushion</keyword>
+			<keyword>Head Restraints</keyword>
+			<keyword>Fold Down</keyword>
+			<keyword>Slide</keyword>
+			<keyword>Tilt</keyword>
+			<keyword>Split</keyword>
+			<keyword>Arm rest</keyword>
+		</MetaData>
+		<TextContent Title="Y">Manual Seat Controls</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Manual_Seat.png">
+			<HotSpots Rows="3" Columns="4">
+				<HotSpot Row="3" Column="1">
+					<TextContent Title="Y">Seat Slide Release Lever.</TextContent>
+					<TextContent Title="N">Pull lever up to move seat backward or forward.</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="Y">Seat Height Adjustment Lever.</TextContent>
+					<TextContent Title="N">Raise or lower seat height by repeatedly pulling up or by pushing down on the lever.</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="4">
+					<TextContent Title="Y">Seat Recline Lever.</TextContent>
+					<TextContent Title="N">Pull up to adjust seatback angle.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">REAR SEATS</TextContent>
+		<TextContent Title="Y">Fold Down Rear Seats. Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Rear Seats.png">
+			<HotSpots Rows="3" Columns="1">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">1. Support the seatback with your hand.</TextContent>
+					<TextContent Title="N">2. Push the rear seatback knob down (red indicator is visible when the seat is in the unlocked position).</TextContent>
+					<TextContent Title="N">3. Bring the seatback forward.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_seat back knob.png">
+		</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Fold Down Rear Seats Using Remote Handle. Select the hotspots below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_seat remote release.png">
+			<HotSpots Rows="3" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">Select the hotspots below.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_Seat_Remote_Lever.png">
+						<HotSpots Rows="1" Columns="3">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="Y">Folding Left and Center Seatbacks Down</TextContent>
+								<TextContent Title="N">1 Check that the rear seats are clear.</TextContent>
+								<TextContent Title="N">2 Open the liftgate and pull the outter remote handle lever.</TextContent>
+								<TextContent Title="Y">4-2-4 rear seats are shown.</TextContent>
+								<ImageContent Source="..\Desktop/CX5_both seat release.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="2">
+								<TextContent Title="Y">Folding Only Center Seatback Down</TextContent>
+								<TextContent Title="N">1 Store center seat head restraint.</TextContent>
+								<TextContent Title="N">2 Check that the rear seats are clear.</TextContent>
+								<TextContent Title="N">3 Open the liftgate and pull only the smaller of the left side remote handle levers.</TextContent>
+								<ImageContent Source="..\Desktop/CX5_center seat release.png">
+					</ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="Y">Select the hotspot below.</TextContent>
+					<ImageContent Source="..\Desktop/Rear Seat Release Right Side.png">
+						<HotSpots Rows="1" Columns="3">
+							<HotSpot Row="1" Column="2">
+								<TextContent Title="Y">Folding Right Seatback Down</TextContent>
+								<TextContent Title="N">1 Check that the rear seats are clear.</TextContent>
+								<TextContent Title="N">2 Open the liftgate and pull the right side remote handle lever.</TextContent>
+								<TextContent Title="Y">4-2-4 rear seats are shown.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">For tall drivers and front passengers who adjust the front seats all the way back, the headrests on the rear seats need to be removed when folding the rear seatbacks down. If not removed, the rear headrest will press into the front seatback. In order to remove the headrest from the rear seat, the seatback needs to be tilted slightly forward.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Infotainment System" Category="Infotainment System" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="3">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Radio</keyword>
+			<keyword>Touch Screen</keyword>
+			<keyword>Bluetooth</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Sport with Bluetooth Audio Package.</TextContent>
+		<TextContent Title="Y">INFOTAINMENT SYSTEM</TextContent>
+		<TextContent Title="Y">The infotainment system by Mazda is designed to be operated by using one of the following two interfaces:</TextContent>
+		<TextContent Title="N">1 The Audio Buttons</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Radio_landscape.png">
+			<HotSpots Rows="7" Columns="3">
+				<HotSpot Row="2" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Audio Screen.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Phone Screen.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Navigation Screen.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="3">
+					<ImageContent Source="..\Desktop/CX5_Setup Screen.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="6" Column="3">
+					<ImageContent Source="..\Desktop/CX5_Audio Control Screen.png">
+		</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• In the interest of safety and to avoid distracted driving voice control to operate the infotainment system.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="N">2 Voice command</TextContent>
+		<ImageContent Source="..\Desktop/14_M6_Talk Button.png">
+			<HotSpots Rows="5" Columns="3">
+				<HotSpot Row="4" Column="2">
+					<TextContent Title="N">Voice commands is activated by pressing the TALK button on the steering wheel and speaking a command.</TextContent>
+					<TextContent Title="N">Audio operation and media selection can be done using voice. Push the "Talk" button, wait for a beep, then say a command in a clear, natural voice (not too fast or too slow). A list of available commands will be displayed on the screen, and if you do not say anything, the system will read the commands. Commands will only work when in the correct mode (Radio, CD, BT, USB, or Pandora). To change modes, push the "Talk" button and say "Change mode." Some commands are listed below.</TextContent>
+					<TextContent Title="Y">Some common voice commands:</TextContent>
+					<TextContent Title="N">• Radio: Seek up/down, Preset #</TextContent>
+					<TextContent Title="N">• CD: Play track #</TextContent>
+					<TextContent Title="N">• BT: Next/Previous folder</TextContent>
+					<TextContent Title="N">• CD, USB, BT: Play, Repeat, Shuffle</TextContent>
+					<TextContent Title="N">• CD, USB, BT, Pandora: Pause, Resume</TextContent>
+					<TextContent Title="N">• Pandora: Skip song, Thumbs up/down</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Voice Command" Category="Voice Command" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="3">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Speak</keyword>
+			<keyword>Read</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Sport with Bluetooth Audio Package.</TextContent>
+		<TextContent Title="Y">VOICE COMMAND</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The voice command system increases safety while driving by reducing distractions. Use your voice to control the following functions:</TextContent>
+					<TextContent Title="N">•	Audio</TextContent>
+					<TextContent Title="N">•	Navigation</TextContent>
+					<TextContent Title="N">•	Hands-free telephone</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Select the hotspot below for Voice Command operation.</TextContent>
+		<ImageContent Source="..\Desktop/14_M6_Talk Button.png">
+			<HotSpots Rows="5" Columns="3">
+				<HotSpot Row="4" Column="2">
+					<TextContent Title="N">Voice control is activated by pressing the TALK button on the steering wheel and speaking a command.</TextContent>
+					<TextContent Title="N">Audio operation and media selection can be done using voice. Push the "Talk" button, wait for a beep, then say a command in a clear, natural voice (not too fast or too slow). A list of available commands will be displayed on the screen, and if you do not say anything, the system will read the commands. Commands will only work when in the correct mode (Radio, CD, BT, USB, or Pandora). To change modes, push the "Talk" button and say "Change mode." Some commands are listed below.</TextContent>
+					<TextContent Title="Y">Some common voice commands:</TextContent>
+					<TextContent Title="N">• Radio: Seek up/down, Preset #</TextContent>
+					<TextContent Title="N">• CD: Play track #</TextContent>
+					<TextContent Title="N">• BT: Next/Previous folder</TextContent>
+					<TextContent Title="N">• CD, USB, BT: Play, Repeat, Shuffle</TextContent>
+					<TextContent Title="N">• CD, USB, BT, Pandora: Pause, Resume</TextContent>
+					<TextContent Title="N">• Pandora: Skip song, Thumbs up/down</TextContent>
+					<TextContent Title="Y">Some Useful Navigation Commands:</TextContent>
+					<TextContent Title="Y">Setting a Destination</TextContent>
+					<TextContent Title="N">• Directions to an address</TextContent>
+					<TextContent Title="N">• Directions to the city center</TextContent>
+					<TextContent Title="N">• Nearest (brandname)</TextContent>
+					<TextContent Title="N">• Nearest (POI-category)</TextContent>
+					<TextContent Title="N">• Drive to Home</TextContent>
+					<TextContent Title="N">• Navigate to recent destination</TextContent>
+					<TextContent Title="Y">Guidance Commands</TextContent>
+					<TextContent Title="N">• Plan Alternative</TextContent>
+					<TextContent Title="N">• Avoid roadblock</TextContent>
+					<TextContent Title="N">• Traffic Information</TextContent>
+					<TextContent Title="N">• Mute</TextContent>
+					<TextContent Title="N">• Repeat instruction</TextContent>
+					<TextContent Title="N">• 2D map</TextContent>
+					<TextContent Title="N">• 3D map</TextContent>
+					<TextContent Title="N">• Travel via ...</TextContent>
+					<TextContent Title="N">• Clear Route</TextContent>
+					<TextContent Title="Y">Other Commands</TextContent>
+					<TextContent Title="N">• Where am I</TextContent>
+					<TextContent Title="N">• Add Favorite</TextContent>
+					<TextContent Title="N">• Report speed camera</TextContent>
+					<TextContent Title="N">• Mark map error</TextContent>
+					<TextContent Title="N">• Zoom in/out</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Bluetooth" Category="Bluetooth" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="Y" Priority="2">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Blue Tooth</keyword>
+			<keyword>Wireless</keyword>
+			<keyword>Radio</keyword>
+			<keyword>Cell Phone</keyword>
+			<keyword>Smart Phone</keyword>
+			<keyword>Voice</keyword>
+			<keyword>iPhone</keyword>
+			<keyword>Android</keyword>
+			<keyword>911</keyword>
+			<keyword>Pandora</keyword>
+		</MetaData>
+		<TextContent Title="N">Not available on Sport with M/T</TextContent>
+		<TextContent Title="Y">BLUETOOTH®</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">Bluetooth® technology allows you to stay safely connected while driving. With many states banning cell phone use while driving, Bluetooth® lets you enjoy certain functions of your device without taking your hands off the steering wheel.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Pairing Your Bluetooth® Phone or Audio Device</TextContent>
+		<TextContent Title="Y">Select your audio unit.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Audio Unit Selection.png">
+			<HotSpots Rows="2" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• For safety reasons, you cannot pair a phone while driving.</TextContent>
+								<TextContent Title="N">• Before pairing your cell phone or audio device, you must manually turn on the device’s Bluetooth® function. Refer to the owner’s manual for your device.</TextContent>
+								<TextContent Title="Y">• For customer service, contact the Customer Care Center at 800-430-0153 (Toll-free call).</TextContent>
+								<TextContent Title="Y">• For device compatibility, go to:</TextContent>
+								<TextContent Title="Y">1.  Website: www.MazdaUSA.com/bluetooth</TextContent>
+								<TextContent Title="Y">2.  MyMazda App > MAZDA CONNECT</TextContent>
+								<TextContent Title="Y">• IMPORTANT: Set the volume level on your cell phone or audio device to the highest level before distortion starts, then adjust the volume on the vehicle’s audio system.</TextContent>
+								<TextContent Title="N">• When in range of another Wi-Fi device, the Bluetooth connection between your phone and the system may disconnect for a short time if you have Wi-Fi enabled
+	Turn off Wi-Fi on your phone if needed.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<TextContent Title="N">1 Manually turn Bluetooth on your phone or audio device.</TextContent>
+					<TextContent Title="N">2 Push and release the phone pick-up button on the steering wheel (wait for beep).</TextContent>
+					<TextContent Title="N">3 From main menu, say, “Setup,” then “Pairing Options.”</TextContent>
+					<TextContent Title="N">4 Say, “Pair.”</TextContent>
+					<TextContent Title="N">5 Say a four-digit code (i.e., “1, 2, 3, 4”).</TextContent>
+					<TextContent Title="N">6 Place phone in discovery mode; if necessary, consult your phone’s manual or go to www.mazdausa.com/bluetooth. Select model, Bluetooth, and follow
+	screen prompts.</TextContent>
+					<TextContent Title="N">7 After phone is recognized, you will be prompted to name the paired phone.</TextContent>
+					<TextContent Title="Y">To Make or Receive a Hands-Free Call:</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Phone Button.png">
+						<HotSpots Rows="5" Columns="2">
+							<HotSpot Row="5" Column="1">
+								<TextContent Title="N">PICK UP button: To make/receive/swap a call.</TextContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="2">
+								<TextContent Title="N">HANG UP button: To end/reject a call.</TextContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="1">
+								<TextContent Title="N">TALK button: To skip vehicle voice guidance and allow user to speak next voice command.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• Automatic Bluetooth Reconnection: On engine start, the last connected device will automatically be reconnected after several seconds.
+	To switch phones, go to Device Settings and select Bluetooth.</TextContent>
+								<TextContent Title="N">Some phone models do not support all features. If your phone or device does not pair, please visit www.MazdaUSA.com/bluetooth, MyMazda App > MAZDA CONNECT, or contact (800) 430-0153 for further assistance or to report a phone/audio device concern.</TextContent>
+								<TextContent Title="N">• For connection issues, please confirm the Bluetooth connection status by making sure there is cell phone icon on the audio display (without infotainment) or by making sure there is a battery and signal strength icon in the top right corner of the screen (with infotainment). Some phones will turn off the Bluetooth signal after connecting the USB cable to the vehicle or after downloading an update.</TextContent>
+								<TextContent Title="N">- If not displayed, check your phone and make sure Bluetooth is turned on (or discoverable) in the Settings menu. Detailed instructions for some phones are available online.</TextContent>
+								<TextContent Title="N">- If there is still no connection, delete the pairing data on the system and your phone and try again after confirming your cell phone is compatible at www.MazdaUSA.com/bluetooth, or MyMazda App > MAZDA CONNECT.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• For safety reasons, you cannot pair a phone while driving.</TextContent>
+								<TextContent Title="N">• Before pairing your cell phone or audio device, you must manually turn on the device’s Bluetooth® function. Refer to the owner’s manual for your device.</TextContent>
+								<TextContent Title="Y">• For customer service, contact the Customer Care Center at 800-430-0153 (Toll-free call).</TextContent>
+								<TextContent Title="Y">• For device compatibility, go to:</TextContent>
+								<TextContent Title="Y">1.  Website: www.MazdaUSA.com/bluetooth</TextContent>
+								<TextContent Title="Y">2.  MyMazda App > MAZDA CONNECT</TextContent>
+								<TextContent Title="Y">• IMPORTANT: Set the volume level on your cell phone or audio device to the highest level before distortion starts, then adjust the volume on the vehicle’s audio system.</TextContent>
+								<TextContent Title="N">• When in range of another Wi-Fi device, the Bluetooth connection between your phone and the system may disconnect for a short time if you have Wi-Fi enabled
+	Turn off Wi-Fi on your phone if needed.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<TextContent Title="N">1 Manually turn Bluetooth on your phone or audio device.</TextContent>
+					<TextContent Title="N">2 Select Phone button.</TextContent>
+					<TextContent Title="N">3 Touch the "Setup" on-screen button.</TextContent>
+					<TextContent Title="N">4 Touch the "Bluetooth Setup" on-screen button. The list of all paired devices is displayed.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Bluetooth_Setup.png">
+						</ImageContent>
+					<TextContent Title="N">5 Touch the "Add New Device" on-screen button to display the message and switch to the device operation.</TextContent>
+					<TextContent Title="N">6 Using the device, perform a search for the Bluetooth® device (Peripheral device).</TextContent>
+					<TextContent Title="N">7 Select “Mazda” from the device list searched by the device.</TextContent>
+					<TextContent Title="N">8 Your phone will pair using one of the two ways:</TextContent>
+					<TextContent Title="N">• Input the displayed 4-digit code.</TextContent>
+					<TextContent Title="N">• Verify the displayed 6-digit.</TextContent>
+					<TextContent Title="N">9 (Call History) Incoming/Outgoing history for the device is downloaded automatically as well as your Phonebook.</TextContent>
+					<TextContent Title="N">10 (Devices compatible with SMS (Short Message Service) and MMS (Multimedia Message Service), messages are downloaded automatically. Permission may be required, depending on the mobile device.</TextContent>
+					<TextContent Title="Y">To Make or Receive a Hands-Free Call:</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Phone Button.png">
+						<HotSpots Rows="5" Columns="2">
+							<HotSpot Row="5" Column="1">
+								<TextContent Title="N">PICK UP button: To make/receive/swap a call.</TextContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="2">
+								<TextContent Title="N">HANG UP button: To end/reject a call.</TextContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="1">
+								<TextContent Title="N">TALK button: To skip vehicle voice guidance and allow user to speak next voice command.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• Automatic Bluetooth Reconnection: On engine start, the last connected device will automatically be reconnected after several seconds.
+	To switch phones, go to Device Settings and select Bluetooth.</TextContent>
+								<TextContent Title="N">Some phone models do not support all features. If your phone or device does not pair, please visit www.MazdaUSA.com/bluetooth, MyMazda App > MAZDA CONNECT, or contact (800) 430-0153 for further assistance or to report a phone/audio device concern.</TextContent>
+								<TextContent Title="N">• For connection issues, please confirm the Bluetooth connection status by making sure there is cell phone icon on the audio display (without infotainment) or by making sure there is a battery and signal strength icon in the top right corner of the screen (with infotainment). Some phones will turn off the Bluetooth signal after connecting the USB cable to the vehicle or after downloading an update.</TextContent>
+								<ImageContent Source="..\Desktop/14_M6_Bluetooth_Confirmation.png">
+						</ImageContent>
+								<TextContent Title="N">- If not displayed, check your phone and make sure Bluetooth is turned on (or discoverable) in the Settings menu. Detailed instructions for some phones are available online.</TextContent>
+								<TextContent Title="N">- If there is still no connection, delete the pairing data on the system and your phone and try again after confirming your cell phone is compatible at www.MazdaUSA.com/bluetooth.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Phone" InPDC="N" Category="Phone" ParentCategory="Audio/Navi/Phone" Priority="2" MostPopular="Y">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Blue Tooth</keyword>
+			<keyword>Wireless</keyword>
+			<keyword>Radio</keyword>
+			<keyword>Cell Phone</keyword>
+			<keyword>Smart Phone</keyword>
+			<keyword>Voice</keyword>
+			<keyword>iPhone</keyword>
+			<keyword>911</keyword>
+			<keyword>Pandora</keyword>
+			<keyword>Android</keyword>
+		</MetaData>
+		<TextContent Title="N">Not available on Sport with M/T</TextContent>
+		<TextContent Title="Y">PHONE</TextContent>
+		<TextContent Title="Y">Phone Features</TextContent>
+		<TextContent Title="Y">Select the hotspots below.</TextContent>
+		<ImageContent Source="..\Desktop/14_M6_Phone Screen Landscape.png">
+			<HotSpots Rows="7" Columns="2">
+				<HotSpot Row="1" Column="2">
+					<ImageContent Source="..\Desktop/14_M6_Phone_Screen_Message_Landscape.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="1">
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• For safety reasons, you cannot pair a phone while driving.</TextContent>
+								<TextContent Title="N">• Before pairing your cell phone or audio device, you must manually turn on the device’s Bluetooth® function. Refer to the owner’s manual for your device.</TextContent>
+								<TextContent Title="Y">• For customer service, contact the Customer Care Center at 800-430-0153 (Toll-free call).</TextContent>
+								<TextContent Title="Y">• For device compatibility, go to:</TextContent>
+								<TextContent Title="Y">1.  Website: www.MazdaUSA.com/bluetooth</TextContent>
+								<TextContent Title="Y">2.  MyMazda App > MAZDA CONNECT</TextContent>
+								<TextContent Title="Y">• IMPORTANT: Set the volume level on your cell phone or audio device to the highest level before distortion starts, then adjust the volume on the vehicle’s audio system.</TextContent>
+								<TextContent Title="N">• When in range of another Wi-Fi device, the Bluetooth connection between your phone and the system may disconnect for a short time if you have Wi-Fi enabled
+	Turn off Wi-Fi on your phone if needed.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<TextContent Title="N">1 Manually turn Bluetooth on your phone or audio device.</TextContent>
+					<TextContent Title="N">2 Select Phone button.</TextContent>
+					<TextContent Title="N">3 Touch the "Setup" on-screen button.</TextContent>
+					<TextContent Title="N">4 Touch the "Bluetooth Setup" on-screen button. The list of all paired devices is displayed.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Bluetooth_Setup.png">
+						</ImageContent>
+					<TextContent Title="N">5 Touch the "Add New Device" on-screen button to display the message and switch to the device operation.</TextContent>
+					<TextContent Title="N">6 Using the device, perform a search for the Bluetooth® device (Peripheral device).</TextContent>
+					<TextContent Title="N">7 Select “Mazda” from the device list searched by the device.</TextContent>
+					<TextContent Title="N">8 Your phone will pair using one of the two ways:</TextContent>
+					<TextContent Title="N">• Input the displayed 4-digit code.</TextContent>
+					<TextContent Title="N">• Verify the displayed 6-digit.</TextContent>
+					<TextContent Title="N">9 (Call History) Incoming/Outgoing history for the device is downloaded automatically as well as your Phonebook.</TextContent>
+					<TextContent Title="N">10 (Devices compatible with SMS (Short Message Service) and MMS (Multimedia Message Service), messages are downloaded automatically. Permission may be required, depending on the mobile device.</TextContent>
+					<TextContent Title="Y">To Make or Receive a Hands-Free Call:</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Phone Button.png">
+						<HotSpots Rows="5" Columns="2">
+							<HotSpot Row="5" Column="1">
+								<TextContent Title="N">PICK UP button: To make/receive/swap a call.</TextContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="2">
+								<TextContent Title="N">HANG UP button: To end/reject a call.</TextContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="1">
+								<TextContent Title="N">TALK button: To skip vehicle voice guidance and allow user to speak next voice command.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• Automatic Bluetooth Reconnection: On engine start, the last connected device will automatically be reconnected after several seconds.
+	To switch phones, go to Device Settings and select Bluetooth.</TextContent>
+								<TextContent Title="N">Some phone models do not support all features. If your phone or device does not pair, please visit www.MazdaUSA.com/bluetooth, MyMazda App > MAZDA CONNECT, or contact (800) 430-0153 for further assistance or to report a phone/audio device concern.</TextContent>
+								<TextContent Title="N">• For connection issues, please confirm the Bluetooth connection status by making sure there is cell phone icon on the audio display (without infotainment) or by making sure there is a battery and signal strength icon in the top right corner of the screen (with infotainment). Some phones will turn off the Bluetooth signal after connecting the USB cable to the vehicle or after downloading an update.</TextContent>
+								<ImageContent Source="..\Desktop/14_M6_Bluetooth_Confirmation.png">
+						</ImageContent>
+								<TextContent Title="N">- If not displayed, check your phone and make sure Bluetooth is turned on (or discoverable) in the Settings menu. Detailed instructions for some phones are available online.</TextContent>
+								<TextContent Title="N">- If there is still no connection, delete the pairing data on the system and your phone and try again after confirming your cell phone is compatible at www.MazdaUSA.com/bluetooth.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="1">
+					<ImageContent Source="..\Desktop/14_M6_Phone_Screen_Download_Phonebook_Landscape.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="1">
+					<ImageContent Source="..\Desktop/14_M6_Phone_Screen_Do Not Disturb me_Landscape.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="6" Column="1">
+					<ImageContent Source="..\Desktop/14_M6_Phone_Screen_Volume Settings_Landscape.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="7" Column="1">
+					<ImageContent Source="..\Desktop/14_M6_Phone_Screen_911_Landscape.png">
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/14_M6_Phone_Screen_911_Note_Landscape.png">
+					</ImageContent>
+	</Section>
+	<Section Name="Navigation Controls" Category="Navigation Controls" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="Y" Priority="2">
+		<Trims>
+			<Trim TrimName="Touring"/>
+			<Trim TrimName="GT"/>
+		</Trims>
+		<MetaData>
+			<keyword>Nav</keyword>
+			<keyword>GPS</keyword>
+			<keyword>Compass</keyword>
+			<keyword>Directions</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Touring with Technology Package</TextContent>
+		<TextContent Title="N">Available on Grand Touring with Technology Package</TextContent>
+		<TextContent Title="Y">NAVIGATION</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The vehicle’s navigation system increases safety by providing turn-by-turn navigation while driving, allowing you to concentrate on the road.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Navigation Home Screen</TextContent>
+		<TextContent Title="N">Tap the the screen to display the main menu.</TextContent>
+		<ImageContent Source="..\Desktop/14_M6_Navigation Main Screen_landscape.png">
+			<HotSpots Rows="1" Columns="5">
+				<HotSpot Row="1" Column="1">
+					<ImageContent Source="..\Desktop/Navigation Button_landscape.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="3">
+					<ImageContent Source="..\Desktop/14_M6_Navigation_landscape.png">
+						<HotSpots Rows="2" Columns="5">
+							<HotSpot Row="1" Column="2">
+								<ImageContent Source="..\Desktop/Navigation_Planning a Route_landscape.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="4">
+								<ImageContent Source="..\Desktop/Navigation_View Map_landscape.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="1">
+								<ImageContent Source="..\Desktop/Navigation_Plan Route_landscape.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/Navigation_Help_landscape.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="3">
+								<ImageContent Source="..\Desktop/Navigation_Services_landscape.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="4">
+								<ImageContent Source="..\Desktop/Navigation_Settings_landscape.png">
+					</ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="5">
+								<ImageContent Source="..\Desktop/Navigation_Done_landscape.png">
+					</ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/Planning a Route Using Voice.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">You can navigate to any of the following places using your voice:</TextContent>
+					<TextContent Title="N">• An address, including home</TextContent>
+					<TextContent Title="N">• Favorites</TextContent>
+					<TextContent Title="N">• Cities and towns</TextContent>
+					<TextContent Title="N">• POI (Point of Interest) categories</TextContent>
+					<TextContent Title="N">• POIs for named brands of, for example, restaurants, gas stations, car rental and gyms.</TextContent>
+					<TextContent Title="N">• A recent destination</TextContent>
+					<TextContent Title="N">To plan a route to an address using your voice, do the following:</TextContent>
+					<TextContent Title="N">1 Push the TALK button on the steering wheel.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Voice Talk Button.png">
+						</ImageContent>
+					<TextContent Title="N">2 When you hear the tone, you can say, for example “Drive to an address”.</TextContent>
+					<TextContent Title="N">3 Say the full address (without zip code) for your destination, for example “123 Main St., Los Angeles, California”. The system does not recognize zip codes.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• For best results, say the full address without pausing between words.</TextContent>
+								<TextContent Title="N">• Voice guidance can be skipped by pushing the talk button.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<TextContent Title="N">4 Say “Yes” if the address is correct. If shown a list of addresses, say the list number for the correct address or say “none of these”.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/Navigation Features.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• While driving your vehicle, you can enter a destination address using your voice, but you cannot enter a destination using the keyboard.</TextContent>
+					<TextContent Title="N">•  While driving your vehicle, the vehicle speed and the maximum speed limit (for most roads) can be seen on the bottom left tabs of the Navigation screen.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• Voice guidance can be skipped by pushing the talk button.</TextContent>
+								<TextContent Title="N">• Refer to the Navigation System Owner's Manual for additional navigation system details or visit www.mazdausa.com/navigation.</TextContent>
+								<TextContent Title="Y">Some Useful Navigation Voice Commands:</TextContent>
+								<TextContent Title="Y">Setting a Destination</TextContent>
+								<TextContent Title="N">• Directions to an address</TextContent>
+								<TextContent Title="N">• Directions to the city center</TextContent>
+								<TextContent Title="N">• Nearest (brandname)</TextContent>
+								<TextContent Title="N">• Nearest (POI-category)</TextContent>
+								<TextContent Title="N">• Drive to Home</TextContent>
+								<TextContent Title="N">• Navigate to recent destination</TextContent>
+								<TextContent Title="Y">Guidance Commands</TextContent>
+								<TextContent Title="N">• Plan Alternative</TextContent>
+								<TextContent Title="N">• Avoid roadblock</TextContent>
+								<TextContent Title="N">• Traffic Information</TextContent>
+								<TextContent Title="N">• Mute</TextContent>
+								<TextContent Title="N">• Repeat instruction</TextContent>
+								<TextContent Title="N">• 2D map</TextContent>
+								<TextContent Title="N">• 3D map</TextContent>
+								<TextContent Title="N">• Travel via ...</TextContent>
+								<TextContent Title="N">• Clear Route</TextContent>
+								<TextContent Title="Y">Other Commands</TextContent>
+								<TextContent Title="N">• Where am I</TextContent>
+								<TextContent Title="N">• Add Favorite</TextContent>
+								<TextContent Title="N">• Report speed camera</TextContent>
+								<TextContent Title="N">• Mark map error</TextContent>
+								<TextContent Title="N">• Zoom in/out</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Navigation SD Card" Category="Navigation SD Card" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="3">
+		<Trims>
+			<Trim TrimName="Touring"/>
+			<Trim TrimName="GT"/>
+		</Trims>
+		<MetaData>
+			<keyword>Nav</keyword>
+			<keyword>GPS</keyword>
+			<keyword>Compass</keyword>
+			<keyword>Directions</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Touring with Technology Package</TextContent>
+		<TextContent Title="N">Available on Grand Touring with Technology Package</TextContent>
+		<TextContent Title="Y">Navigation Data SD Card</TextContent>
+		<TextContent Title="N">Navigation map data is stored in the SD card. Updates are available for download by inserting the MAP SD card into a computer that is connected to the internet. Select the hotspot below for removal instructions.</TextContent>
+		<ImageContent Source="..\Desktop/14_M6_NAVI_SD_Card.png">
+			<HotSpots Rows="3" Columns="2">
+				<HotSpot Row="3" Column="2">
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">• Visit www.mazdausa.com/navigation within 60 days of vehicle delivery and download the most recent map available for your device for free. In order to download or update your map, the TomTom Home software must be downloaded. Please refer to the Navigation System Owners Manual section of www.mazdausa.com/ navigation for additional information.</TextContent>
+								<TextContent Title="N">• Only use your MAP SD card for operating and updating your navigation system. Do not insert the MAP SD card into another vehicle or into any other device such as a camera.</TextContent>
+								<TextContent Title="N">• Do not put other SD cards in this slot.</TextContent>
+								<TextContent Title="N">• If your vehicle is not equipped with a factory navigation system, your audio system can be upgraded to include navigation. Contact your Authorized Mazda Dealer for more details..</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<TextContent Title="N">To Remove or Insert the MAP SD CARD (to update the map database):</TextContent>
+					<TextContent Title="N">1 Turn the vehicle ignition OFF.</TextContent>
+					<TextContent Title="N">2 Locate the MAP SD CARD door on the lower left side of the dash and swing it open downward.</TextContent>
+					<TextContent Title="N">3 Locate the MAP SD CARD sliding door and slide it to the right.</TextContent>
+					<TextContent Title="N">• Remove card: Push the card once, then pull it out.</TextContent>
+					<TextContent Title="N">• Insert card: Push the card in (label-side up), then close the sliding cover.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Infotainment System Settings" Category="Infotainment System Settings" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="4">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Radio</keyword>
+			<keyword>Touch Screen</keyword>
+			<keyword>Bluetooth</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Sport with Bluetooth Audio Package.</TextContent>
+		<TextContent Title="Y">INFOTAINMENT SYSTEM SETTINGS</TextContent>
+		<TextContent Title="N">Select a hotspot to view the settings for each item.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Settings_List_All.png">
+			<HotSpots Rows="3" Columns="5">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">This screen is used to adjust the settings of the Infotainment Display.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Settings Display.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="2">
+					<TextContent Title="N">This screen is used to adjust the settings of the audio's sound system.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Settings Sound.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="3">
+					<TextContent Title="N">This screen is used to adjust the settings of the vehicle's safety systems.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Settings Vehicle.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="4">
+					<TextContent Title="N">This screen is used to set the language of the Infotainment system.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Settings Language.png">
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="5">
+					<TextContent Title="N">This screen is used to restore the Infotainment system factory settings.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Settings Restore Defaults.png">
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">If there is a scroll bar on the right side, there are more items further down.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Clock Setting" Category="Clock Setting" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="3">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Watch</keyword>
+			<keyword>Digital</keyword>
+		</MetaData>
+		<TextContent Title="Y">SETTING THE CLOCK</TextContent>
+		<TextContent Title="Y">Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Clock Location.png">
+			<HotSpots Rows="3" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">Push the H button to set the hour.</TextContent>
+					<TextContent Title="N">Push the M button to set the minutes.</TextContent>
+					<TextContent Title="N">Push the :00 button to reset the clock to the nearest hour.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_Clock Setting Buttons.png">
+				</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Smart City Brake Support Support (SCBS)" Category="Smart City Brake Support" ParentCategory="Driving" InPDC="N" MostPopular="N" Priority="5">
+		<Trims>
+			<Trim TrimName="Touring"/>
+			<Trim TrimName="GT"/>
+		</Trims>
+		<MetaData>
+			<keyword>Laser</keyword>
+			<keyword>Crash</keyword>
+			<keyword>Accident</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Touring with Technology Package</TextContent>
+		<TextContent Title="N">Available on Grand Touring with Technology Package</TextContent>
+		<TextContent Title="Y">SMART CITY BRAKE SUPPORT (SCBS) SYSTEM</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The SCBS system reduces vehicle damage by applying the brakes when it determines that a collision with an object ahead of you is unavoidable.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is SCBS? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/SCBS Laser.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">The SCBS system is designed to reduce damage in the event of a collision by applying the brakes when the system’s laser sensor detects a vehicle ahead. The system operates when the vehicle speed is 2 to 18 mph (4 to 30 km/h) and the system determines that a collision with a vehicle ahead is unavoidable.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• It may be possible to avoid a collision if the relative speed between your vehicle and the vehicle ahead is less than 9 mph (15 km/h).</TextContent>
+					<TextContent Title="N">• When the driver depresses the brake pedal while the system is in the operation range between 2 to 18 mph (4 to 30 km/h), the brakes are applied firmly and quickly to assist. (SCBS Automatic Brake is displayed in the active driving display)</TextContent>
+					<TextContent Title="N">• SCBS automatic brake is released approximately 2 seconds after the vehicle comes to a stop.</TextContent>
+					<TextContent Title="N">• Refer to your Owner’s Manual for complete details.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/WARNING icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">SCBS is only a supplementary system to reduce damage in the event of a collision, however the SCBS has limitations. Do not rely solely on the SCBS. Always keep your eyes on the road.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">SCBS system can be turned off using the TCS OFF button.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_SCBS_OFF_Switch.png">
+		</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Blind Spot Monitoring (BSM)" Category="Blind Spot Monitoring (BSM)" ParentCategory="Blind Spot Monitoring System" InPDC="N" MostPopular="N" Priority="6">
+		<Trims>
+			<Trim TrimName="Touring"/>
+			<Trim TrimName="GT"/>
+		</Trims>
+		<MetaData>
+			<keyword>Radar</keyword>
+			<keyword>Hazard</keyword>
+			<keyword>Invisible</keyword>
+			<keyword>Danger</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Touring and Grand Touring</TextContent>
+		<TextContent Title="Y">BLIND SPOT MONITORING (BSM)</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The BSM system helps reduce the chance of a collision by alerting you of vehicle(s) in your blind spots.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is BSM? Select a hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/BSM Detection Areas.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="1" Column="2">
+					<TextContent Title="Y">The BSM system is designed to assist the driver by monitoring blind spots on both sides of the vehicle to the rear in certain situations such as when
+		changing lanes on roads and freeways.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CX5_BSM_OFF_Button.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">Turning the BSM system off will turn off both the light and sound indicators. To manually turn the BSM system off, push the BSM OFF switch on the dash. The BSM OFF indicator in the instrument cluster will turn on to indicate when the BSM system is off. The BSM system will automatically turn on the next time the vehicle is started.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/BSM Indicators.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• If your vehicle speed is 7 mph (11 km/h) or more, the BSM will warn you of vehicles in the detection area by illuminating the BSM warning lights located on the left and right door mirrors.</TextContent>
+					<TextContent Title="N">• If you operate a turn signal in the direction of an illuminated BSM warning light, the system will also warn you with a beep and warning light flash.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CX5_Rear Bumper.png">
+			<HotSpots Rows="3" Columns="3">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">• BSM sensors are located under the left and right rear bumper areas. The BSM system may not operate properly if the rear bumper gets dirty, so
+	keep the rear bumper area clean and free of bumper stickers.</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="3">
+					<TextContent Title="N">• BSM sensors are located under the left and right rear bumper areas. The BSM system may not operate properly if the rear bumper gets dirty, so
+	keep the rear bumper area clean and free of bumper stickers.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• The BSM can assist the driver in confirming the safety of the surroundings, but is not a complete substitute.</TextContent>
+					<TextContent Title="N">• The driver is responsible for ensuring safe lane changes and other maneuvers.</TextContent>
+					<TextContent Title="N">• Always pay attention to the direction in which the vehicle is traveling and the vehicle’s surroundings.</TextContent>
+					<TextContent Title="N">• The BSM does not operate when the vehicle speed is lower than about 7 mph (11 km/h).</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/WARNING icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">BSM is only a supplementary system to help aid in monitoring blind spots, however BSM has limitations. The system may not detect all vehicles,
+	especially a motorcycle. Do not rely solely on the BSM. Relying solely on the BSM may cause an unexpected accident resulting in death or serious injury. Make sure to look over your shoulder before changing lanes.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Adaptive Front Lighting System" Category="Adaptive Front Lighting System" ParentCategory="Lighting" InPDC="N" MostPopular="N" Priority="6">
+		<Trims>
+			<Trim TrimName="GT"/>
+		</Trims>
+		<MetaData>
+			<keyword>Curve</keyword>
+			<keyword>Hazard</keyword>
+			<keyword>Curves</keyword>
+			<keyword>Danger</keyword>
+			<keyword>Night</keyword>
+			<keyword>Vision</keyword>
+		</MetaData>
+		<TextContent Title="N">Available on Touring with Technology Package</TextContent>
+		<TextContent Title="N">Available on Grand Touring with Technology Package</TextContent>
+		<TextContent Title="Y">ADAPTIVE FRONT-LIGHTING SYSTEM (AFS)</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The AFS increases night driving safety by increasing your visibility around curves.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is AFS? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/AFS operation.png">
+			<HotSpots Rows="2" Columns="3">
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="N">The AFS automatically turns the headlight beam to the right or left (in conjunction with the direction of the steering wheel) to improve the direction of headlight illumination while cornering. AFS only works when the vehicle is moving.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">• With AFS, it is normal to see the headlights move and hear the sound of the headlight leveling motors at the front of the vehicle when the ignition is ON.</TextContent>
+					<TextContent Title="N">• The system will need to be reset if the vehicle battery has been disconnected or the system fuse has been replaced. Refer to your Owner’s Manual for easy to follow resetting instructions.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CX5_AFS_OFF_Button.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">Push AFS OFF to turn system off or on. When off, the AFS OFF indicator in the instrument panel will turn on.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Lighting Controls" Category="Lighting Controls" ParentCategory="Lighting" InPDC="N" MostPopular="N" Priority="7">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Lighting Control</keyword>
+			<keyword>Lighting</keyword>
+			<keyword>Turn Signal Lever</keyword>
+			<keyword>Turn Signal</keyword>
+			<keyword>Turn</keyword>
+			<keyword>Signal</keyword>
+			<keyword>Lights</keyword>
+			<keyword>Headlight</keyword>
+			<keyword>Taillights</keyword>
+			<keyword>Taillight</keyword>
+			<keyword>Beam</keyword>
+			<keyword>Driving Lights</keyword>
+			<keyword>Dark</keyword>
+			<keyword>Night</keyword>
+			<keyword>Nighttime</keyword>
+			<keyword>HBC</keyword>
+			<keyword>High Beam Control</keyword>
+			<keyword>Smart Turn</keyword>
+		</MetaData>
+		<TextContent Title="Y">LIGHTING CONTROL/TURN SIGNAL LEVER</TextContent>
+		<ImageContent Source="..\Desktop/Lighting Control.png">
+			<HotSpots Rows="5" Columns="7">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">Pull to flash high beams.</TextContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="2">
+					<TextContent Title="N">Push for high beams on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="3">
+					<TextContent Title="N">Push for high beams on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="4">
+					<TextContent Title="N">The light sensor automatically determines when to turn the headlights on or off.</TextContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="5">
+					<TextContent Title="N">The light sensor automatically determines when to turn the headlights on or off.</TextContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="3">
+					<TextContent Title="N">Turns tail, parking, and dashboard lights on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="2">
+					<TextContent Title="N">Turns tail, parking, dashboard, and headlights on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="3">
+					<TextContent Title="N">Turns tail, parking, dashboard, and headlights on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="4">
+					<TextContent Title="N">Turns fog lights on only when headlights are on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="4">
+					<TextContent Title="N">Turns fog lights on only when headlights are on.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="6">
+					<TextContent Title="N">Three-Flash Turn Signal: To signal a lane change, push the turn signal lever up or down halfway and release. The turn signal indicator will flash three times.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Three-Flash Turn Signal" Category="Three-Flash Turn Signal" ParentCategory="Lighting" InPDC="N" MostPopular="N" Priority="7">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Lighting Control</keyword>
+			<keyword>Lighting</keyword>
+			<keyword>Turn Signal Lever</keyword>
+			<keyword>Turn Signal</keyword>
+			<keyword>Beam</keyword>
+			<keyword>Smart Turn</keyword>
+		</MetaData>
+		<TextContent Title="Y">THREE-FLASH TURN SIGNAL</TextContent>
+		<ImageContent Source="..\Desktop/14_M6_Three-Flash_Turn_Signal.png">
+		</ImageContent>
+		<TextContent Title="N">Three-Flash Turn Signal allows you to flash the turn lights three times only. To signal a lane change, move the turn signal lever up or down halfway and release. The turn signal indicator will flash three times.</TextContent>
+	</Section>
+	<Section Name="Windshield Wipers" Category="Windshield Wipers" ParentCategory="Driving" InPDC="N" MostPopular="N" Priority="7">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Lighting Control</keyword>
+			<keyword>Windshield Wiper</keyword>
+			<keyword>Windshield Wipers</keyword>
+			<keyword>Windshield Washers</keyword>
+			<keyword>Washers</keyword>
+			<keyword>Auto Wipers</keyword>
+			<keyword>Rain Sensor</keyword>
+			<keyword>Rain</keyword>
+			<keyword>Drizzle</keyword>
+			<keyword>Mist</keyword>
+			<keyword>Rear Washer</keyword>
+			<keyword>Intermittent</keyword>
+			<keyword>Interval</keyword>
+			<keyword>Car Wash</keyword>
+		</MetaData>
+		<TextContent Title="Y">WINDSHIELD WIPER/WASHER CONTROL LEVER</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Wiper_lever.png">
+			<HotSpots Rows="7" Columns="4">
+				<HotSpot Row="4" Column="1">
+					<TextContent Title="N">Pull to dispense windshield washer fluid.</TextContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="1">
+					<TextContent Title="N">Pull to dispense windshield washer fluid.</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="2">
+					<TextContent Title="N">AUTO Wipers: The rain sensor senses the amount of rainfall and turns the wipers on or off. Rotate the inner ring to adjust the sensitivity of the wipers.</TextContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="2">
+					<TextContent Title="N">AUTO Wipers: The rain sensor senses the amount of rainfall and turns the wipers on or off. Rotate the inner ring to adjust the sensitivity of the wipers.</TextContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="3">
+					<TextContent Title="N">AUTO wipers more sensitive (requires less rain to turn wipers on).</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="N">AUTO wipers less sensitive (requires more rain to turn wipers on).</TextContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="3">
+					<TextContent Title="N">Windshield MIST</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="4">
+					<TextContent Title="N">Wiper OFF</TextContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="4">
+					<TextContent Title="N">Wiper AUTO</TextContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="4">
+					<TextContent Title="N">Wiper LO</TextContent>
+				</HotSpot>
+				<HotSpot Row="6" Column="4">
+					<TextContent Title="N">Wiper HI</TextContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="3">
+					<TextContent Title="N">Rear Wiper INT (intermittent)</TextContent>
+				</HotSpot>
+				<HotSpot Row="7" Column="3">
+					<TextContent Title="N">Rear Wiper ON</TextContent>
+				</HotSpot>
+				<HotSpot Row="7" Column="4">
+					<TextContent Title="N">Rear Wiper MIST</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">Vehicles not equipped with AUTO wipers will have INT wipers. Set the lever to INT and choose an interval timing by rotating the ring between fast and slow.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CAUTION icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">If the ignition is ON, turn the AUTO wipers OFF when going through a car wash, or while cleaning or touching the windshield.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Climate Control" Category="Climate Control" ParentCategory="" InPDC="N" MostPopular="N" Priority="8">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Air Conditioner</keyword>
+			<keyword>Air</keyword>
+			<keyword>A/C</keyword>
+			<keyword>AC</keyword>
+			<keyword>Auto A/C</keyword>
+			<keyword>Rear A/C</keyword>
+			<keyword>Heater</keyword>
+			<keyword>Heating</keyword>
+			<keyword>Cooling</keyword>
+			<keyword>Defrost</keyword>
+			<keyword>Defroster</keyword>
+			<keyword>Cold</keyword>
+			<keyword>Hot</keyword>
+			<keyword>Fan</keyword>
+			<keyword>Recirc</keyword>
+			<keyword>Vent</keyword>
+			<keyword>Face</keyword>
+			<keyword>Floor</keyword>
+			<keyword>Fresh</keyword>
+			<keyword>Bi-level</keyword>
+			<keyword>Dual</keyword>
+			<keyword>Passenger</keyword>
+		</MetaData>
+		<TextContent Title="Y">CLIMATE CONTROL</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Climate Control Selection.png">
+			<HotSpots Rows="2" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Manual Climate Control_landscape.png">
+						<HotSpots Rows="5" Columns="7">
+							<HotSpot Row="3" Column="1">
+								<ImageContent Source="..\Desktop/Manual Climate_Max AC.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Manual Climate_Temp Dial.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="1">
+								<ImageContent Source="..\Desktop/CX5_Manual Climate_Temp Dial.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="5">
+								<ImageContent Source="..\Desktop/Manual Climate_AC ON-OFF.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="3">
+								<ImageContent Source="..\Desktop/Manual Climate_Fresh.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="3">
+								<ImageContent Source="..\Desktop/Manual Climate_Recirc.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="4">
+								<ImageContent Source="..\Desktop/CX5_Manual Climate_Fan Speed.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="4">
+								<ImageContent Source="..\Desktop/CX5_Manual Climate_Fan Speed.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="5">
+								<ImageContent Source="..\Desktop/Manual Climate_Rear Defrost.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="6">
+								<ImageContent Source="..\Desktop/Manual Climate_Face Vent.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="6">
+								<ImageContent Source="..\Desktop/Manual Climate_Face and Floor Vent.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="6">
+								<ImageContent Source="..\Desktop/Manual Climate_Floor Vent.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="7">
+								<ImageContent Source="..\Desktop/Manual Climate_Defrost and Floor Vent.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="7">
+								<ImageContent Source="..\Desktop/Manual Climate_Defrost.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="2">
+								<ImageContent Source="..\Desktop/Best cooling_landscape.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="4">
+								<ImageContent Source="..\Desktop/Best heating_landscape.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Automatic Climate Control_landscape.png">
+						<HotSpots Rows="4" Columns="7">
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/Auto Climate Control_Auto On Dial.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="2">
+								<ImageContent Source="..\Desktop/Auto Climate Control_Auto On Dial.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="1">
+								<ImageContent Source="..\Desktop/Auto Climate Control Fresh Air.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="1">
+								<ImageContent Source="..\Desktop/Auto Climate Control Recirc Air.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="4">
+								<ImageContent Source="..\Desktop/14_M6_Auto Climate Control Fan Speed.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="4">
+								<ImageContent Source="..\Desktop/14_M6_Auto Climate Control Fan Speed.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="7">
+								<ImageContent Source="..\Desktop/Auto Climate Control A-C.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="5">
+								<ImageContent Source="..\Desktop/Auto Climate Control Defrost.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="5">
+								<ImageContent Source="..\Desktop/Auto Climate Control Rear Defrost.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="3">
+								<ImageContent Source="..\Desktop/14_M6_Auto Climate Control Mode.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="3">
+								<ImageContent Source="..\Desktop/14_M6_Auto Climate Control Mode.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="6">
+								<ImageContent Source="..\Desktop/Auto Climate Control Dual.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="6">
+								<ImageContent Source="..\Desktop/Auto Climate Control Dual.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Audio Controls" Category="Audio Controls" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="8">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Radio</keyword>
+			<keyword>C/D</keyword>
+			<keyword>iPod</keyword>
+			<keyword>Device</keyword>
+			<keyword>Tuning</keyword>
+			<keyword>Scan</keyword>
+			<keyword>AM</keyword>
+			<keyword>FM</keyword>
+			<keyword>Sound</keyword>
+			<keyword>Speaker</keyword>
+			<keyword>Sirius</keyword>
+			<keyword>SAT</keyword>
+			<keyword>Satellite</keyword>
+			<keyword>XM</keyword>
+			<keyword>CD</keyword>
+			<keyword>MP3</keyword>
+			<keyword>Power</keyword>
+			<keyword>Clock</keyword>
+			<keyword>Tuning</keyword>
+			<keyword>Band</keyword>
+			<keyword>Playback</keyword>
+			<keyword>Eject</keyword>
+			<keyword>Scan</keyword>
+			<keyword>Text</keyword>
+			<keyword>Auto Memory</keyword>
+			<keyword>Scrl</keyword>
+			<keyword>Scroll</keyword>
+			<keyword>Folder</keyword>
+			<keyword>Phone</keyword>
+			<keyword>Nav</keyword>
+			<keyword>Navigation</keyword>
+			<keyword>Pandora</keyword>
+			<keyword>Touch Screen</keyword>
+			<keyword>Commander Switch</keyword>
+			<keyword>Back</keyword>
+			<keyword>Previous</keyword>
+			<keyword>Seek</keyword>
+			<keyword>Voice Control</keyword>
+		</MetaData>
+		<TextContent Title="Y">AUDIO CONTROLS</TextContent>
+		<TextContent Title="Y">Select your audio unit.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Audio Unit Selection.png">
+			<HotSpots Rows="2" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Base Audio_Landscape.png">
+						<HotSpots Rows="7" Columns="10">
+							<HotSpot Row="2" Column="6">
+								<ImageContent Source="..\Desktop/M6_Base Audio_Power.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="9">
+								<ImageContent Source="..\Desktop/M6_Base Audio_Control Dial.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="3">
+								<ImageContent Source="..\Desktop/M6_Base Audio_AM_FM.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="4">
+								<ImageContent Source="..\Desktop/M6_Base Audio_CD Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="5">
+								<ImageContent Source="..\Desktop/M6_Base Audio_USB-AUX Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="6">
+								<ImageContent Source="..\Desktop/M6_Base Audio_SCAN Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="7">
+								<ImageContent Source="..\Desktop/M6_Base Audio_AUTO-M Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="8">
+								<ImageContent Source="..\Desktop/M6_Base Audio_TEXT Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="5">
+								<ImageContent Source="..\Desktop/Base Audio_Memory.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="6">
+								<ImageContent Source="..\Desktop/Base Audio_Memory.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="1">
+								<ImageContent Source="..\Desktop/M6_Base Audio_SEEK Back Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="1">
+								<ImageContent Source="..\Desktop/M6_Base Audio_SEEK Forward Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="9">
+								<ImageContent Source="..\Desktop/M6_Base Audio_FOLDER Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="10">
+								<ImageContent Source="..\Desktop/M6_Base Audio_FOLDER Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="9">
+								<ImageContent Source="..\Desktop/M6_Base Audio_FOLDER Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="10">
+								<ImageContent Source="..\Desktop/M6_Base Audio_FOLDER Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="1">
+								<ImageContent Source="..\Desktop/M6_Base Audio_LOAD Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="2">
+								<ImageContent Source="..\Desktop/M6_Base Audio_LOAD Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="9">
+								<ImageContent Source="..\Desktop/M6_Base Audio_EJECT Button.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="10">
+								<ImageContent Source="..\Desktop/M6_Base Audio_EJECT Button.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<ImageContent Source="..\Desktop/M6_Infotainment Radio_landscape.png">
+						<HotSpots Rows="7" Columns="10">
+							<HotSpot Row="1" Column="1">
+								<ImageContent Source="..\Desktop/M6_Base Audio_EJECT Button.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="2">
+								<ImageContent Source="..\Desktop/M6_Base Audio_EJECT Button.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="1">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Power.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="10">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Audio Control.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="1">
+								<ImageContent Source="..\Desktop/M6_Infotainment_NAV.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="2">
+								<ImageContent Source="..\Desktop/M6_Infotainment_NAV.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="1">
+								<ImageContent Source="..\Desktop/M6_Infotainment_PHONE.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="2">
+								<ImageContent Source="..\Desktop/M6_Infotainment_PHONE.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="1">
+								<ImageContent Source="..\Desktop/M6_Infotainment_AUDIO.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/M6_Infotainment_AUDIO.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="9">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SEEK.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="10">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SEEK.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="9">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SEEK.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="10">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SEEK.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="9">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SETUP.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="10">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SETUP.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="5">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Genre Seek.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="7" Column="5">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Genre Seek.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="6">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Auto Memory.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="7" Column="6">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Auto Memory.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="7">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Scan.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="7" Column="7">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Scan.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="8">
+								<ImageContent Source="..\Desktop/M6_Infotainment_HD.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="7" Column="8">
+								<ImageContent Source="..\Desktop/M6_Infotainment_HD.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="3">
+								<ImageContent Source="..\Desktop/M6_Infotainment_AM-FM.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="4">
+								<ImageContent Source="..\Desktop/M6_Infotainment_SIRIUS.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="5">
+								<ImageContent Source="..\Desktop/M6_Infotainment_CD.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="6">
+								<ImageContent Source="..\Desktop/M6_Infotainment_Bluetooth.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="7">
+								<ImageContent Source="..\Desktop/M6_Infotainment_USB.png">
+					        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="8">
+								<ImageContent Source="..\Desktop/M6_Infotainment_AUX.png">
+					        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<ImageContent Source="..\Desktop/Audio Operation Using Voice.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">Audio operation and media selection can be done using voice. Push the “TALK” button on the steering wheel, wait for a beep, then say a command in a clear, natural voice (not too fast or too slow). Some common commands are listed below.</TextContent>
+								<TextContent Title="Y">Play (and any of the following):</TextContent>
+								<TextContent Title="N">AM, FM, CD, Bluetooth, Pandora, USB, AUX</TextContent>
+								<TextContent Title="Y">Play or Resume / Pause or Stop / Next or Previous</TextContent>
+								<TextContent Title="Y">Play (and any of the following):</TextContent>
+								<TextContent Title="N">Song, Playlist (playlist name), Artist (artist name), Album (album name), Genre (genre name), Folder (folder name)</TextContent>
+								<TextContent Title="Y">Tune to Station (frequency AM or FM)</TextContent>
+								<TextContent Title="Y">Tune to Channel Number (XM)</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="Y">Gracenote Update</TextContent>
+								<TextContent Title="N">The Gracenote media database is used to improve voice recognition of artist and album names with the Mazda Hands Free system. To make best use of the voice recognition, install the most recent database.</TextContent>
+								<TextContent Title="N">1 Load the Gracenote update on a memory stick from www.MazdaUSA.com/USB. Insert the memory stick into the USB port.</TextContent>
+								<TextContent Title="N">2 Go to System Settings in the infotainment system.</TextContent>
+								<TextContent Title="N">3 Select Music Database Update.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="AUX/USB" Category="AUX/USB" ParentCategory="Audio/Navi/Phone" InPDC="N" MostPopular="N" Priority="8">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Radio</keyword>
+			<keyword>Flash Drive</keyword>
+			<keyword>MP3</keyword>
+		</MetaData>
+		<TextContent Title="Y">Audio USB / AUX Inputs / 12V Accessory Socket</TextContent>
+		<TextContent Title="N">Your vehicle is equipped with a USB port and auxiliary AUX jack located in the center console. This will allow you to play your iPod, USB device, or portable audio player through the vehicle’s audio system. Learn the system when parked and do not let it distract you while driving.</TextContent>
+		<ImageContent Source="..\Desktop/NOTE icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">IMPORTANT:</TextContent>
+					<TextContent Title="N">• Set the volume level on your portable audio player to the highest level before distortion starts, then use the vehicle’s audio system to adjust the volume.</TextContent>
+					<TextContent Title="N">• Unplug any device from the USB port and accessory socket before turning off the vehicle. Leaving devices plugged in can drain the battery and cause issues during the Bluetooth pairing process at startup. Wait about 15 seconds after starting the vehicle before plugging anything into the USB port.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<ImageContent Source="..\Desktop/CX5_USB_AUX.png">
+			<HotSpots Rows="10" Columns="4">
+				<HotSpot Row="1" Column="2">
+					<TextContent Title="Y">USB Port</TextContent>
+					<TextContent Title="N">1 Locate the USB port inside the center console.</TextContent>
+					<TextContent Title="N">2 Connect the device plug into the portable audio player and into the USB port.</TextContent>
+					<TextContent Title="N">3 Turn the vehicle audio system on.</TextContent>
+					<TextContent Title="N">4 Audio Controls:</TextContent>
+					<TextContent Title="N">without infotainment: Push the USB/AUX button on the audio unit to switch to the USB mode.</TextContent>
+					<TextContent Title="N">with infotainment: Select AUDIO button on the audio system, then touch the "USB" on-screen button.</TextContent>
+					<TextContent Title="N">5 Use the vehicle’s audio system or steering wheel controls to control the connected USB device.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">When using a USB memory stick, the system plays the first audio file when restarting the vehicle. It does not not start where it left off when turning off the engine.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="2">
+					<TextContent Title="Y">USB Port</TextContent>
+					<TextContent Title="N">1 Locate the USB port inside the center console.</TextContent>
+					<TextContent Title="N">2 Connect the device plug into the portable audio player and into the USB port.</TextContent>
+					<TextContent Title="N">3 Turn the vehicle audio system on.</TextContent>
+					<TextContent Title="N">4 Audio Controls:</TextContent>
+					<TextContent Title="N">without infotainment: Push the USB/AUX button on the audio unit to switch to the USB mode.</TextContent>
+					<TextContent Title="N">with infotainment: Select AUDIO button on the audio system, then touch the "USB" on-screen button.</TextContent>
+					<TextContent Title="N">5 Use the vehicle’s audio system or steering wheel controls to control the connected USB device.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">When using a USB memory stick, the system plays the first audio file when restarting the vehicle. It does not not start where it left off when turning off the engine.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="2">
+					<TextContent Title="Y">AUX Jack</TextContent>
+					<TextContent Title="N">1 Locate the AUX jack inside the center console.</TextContent>
+					<TextContent Title="N">2 Connect the device plug into the portable audio player and into the AUX jack.</TextContent>
+					<TextContent Title="N">3 Turn the vehicle audio system on.</TextContent>
+					<TextContent Title="N">4 Audio Controls:</TextContent>
+					<TextContent Title="N">without infotainment: Push the USB/AUX button on the audio unit to switch to the AUX mode.</TextContent>
+					<TextContent Title="N">with infotainment: Select AUDIO button on the audio system, then touch the "AUX" on-screen button.</TextContent>
+					<TextContent Title="N">5 Use the portable audio player controls to play music.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">You will need an audio cable with an 1/8 inch (3.5 mm) mini stereo plug (available as a Genuine Mazda accessory) to connect your portable audio player into the aux jack.</TextContent>
+								<ImageContent Source="..\Desktop/M2_AUX Cable.png">
+								</ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">12 Volt Accessory Socket</TextContent>
+					<TextContent Title="N">The accessory socket in the dash is on with ignition on and the accessory socket in the center console is always on.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">When using the accessory socket in the center console, make sure to disconnect any device from it when turning off the ignition, otherwise the vehicle’s battery could go dead.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="1">
+					<TextContent Title="Y">12 Volt Accessory Socket</TextContent>
+					<TextContent Title="N">The accessory socket in the dash is on with ignition on and the accessory socket in the center console is always on.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">When using the accessory socket in the center console, make sure to disconnect any device from it when turning off the ignition, otherwise the vehicle’s battery could go dead.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="1">
+					<TextContent Title="Y">12 Volt Accessory Socket</TextContent>
+					<TextContent Title="N">The accessory socket in the dash is on with ignition on and the accessory socket in the center console is always on.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">When using the accessory socket in the center console, make sure to disconnect any device from it when turning off the ignition, otherwise the vehicle’s battery could go dead.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Instrument Cluster" Category="Instrument Cluster" ParentCategory="Interior" InPDC="N" MostPopular="N" Priority="9">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Warning Light</keyword>
+			<keyword>Indicator Light</keyword>
+			<keyword>Malfunction</keyword>
+			<keyword>Check Fuel Cap</keyword>
+			<keyword>Traction Control System TCS Off</keyword>
+			<keyword>Dynamic Stability Control DSC Off</keyword>
+			<keyword>Tire Pressure Monitoring System TPMS</keyword>
+			<keyword>Power Steering</keyword>
+			<keyword>Low Washer Fluid Level</keyword>
+			<keyword>Headlight High Beam On</keyword>
+			<keyword>Brake</keyword>
+			<keyword>Check Engine</keyword>
+			<keyword>Security</keyword>
+			<keyword>Antilock Brake System ABS</keyword>
+			<keyword>Air Bag Front Seat Belt Pretensioner System</keyword>
+			<keyword>Low Engine Oil Pressure</keyword>
+			<keyword>Charging System</keyword>
+			<keyword>Door Liftgate Ajar</keyword>
+			<keyword>Driver Seat Belt Unbuckled</keyword>
+			<keyword>Cruise Main Set On</keyword>
+			<keyword>Red Blue Engine Coolant Temperature</keyword>
+			<keyword>Automatic Transmission AT</keyword>
+			<keyword>Low Fuel level</keyword>
+			<keyword>Tachometer</keyword>
+			<keyword>Speedometer</keyword>
+			<keyword>Dashboard Illumination</keyword>
+			<keyword>Odometer</keyword>
+			<keyword>Trip Meter</keyword>
+			<keyword>Fuel Gauge</keyword>
+			<keyword>Shift Lever Position</keyword>
+			<keyword>BSM</keyword>
+			<keyword>SCBS</keyword>
+			<keyword>ASF</keyword>
+			<keyword>Sport</keyword>
+			<keyword>AT</keyword>
+			<keyword>Seat Belt</keyword>
+		</MetaData>
+		<TextContent Title="Y">INSTRUMENT CLUSTER</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Instrument Cluster_landscape.png">
+			<HotSpots Rows="1" Columns="5">
+				<HotSpot Row="1" Column="1">
+					<ImageContent Source="..\Desktop/CX5_Instrument Cluster_landscape_1 of 4.png">
+						<HotSpots Rows="5" Columns="5">
+							<HotSpot Row="5" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_TCS.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="3">
+								<ImageContent Source="..\Desktop/CX5_Indicator_DSC.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="3">
+								<ImageContent Source="..\Desktop/CX5_Indicator_DSC.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Oil Pressure.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="3">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Oil Pressure.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Oil Pressure.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="3">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Oil Pressure.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="4">
+								<ImageContent Source="..\Desktop/CX9_Indicator_Key Warning.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="5">
+								<ImageContent Source="..\Desktop/CX5_Indicator_SCBS Off.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="2">
+					<ImageContent Source="..\Desktop/CX5_Instrument Cluster_landscape_2 of 4.png">
+						<HotSpots Rows="6" Columns="8">
+							<HotSpot Row="5" Column="1">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Power Steering.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Air Bag.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Air Bag.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="4">
+								<ImageContent Source="..\Desktop/CX9_Indicator_4WD.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="5">
+								<ImageContent Source="..\Desktop/Indicator_TPMS.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="5">
+								<ImageContent Source="..\Desktop/M6_Indicator_Master Warning.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="6">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Security.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="7">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Security.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="4">
+								<ImageContent Source="..\Desktop/CX5_Indicator_MIL.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="5">
+								<ImageContent Source="..\Desktop/CX5_Indicator_MIL.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="3">
+					<ImageContent Source="..\Desktop/CX5_Instrument Cluster_landscape_3 of 4.png">
+						<HotSpots Rows="6" Columns="6">
+							<HotSpot Row="3" Column="1">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Cruise Control.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="1">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Cruise Control.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="1">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Auto Trans.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Seat Belt.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="2">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Seat Belt.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="2">
+								<ImageContent Source="..\Desktop/Indicator_BSM Off.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/CX9_Indicator_Lights On.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="2">
+								<ImageContent Source="..\Desktop/CX9_Indicator_Lights On.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="3">
+								<ImageContent Source="..\Desktop/Indicator_High Beam.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="3">
+								<ImageContent Source="..\Desktop/Indicator_Brake.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="3">
+								<ImageContent Source="..\Desktop/Indicator_Brake.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="4">
+								<ImageContent Source="..\Desktop/CX9_Indicator_Charging.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="6" Column="4">
+								<ImageContent Source="..\Desktop/CX9_Indicator_Charging.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="4">
+								<ImageContent Source="..\Desktop/CX5_Indicator_AFS Off.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="5">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Door Ajar.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="5">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Door Ajar.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="5" Column="5">
+								<ImageContent Source="..\Desktop/CX5_Indicator_Low Washer.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="6">
+								<ImageContent Source="..\Desktop/M2_Indicator_Engine Temp.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="4" Column="6">
+								<ImageContent Source="..\Desktop/M2_Indicator_Engine Temp.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="1" Column="4">
+					<ImageContent Source="..\Desktop/CX5_Instrument Cluster_landscape_4 of 4.png">
+						<HotSpots Rows="3" Columns="3">
+							<HotSpot Row="3" Column="1">
+								<ImageContent Source="..\Desktop/Indicator_ABS.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<ImageContent Source="..\Desktop/Indicator_Low Fuel.png">
+					                        </ImageContent>
+							</HotSpot>
+							<HotSpot Row="3" Column="2">
+								<ImageContent Source="..\Desktop/Indicator_Fuel Cap.png">
+					                        </ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Multi-Information Display" Category="Multi-Information Display" ParentCategory="Driving" InPDC="N" MostPopular="N" Priority="8">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Distance to Empty</keyword>
+			<keyword>Range</keyword>
+			<keyword>Distance</keyword>
+			<keyword>DTE</keyword>
+		</MetaData>
+		<TextContent Title="Y">MULTI-INFORMATION DISPLAY</TextContent>
+		<TextContent Title="Y">Select the information display type below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Information Display Type.png">
+			<HotSpots Rows="2" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">Select the hotspot below.</TextContent>
+					<TextContent Title="N">Toggle the INFO button up or down on the steering wheel to display available functions.</TextContent>
+					<ImageContent Source="..\Desktop/M6_INFO Switch.png">
+						<HotSpots Rows="2" Columns="2">
+							<HotSpot Row="2" Column="1">
+								<TextContent Title="N">Select hotspots for additional information.</TextContent>
+								<ImageContent Source="..\Desktop/M6_Information Display Items.png">
+									<HotSpots Rows="3" Columns="3">
+										<HotSpot Row="1" Column="1">
+											<TextContent Title="Y">Distance to empty</TextContent>
+											<TextContent Title="N">This mode displays the approximate distance you can travel on the remaining fuel based on the fuel economy. The distance-to-empty will be calculated and displayed every second.
+</TextContent>
+										</HotSpot>
+										<HotSpot Row="3" Column="1">
+											<TextContent Title="Y">Current MPG</TextContent>
+											<TextContent Title="N">This mode displays the current fuel economy by calculating the amount of fuel consumption and the distance traveled. Current fuel economy will be calculated and displayed every 2 seconds.</TextContent>
+										</HotSpot>
+										<HotSpot Row="1" Column="3">
+											<TextContent Title="Y">Average Speed</TextContent>
+											<TextContent Title="N">This mode displays the average vehicle speed by calculating the distance and the time traveled since connecting the battery or resetting the data. Average vehicle speed will be calculated and displayed every 10 seconds.</TextContent>
+										</HotSpot>
+										<HotSpot Row="3" Column="3">
+											<TextContent Title="Y">Average MPG</TextContent>
+											<TextContent Title="N">This mode displays the average fuel economy by calculating the total fuel consumption and the total traveled distance since purchasing the vehicle, reconnecting the battery after disconnection, or resetting the data. The average fuel economy is calculated and displayed every minute.</TextContent>
+										</HotSpot>
+										<HotSpot Row="2" Column="2">
+											<TextContent Title="Y">Settings</TextContent>
+											<TextContent Title="N">Customize the following vehicle functions.</TextContent>
+											<TextContent Title="N">• Reset Averages</TextContent>
+											<TextContent Title="N">• Smart City Brake</TextContent>
+											<TextContent Title="N">• Blind Spot Monitoring</TextContent>
+											<TextContent Title="N">• Maintenance</TextContent>
+											<TextContent Title="N">• Optional Screen</TextContent>
+											<TextContent Title="N">• Volumes</TextContent>
+											<TextContent Title="N">• Units</TextContent>
+											<TextContent Title="N">• Restore Defaults</TextContent>
+										</HotSpot>
+									</HotSpots>
+								</ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">Select the hotspot below.</TextContent>
+					<TextContent Title="N">Toggle the INFO button up or down on the steering wheel to display available functions.</TextContent>
+					<ImageContent Source="..\Desktop/M6_INFO Switch.png">
+						<HotSpots Rows="2" Columns="2">
+							<HotSpot Row="2" Column="1">
+								<TextContent Title="N">Select hotspots for additional information.</TextContent>
+								<ImageContent Source="..\Desktop/CX5_INFO Screens.png">
+									<HotSpots Rows="4" Columns="1">
+										<HotSpot Row="1" Column="1">
+											<TextContent Title="Y">Average Speed</TextContent>
+											<TextContent Title="N">This mode displays the average vehicle speed by calculating the distance and the time traveled since connecting the battery or resetting the data. Average vehicle speed will be calculated and displayed every 10 seconds.</TextContent>
+										</HotSpot>
+										<HotSpot Row="2" Column="1">
+											<TextContent Title="Y">Current MPG</TextContent>
+											<TextContent Title="N">This mode displays the current fuel economy by calculating the amount of fuel consumption and the distance traveled. Current fuel economy will be calculated and displayed every 2 seconds.</TextContent>
+										</HotSpot>
+										<HotSpot Row="3" Column="1">
+											<TextContent Title="Y">Average MPG</TextContent>
+											<TextContent Title="N">This mode displays the average fuel economy by calculating the total fuel consumption and the total traveled distance since purchasing the vehicle, reconnecting the battery after disconnection, or resetting the data. The average fuel economy is calculated and displayed every minute.</TextContent>
+										</HotSpot>
+										<HotSpot Row="4" Column="1">
+											<TextContent Title="Y">Distance to empty</TextContent>
+											<TextContent Title="N">This mode displays the approximate distance you can travel on the remaining fuel based on the fuel economy. The distance-to-empty will be calculated and displayed every second.</TextContent>
+										</HotSpot>
+									</HotSpots>
+								</ImageContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Manual Shift Mode" Category="Manual Shift Mode" ParentCategory="Transmission" InPDC="N" MostPopular="N" Priority="9">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Trans</keyword>
+			<keyword>Shifter</keyword>
+			<keyword>Transaxle</keyword>
+			<keyword>Drive</keyword>
+			<keyword>Park</keyword>
+			<keyword>Shift Lock</keyword>
+			<keyword>Automatic</keyword>
+			<keyword>Sport Shift</keyword>
+		</MetaData>
+		<TextContent Title="Y">MANUAL SHIFT MODE</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">Manual Shift Mode gives you the feel of driving a manual transmission. By allowing you to shift manually, you control the engine rpm and torque.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is Manual Shift Mode? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_A-T_Boot Shifter.png">
+			<HotSpots Rows="2" Columns="2">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">Manual Shift Mode gives you the feel of driving a manual transmission by allowing you to manually shift to control engine rpm and torque when more control is desired.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="N">Steering Shift Switches can be used in “D” or “M”.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+					<ImageContent Source="..\Desktop/CX5_Boot Shifter.png">
+						<HotSpots Rows="3" Columns="2">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="Y">To Use Manual Shift Mode:</TextContent>
+								<TextContent Title="N">• Shift the lever from D to M.</TextContent>
+							</HotSpot>
+							<HotSpot Row="1" Column="2">
+								<TextContent Title="Y">To Shift Down To A Lower Gear:</TextContent>
+								<TextContent Title="N">Tap the shift lever forward (-) once.</TextContent>
+							</HotSpot>
+							<HotSpot Row="2" Column="2">
+								<TextContent Title="Y">To Shift Up To A Higher Gear:</TextContent>
+								<TextContent Title="N">Tap the shift lever back (+) once.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Active Adaptive Shift" Category="Active Adaptive Shift" ParentCategory="Transmission" InPDC="N" MostPopular="N" Priority="9">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Trans</keyword>
+			<keyword>Shock</keyword>
+			<keyword>Transaxle</keyword>
+			<keyword>Drive</keyword>
+			<keyword>Automatic</keyword>
+			<keyword>Timing</keyword>
+			<keyword>Delay</keyword>
+			<keyword>Harsh</keyword>
+		</MetaData>
+		<TextContent Title="Y">ACTIVE ADAPTIVE SHIFT (AAS) CONTROL</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The AAS system gives you better control and a more connected driving experience. The system automatically adjusts how and when the transmission shifts gears based on road conditions and your driving style.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is AAS? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/SKYACTIV-DRIVE.png">
+			<HotSpots Rows="2" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">AAS will automatically adjust how and when the transmission shifts gears based on road conditions and your driving style. The transmission may stay in a lower gear longer than usual when going up or down hills or driving around corners. This feature gives you better control and a more connected driving experience.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Accelerator Pedal Kickdown Switch" Category="Accelerator Pedal Kickdown Switch" ParentCategory="Transmission" InPDC="N" MostPopular="N" Priority="9">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Trans</keyword>
+			<keyword>Power</keyword>
+			<keyword>Transaxle</keyword>
+			<keyword>Drive</keyword>
+			<keyword>Throttle</keyword>
+			<keyword>Speed</keyword>
+			<keyword>Automatic</keyword>
+			<keyword>Sport Shift</keyword>
+			<keyword>Racing</keyword>
+			<keyword>Fast</keyword>
+			<keyword>Faster</keyword>
+			<keyword>Shock</keyword>
+			<keyword>Rev</keyword>
+			<keyword>Reving</keyword>
+		</MetaData>
+		<TextContent Title="Y">ACCELERATOR PEDAL KICKDOWN SWITCH (A/T only)</TextContent>
+		<TextContent Title="Y">What is Accelerator Pedal Kickdown Switch? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Accelerator Pedal.png">
+			<HotSpots Rows="2" Columns="4">
+				<HotSpot Row="2" Column="3">
+					<TextContent Title="N">The accelerator pedal is equipped with a kickdown switch to give the driver more control and to improve fuel economy.</TextContent>
+					<TextContent Title="N">When you depress the accelerator 95% of the way, you will feel an increase in resistance. Push harder, and you will feel a click as you activate the kickdown switch. The transmission will usually downshift (depending on engine speed) and the engine will switch to maximum power mode. This kickdown switch function is the same in both Manual mode and in “D”.</TextContent>
+					<ImageContent Source="..\Desktop/Accelerator Pedal Kickdown Switch.png">
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Hill Launch Assist (HLA)" Category="Hill Launch Assist" ParentCategory="Driving" InPDC="N" MostPopular="N" Priority="9">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Transaxle</keyword>
+			<keyword>Drive</keyword>
+			<keyword>Automatic</keyword>
+			<keyword>Brake</keyword>
+			<keyword>Braking</keyword>
+			<keyword>Slope</keyword>
+			<keyword>Stop</keyword>
+			<keyword>Stopped</keyword>
+			<keyword>Acceleration</keyword>
+			<keyword>Reverse</keyword>
+		</MetaData>
+		<TextContent Title="Y">HILL LAUNCH ASSIST (HLA)</TextContent>
+		<ImageContent Source="..\Desktop/Benefit Icon.png">
+			<HotSpots Rows="1" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="N">The HLA system increases safety by helping you make smooth hill starts. Forward and backward rolling is reduced; making hill starts easier and more relaxed.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">What is HLA? Select the hotspot below.</TextContent>
+		<ImageContent Source="..\Desktop/CX5_HLA.png">
+			<HotSpots Rows="3" Columns="3">
+				<HotSpot Row="3" Column="1">
+					<TextContent Title="N">HLA helps assist you when accelerating the vehicle from a stop while on a hill or slope. When the brake pedal is released and the accelerator pedal is pushed, HLA prevents the vehicle from rolling forward or backward. It operates on a downward slope when the shift lever is in the reverse (R) position, and on an upward slope when the shift lever is in a position other than the reverse (R) position.</TextContent>
+					<ImageContent Source="..\Desktop/NOTE icon.png">
+						<HotSpots Rows="1" Columns="1">
+							<HotSpot Row="1" Column="1">
+								<TextContent Title="Y">IMPORTANT: The HLA system will hold the vehicle for a maximum of 2.0 seconds while the driver is changing from the brake pedal to the accelerator pedal.</TextContent>
+							</HotSpot>
+						</HotSpots>
+					</ImageContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Cup Holders" Category="Cup Holders" ParentCategory="Interior" InPDC="N" MostPopular="N" Priority="9">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Can</keyword>
+			<keyword>Mug</keyword>
+			<keyword>Sport</keyword>
+			<keyword>Sports</keyword>
+			<keyword>Travel</keyword>
+			<keyword>Water</keyword>
+			<keyword>Soda</keyword>
+			<keyword>Drink</keyword>
+			<keyword>Soft drink</keyword>
+		</MetaData>
+		<TextContent Title="Y">CUP HOLDERS</TextContent>
+		<TextContent Title="Y">Select the hotspots below.</TextContent>
+		<TextContent Title="Y">Front Cup Holders</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Front Cup Holder.png">
+			<HotSpots Rows="1" Columns="3">
+				<HotSpot Row="1" Column="2">
+					<TextContent Title="N">The front cup holders are located in the center console near the emergency brake handle.</TextContent>
+					<ImageContent Source="..\Desktop/CX5_Front Cup Holder Spacer.png">
+		</ImageContent>
+					<TextContent Title="N">When using the cup holder to hold a small sized cup (height about 100 mm (4 in)), the cup can be taken out of the cup holder easily by using the supplied spacer. The spacer can be set and used in either of the front cup holders.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Rear Cup Holders</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Rear Cup Holder.png">
+			<HotSpots Rows="3" Columns="1">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">The rear cup holders are located on the rear center armrest.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+		<TextContent Title="Y">Bottle Holders</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Bottle Holder.png">
+			<HotSpots Rows="3" Columns="1">
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="N">Bottle holders are located on the inside of the doors.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Interior Cleaning" InPDC="N" Category="Interior Cleaning" ParentCategory="Interior" Priority="9" MostPopular="N">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Inside</keyword>
+			<keyword>Dash</keyword>
+			<keyword>Guages</keyword>
+			<keyword>Touch Screen</keyword>
+			<keyword>Fade</keyword>
+			<keyword>Dull</keyword>
+			<keyword>Dirty</keyword>
+			<keyword>Soiled</keyword>
+			<keyword>Stain</keyword>
+			<keyword>Scratch</keyword>
+		</MetaData>
+		<TextContent Title="Y">INTERIOR CLEANING</TextContent>
+		<ImageContent Source="..\Desktop/CX5_Drivers View.png">
+		</ImageContent>
+		<TextContent Title="Y">Keep Your Mazda Clean. Select the hotspots below.</TextContent>
+		<ImageContent Source="..\Desktop/Interior Cleaning.png">
+			<HotSpots Rows="8" Columns="1">
+				<HotSpot Row="1" Column="1">
+					<TextContent Title="Y">Cloth Upholstery</TextContent>
+					<TextContent Title="N">Remove dust and loose dirt from the fabric with a whisk broom or vacuum cleaner. Then use a mild soap and water solution to clean the surface. For immediate spot removal, use a fabric spot cleaner.</TextContent>
+					<ImageContent Source="..\Desktop/Car Care.png">
+		</ImageContent>
+					<TextContent Title="N">Mazda cleaning supplies are available at your Mazda Dealer.</TextContent>
+				</HotSpot>
+				<HotSpot Row="2" Column="1">
+					<TextContent Title="Y">Floor Mats</TextContent>
+					<TextContent Title="N">Floor Mats should be cleaned with mild soap and water only (other products may make the mat slippery which could lead to an accident). Be sure to reinstall the mat securely after cleaning.</TextContent>
+					<ImageContent Source="..\Desktop/Floor Mat.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="3" Column="1">
+					<TextContent Title="Y">Infotainment</TextContent>
+					<TextContent Title="N">Use an extremely soft and clean material with mild detergent to remove soiling. Harsh rubbing can result in damage such as white scratch marks.</TextContent>
+					<ImageContent Source="..\Desktop/14_M6_Radio_Screen.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="4" Column="1">
+					<TextContent Title="Y">Instrument Panel Top</TextContent>
+					<TextContent Title="N">Use an extremely soft and clean material with mild detergent to remove soiling. Harsh rubbing can result in damage such as white scratch marks.</TextContent>
+					<ImageContent Source="..\Desktop/Dash Pad.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="5" Column="1">
+					<TextContent Title="Y">Lap/Sholder Belt</TextContent>
+					<TextContent Title="N">Use mild soap and water to clean the lap/sholder belt (DO NOT use bleach, etc. as this may weaken the material). After cleaning, let the belt dry thoroughly before letting it retract.</TextContent>
+					<ImageContent Source="..\Desktop/Lap_Sholder_Belt.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="6" Column="1">
+					<TextContent Title="Y">Leather Upholstery</TextContent>
+					<TextContent Title="N">To quickly and easily remove surface stains from your Mazda's leather, use our specially formulated cleaner. Follow directions on the packaging.</TextContent>
+					<ImageContent Source="..\Desktop/Car Care.png">
+		</ImageContent>
+					<TextContent Title="N">Mazda cleaning supplies are available at your Mazda Dealer.</TextContent>
+				</HotSpot>
+				<HotSpot Row="7" Column="1">
+					<TextContent Title="Y">Panels</TextContent>
+					<TextContent Title="N">Parts that are fitted with panels that need to be cleaned should be done with a soft cloth to wipe off dirt from the surface. Scratches or nicks resulting from a hard brush or cloth may not be repairable.</TextContent>
+					<ImageContent Source="..\Desktop/Panels.png">
+		</ImageContent>
+				</HotSpot>
+				<HotSpot Row="8" Column="1">
+					<TextContent Title="Y">Window Interior</TextContent>
+					<TextContent Title="N">Use a glass cleaner and follow the directions on the container.</TextContent>
+					<ImageContent Source="..\Desktop/Car Care.png">
+		</ImageContent>
+					<TextContent Title="N">Mazda cleaning supplies are available at your Mazda Dealer.</TextContent>
+				</HotSpot>
+			</HotSpots>
+		</ImageContent>
+	</Section>
+	<Section Name="Liftgate" Category="Liftgate" ParentCategory="Keys/Doors" InPDC="N" MostPopular="Y" Priority="1">
+		<Trims>
+			<Trim TrimName="All"/>
+		</Trims>
+		<MetaData>
+			<keyword>Hatchback</keyword>
+			<keyword>Liftgate</keyword>
+		</MetaData>
+		<TextContent Title="Y">LIFTGATE</TextContent>
+		<ImageContent Source="..\Desktop/13_CX-5_Liftgate Opener.png">
+		</ImageContent>
+		<TextContent Title="N">For the hatchback, when the liftgate opener switch is pushed, the liftgate will open slightly. If the liftgate is not opened within 1.5 seconds, the liftgate latch locks (you will hear it lock) and the liftgate cannot be opened or closed from this slightly raised position. To open/close the liftgate, push the liftgate opener switch, open the liftgate within 1.5 seconds, then close it. The door/liftgate ajar warning light will be on if the liftgate is not fully closed.</TextContent>
+	</Section>
+</SSGData>

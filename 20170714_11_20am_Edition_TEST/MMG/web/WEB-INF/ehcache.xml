@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+    <!-- This is where the CACHE Data would be stored
+    <diskStore path="java.io.tmpdir/MMGCacheDir"/> -->
+    <diskStore path="java.io.tmpdir" />
+
+
+    <defaultCache
+      maxElementsInMemory="500"
+      eternal="true"
+      overflowToDisk="false"
+      memoryStoreEvictionPolicy="LFU" />
+
+    <cache name="getTestCache"
+      maxElementsInMemory="50"
+      eternal="true"
+      overflowToDisk="false"
+      memoryStoreEvictionPolicy="LFU" />
+
+
+    <!-- This is the First Cache that is being Created for Testing -->
+    <cache name="DealerLocatorCache"
+        maxElementsInMemory="5000"
+        maxElementsOnDisk="1000"
+        eternal="false"
+        overflowToDisk="true"
+        diskSpoolBufferSizeMB="30"
+        timeToIdleSeconds="3600"
+        timeToLiveSeconds="3600"
+        memoryStoreEvictionPolicy="LFU"/>
+
+      <cache name="DealerCouponCache"
+        maxElementsInMemory="5000"
+        maxElementsOnDisk="1000"
+        eternal="false"
+        overflowToDisk="true"
+        diskSpoolBufferSizeMB="30"
+        timeToIdleSeconds="3600"
+        timeToLiveSeconds="3600"
+        memoryStoreEvictionPolicy="LFU"/>
+
+
+      <cache name="DealerVINDetailsCache"
+        maxElementsInMemory="5000"
+        maxElementsOnDisk="1000"
+        eternal="false"
+        overflowToDisk="true"
+        diskSpoolBufferSizeMB="30"
+        timeToIdleSeconds="3600"
+        timeToLiveSeconds="3600"
+        memoryStoreEvictionPolicy="LFU"/>
+
+
+       <cache name="Coupon_ServiceRemindersCache"
+        maxElementsInMemory="5000"
+        maxElementsOnDisk="1000"
+        eternal="false"
+        overflowToDisk="true"
+        diskSpoolBufferSizeMB="30"
+        timeToIdleSeconds="3600"
+        timeToLiveSeconds="3600"
+        memoryStoreEvictionPolicy="LFU"/>
+
+        <cache name="VehicleModelYearCache"
+        maxElementsInMemory="1000"
+        maxElementsOnDisk="1000"
+        eternal="false"
+        overflowToDisk="true"
+        diskSpoolBufferSizeMB="30"
+        timeToIdleSeconds="36"
+        timeToLiveSeconds="36"
+        memoryStoreEvictionPolicy="LFU"/>
+
+
+        
+</ehcache>

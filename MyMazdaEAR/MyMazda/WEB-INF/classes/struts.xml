@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+    <constant name="struts.action.extension" value="action" />
+
+	<package name="default" namespace="/" extends="struts-default">
+
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+
+		<interceptors>
+			 <interceptor name="session" class="com.mazda.common.interceptors.SessionCheckInterceptor" />
+			<interceptor name="gzip" class="com.mazda.common.interceptors.GZIPInterceptor" />
+			<interceptor name="cache" class="com.mazda.common.interceptors.CachingHeaderInterceptor" />
+			<interceptor name="common" class="com.mazda.common.interceptors.CommonInterceptor" />
+			<interceptor-stack name="commonValidationStack">
+				<interceptor-ref name="common" />
+				<interceptor-ref name="gzip" />
+				<interceptor-ref name="cache" />
+				<interceptor-ref name="session" />
+				<interceptor-ref name="defaultStack">
+					<param name="exception.logEnabled">true</param>
+					<param name="exception.logLevel">ERROR</param>
+				</interceptor-ref>
+			</interceptor-stack>
+			<interceptor-stack name="welcomeStack">
+				<interceptor-ref name="common" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+
+		</interceptors>
+
+		<default-interceptor-ref name="commonValidationStack" />
+		<global-results>
+			<result name="myErrorHandler" type="redirectAction">
+				<param name="actionName">errorHandler</param>
+				<param name="exception">exception</param>
+			</result>
+			<result name="sessionexpired" type="redirectAction">
+				<param name="actionName">welcome</param>
+				<param name="exception">session_expired</param>
+			</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping exception="java.lang.Exception"
+				result="myErrorHandler" />
+		</global-exception-mappings>
+		
+		<action name="welcome" class="com.mazda.common.action.WelcomeAction">
+			<interceptor-ref name="commonValidationStack" />
+			<result name="success" type="tiles">/home.tiles</result>
+			<result name="login" type="tiles">/myMazda.tiles</result>
+		</action>
+		
+		
+		<action name="errorHandler" class="com.mazda.common.action.WelcomeAction">
+			<result name="success">view/common/HomeMainBody.jsp</result>			
+		</action>
+		<action name="loginUser" class="com.mazda.configuration.common.action.RegistrationAction" method="loginUser">
+			<result name="success">/view/configuration/MyMazda.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+			<result name="login">/view/common/login.jsp</result>
+	  	</action>
+	  	<action name="proxyLoginUser" class="com.mazda.configuration.common.action.RegistrationAction" method="proxyLoginUser">
+			<result name="success">/view/configuration/MyMazdaProxyLogin.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+			<result name="login">/view/common/login.jsp</result>
+	  	</action>
+		<action name="login" class="com.mazda.configuration.common.action.RegistrationAction" method="loginUser">
+			<result name="login">/view/common/login.jsp</result>
+	  	</action>
+	  	<!-- <action name="continue" class="com.mazda.configuration.common.action.RegistrationAction" method="continueZipcode">
+			<result name="success">/view/configuration/Registration.jsp</result>
+	  	</action> -->
+	  	<action name="myMazda" class="com.mazda.configuration.common.action.RegistrationAction" method="myMazda">
+			<result name="login" type="tiles">/home.tiles</result>
+			<result name="success" type="tiles">/myMazda.tiles</result>
+			<result name="admin" type="tiles">/admin.tiles</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="mymazdaHome" class="com.mazda.configuration.common.action.RegistrationAction" method="logoutUser">
+			<result name="success" type="tiles" >/home.tiles</result>
+	  	</action>
+	  	
+	  	<action name="registerNew" class="com.mazda.configuration.common.action.RegistrationAction">
+			<result name="success">/view/configuration/Registration.jsp</result>
+	  	</action>
+	  	<action name="registerNewByPreferedDealer" class="com.mazda.configuration.common.action.RegistrationAction" method="registerNewByPreferedDealer">
+			<result name="success">/view/configuration/Registration.jsp</result>
+	  	</action>
+	  	<action name="addVehiclePreferedDealer" class="com.mazda.configuration.common.action.RegistrationAction" method="addVehiclePreferedDealer">
+			<result name="success">/view/configuration/AddVehicle.jsp</result>
+			<result name="login">/view/configuration/EditNewVehicle.jsp</result>
+			<result name="input">/view/configuration/EditPreferDealer.jsp</result>
+	  	</action>
+	  	<action name="addPreferedDealer" class="com.mazda.configuration.common.action.RegistrationAction" method="addPreferedDealer">
+			<result name="success">/view/configuration/LocateDealer.jsp</result>
+	  	</action>
+	  	<action name="vehicalDetail" class="com.mazda.configuration.common.action.RegistrationAction" method="vehicalDetail">
+			<result name="success">/view/configuration/VehicalDetail.jsp</result>
+	  	</action>
+	  	<action name="contactMazda" class="com.mazda.configuration.common.action.LocateDealerAction" method="searchByLocation">
+			<result name="success">/view/configuration/LocateDealer.jsp</result>
+	  	</action>
+	  	<action name="forgetPswrdcontactMazda" class="com.mazda.configuration.common.action.ContactAction" method="contactMazda">
+		<!-- 	<result name="success">/view/configuration/HomeMainBody.jsp</result> -->
+	  	</action>
+	  	<action name="sendMail" class="com.mazda.configuration.common.action.ContactAction" method="sendMail">
+	  	</action>
+	  
+	  	 <action name="saveRegistration" class="com.mazda.configuration.common.action.RegistrationAction" method="register">
+		 <result name="success" >/view/common/HomeMainBody.jsp</result>
+		</action>
+		 <action name="registration" class="com.mazda.configuration.common.action.RegistrationAction" method="registerpage">
+			<result name="success">/view/configuration/Joinme.jsp</result>
+		</action>
+	  	<!-- <action name="forgetPassword" class="com.mazda.configuration.common.action.RegistrationAction" method="forgetPassword">
+	  	 <result name="success" >/view/common/HomeMainBody.jsp"</result> 
+	  	</action> -->
+	  	<action name="forgotPassword" class="com.mazda.configuration.common.action.RegistrationAction" method="forgotPassword">
+	  	<!--  <result name="success" >/view/common/HomeMainBody.jsp"</result>  -->
+	  	</action>
+	  	<action name="resetPasswordLink" class="com.mazda.configuration.common.action.RegistrationAction" method="resetPasswordLink">
+	  	 	<result name="success">/view/configuration/UpdatePasswordPage.jsp</result>
+	  	 	<result name="none">/view/configuration/PasswordLinkExpired.jsp</result>
+	  	</action>
+	  	<action name="passwordUpdate" class="com.mazda.configuration.common.action.RegistrationAction" method="passwordUpdate">
+			<!-- <result name="login">/view/common/login.jsp</result> -->
+	  	</action>
+	  	<action name="servicesOffer" class="com.mazda.configuration.common.action.MyServicesOfferAction" method="servicesOffer">
+			<result name="success">/view/configuration/MyServicesOffer.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+			<result name="login">/view/common/login.jsp</result>
+	  	</action>
+	  	<action name="serviceReminder" class="com.mazda.configuration.common.action.ServiceRemindersAction" >
+			<result name="success">/view/configuration/ServiceReminders.jsp</result>
+			<result name="login">/view/common/login.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="serviceReminderOfVehical" class="com.mazda.configuration.common.action.ServiceRemindersAction" method="serviceReminderOfVehical">
+			<result name="success">/view/configuration/ServiceReminders.jsp</result>
+	  	</action>
+	  	<!-- <action name="zoomZoomMagzine" class="com.mazda.configuration.common.action.MagzineAction">
+			<result name="success" type="tiles">/magzine.tiles</result>
+	  	</action>
+	  	<action name="mazdaConnect" class="com.mazda.configuration.common.action.MagzineAction">
+			<result name="success" type="tiles">/mazdaConnect.tiles</result>
+	  	</action> -->
+	  	<action name="maintenanceScheduleOne" class="com.mazda.configuration.common.action.MaintenanceScheduleAction" method="callWebService">
+			<result name="success">/view/configuration/MaintenanceSchedule.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="maintenanceScheduleTwo" class="com.mazda.configuration.common.action.MaintenanceScheduleAction" method="maintenanceScheduleTwo">
+			<result name="success">/view/configuration/MaintenanceScheduleDetail.jsp</result>
+	  	</action>
+	  	<action name="maintenanceSchedule" class="com.mazda.configuration.common.action.MaintenanceScheduleAction" method="maintenanceSchedule">
+			<result name="success">/view/configuration/MaintenanceScheduleDetail.jsp</result>
+	  	</action>
+	  	<action name="serviceHistory" class="com.mazda.configuration.common.action.ServiceHistoryAction">
+			<result name="success">/view/configuration/ServiceHistory.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="showUpdateSelectedVehicle" class="com.mazda.configuration.common.action.ServiceHistoryAction" method="showUpdateSelectedVehicle">
+	  	<result name="success">/view/configuration/ServiceHistory.jsp</result>
+	  	</action>
+	  	<action name="showUpdateSelectedVehicleRecall" class="com.mazda.configuration.common.action.RecallAction" method="showUpdateSelectedVehicle">
+	  	<result name="success">/view/configuration/Recall.jsp</result>
+	  	</action>
+	  	<action name="locateDelear" class="com.mazda.configuration.common.action.LocateDealerAction">
+			<result name="success" type="tiles">/locateDelear.tiles</result>
+	  	</action>
+	  	<action name="addMoreVehical" class="com.mazda.configuration.common.action.RegistrationAction" method="addMoreVehical">
+			<result name="success">/view/configuration/MyMazda.jsp</result>
+	  	</action>
+	  	<action name="updateMileage" class="com.mazda.configuration.common.action.RegistrationAction" method="updateMileage">
+			<result name="success">/view/configuration/MyMazda.jsp</result>
+	  	</action>
+	  	
+	  	<!-- <action name="toRetrievePassword" class="com.mazda.configuration.common.action.RegistrationAction" method="toRetrievePassword">
+			<result name="success" type="tiles">/forgetPassowrd.tiles</result>
+	  	</action> -->
+	  	<action name="applyToUpdateSelectedVehical" class="com.mazda.configuration.common.action.RegistrationAction" method="applyToUpdateSelectedVehical">
+	  		<result name="success">/view/configuration/MyMazda.jsp</result>
+	  	</action>
+	  	<!-- <action name="uploadImage" class="com.mazda.configuration.common.action.RegistrationAction" method="uploadImage">
+	  		<result name="success" type="tiles">/myMazda.tiles</result>
+	  	</action> -->
+	  	<action name="UpdateSelectedVehicalMaintenance" class="com.mazda.configuration.common.action.MaintenanceScheduleAction" method="applyToUpdateSelectedVehical">
+	  		<result name="success">/view/configuration/MaintenanceSchedule.jsp</result>
+	  	</action>
+	  	<action name="howTOMazda" class="com.mazda.configuration.common.action.HowTOMazdaAction" >
+			<result name="success">/view/configuration/HowTOMazda.jsp</result>
+			<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="howTOMazdaNotLogin" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="howTOMazdaNotLogin">
+			<result name="success">/view/configuration/HowTOMazda.jsp</result>
+	  	</action>
+	  	<action name="myServiceOffer" class="com.mazda.configuration.common.action.MyServicesOfferAction" method="myServiceOffer">
+			<result name="success">/view/configuration/MyServicesOffer.jsp</result>
+	  	</action>
+	  	<action name="myServiceOfferVehicleUpdate" class="com.mazda.configuration.common.action.MyServicesOfferAction" method="myServiceOfferVehicleUpdate">
+			<result name="success">/view/configuration/MyServicesOffer.jsp</result>
+	  	</action>
+	  	
+	  	<!-- <action name="searchUser" class="com.mazda.configuration.common.action.AdminControlAction" method="adminSearchUser">
+			<result name="success">/view/configuration/AdminSearchUser.jsp</result>
+	  	</action> -->
+	  	<action name="searchByLocation" class="com.mazda.configuration.common.action.LocateDealerAction" method="searchByLocation">
+			<result name="success">/view/configuration/LocateDealer.jsp</result>
+	  	</action>
+	  	<action name="searchByZip" class="com.mazda.configuration.common.action.LocateDealerAction" method="searchByZip">
+			<result name="success">/view/configuration/Joinme.jsp</result>
+	  	</action>
+	  	
+	  	<action name="searchByStateCity" class="com.mazda.configuration.common.action.LocateDealerAction" method="searchByStateCity">
+			<result name="success">/view/configuration/LocateDealer.jsp</result>
+	  	</action>
+	  	<action name="searchByName" class="com.mazda.configuration.common.action.LocateDealerAction" method="searchByName">
+			<result name="success">/view/configuration/LocateDealer.jsp</result>
+	  	</action>
+	  	<action name="modelAccYear" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="modelAccYear">
+	  	</action>
+	  	<action name="trimsAccModel" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="trimsAccModel">
+	  	</action>
+	  	<action name="howToVehicalOption" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="howToVehicalOption">
+	  		<result name="success">/view/configuration/HowToVehicleDetail.jsp</result>
+	  	</action>
+	  	<action name="howToVehicalOptionLogin" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="howToVehicalOption">
+	  		<!-- <result name="success">/view/configuration/HowTOMazda.jsp</result> -->
+	  		<result name="success">/view/configuration/HowTOMazda.jsp</result>
+	  	</action>
+	  	<action name="howToVehicalSecondLevel" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="secondLevel">
+	  	<result name="success">/view/configuration/HowToVehicleDetail.jsp</result>
+	  	<result name="input">/view/configuration/LookUpItems.jsp</result>
+	  	</action>
+	  	<action name="howToVehicalThirdLevel" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="thirdLevel">
+	  	<result name="success">/view/configuration/HowToVehicleDetail.jsp</result>
+	  	<result name="input">/view/configuration/LookUpItems.jsp</result>
+	  	</action>
+	  	<action name="videoList" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="videoList">
+	  	<result name="success">/view/configuration/LookUpItems.jsp</result>
+	  	</action>
+	  	<action name="modelPDFdetails" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="modelPDFdetails">
+	  	<result name="success">/view/configuration/ModelDetails.jsp</result>
+	  	</action>  	
+	  	<action name="openHowToSearch" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="openHowToSearch">
+	  	<result name="success">/view/configuration/LookUpItems.jsp</result>
+	  	</action>
+	  	<action name="findHowToSearch" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="findHowToSearch">
+	  	<result name="success">/view/configuration/MyLookUpItems.jsp</result>
+	  	</action>
+	  	<action name="callLookUpContent" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="LookUpContent">
+	  	<result name="success">/view/configuration/LookUpItems.jsp</result>
+	  	</action>
+	  	<action name="callLookUpContentPopular" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="LookUpContentPopular">
+	  	<result name="success">/view/configuration/MyLookUpItems.jsp</result>
+	  	</action>
+	  	<action name="howtoVideoPlay" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="howtoVideoPlay">
+	  	<result name="success">/view/configuration/videoPlay.jsp</result>
+	  	</action>
+	  	<action name="howToVehicleSubDetail" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="howToVehicleSubDetail">
+	  	<result name="success">/view/configuration/LookUpItems.jsp</result>
+	  	</action>
+	  <!-- 	<action name="seatRelatedData" class="com.mazda.configuration.common.action.HowTOMazdaAction" method="seatRelatedData">
+	  	<result name="success">/view/configuration/SeatDetailList.jsp</result>
+	  	</action> -->
+	  	<action name="editProfile" class="com.mazda.configuration.common.action.RegistrationAction" method="editProfile">
+	  	<result name="success">/view/configuration/EditAccountInformation.jsp</result>
+	  	</action>
+	  	
+	  	<action name="changePassword" class="com.mazda.configuration.common.action.RegistrationAction" method="changePassword">
+	  	<result name="success">/view/configuration/ChangePassword.jsp</result>
+	  	</action>
+	  	<action name="submitPasswordChange" class="com.mazda.configuration.common.action.RegistrationAction" method="submitPasswordChange">
+	  	</action>
+	  	
+	  	<action name="recall" class="com.mazda.configuration.common.action.RecallAction" method="recall">
+	  	<result name="success">/view/configuration/Recall.jsp</result>
+	  	<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="updateProfile" class="com.mazda.configuration.common.action.RegistrationAction" method="updateProfile">
+	  	<!-- <result name="success">/view/configuration/EditAccountInformation.jsp</result> -->
+	  	</action>
+	  	<action name="saveServiceHistory" class="com.mazda.configuration.common.action.ServiceHistoryAction" method="saveServiceHistory">
+	  	<result name="success">/view/configuration/ServiceHistory.jsp</result>
+	  	</action>
+	  	<action name="updateServiceHistory" class="com.mazda.configuration.common.action.ServiceHistoryAction" method="updateRecord">
+	  	<result name="success">/view/configuration/ServiceHistory.jsp</result>
+	  	</action>
+	  	<action name="deleteServiceHistory" class="com.mazda.configuration.common.action.ServiceHistoryAction" method="deleteRecord">
+	  	<result name="success">/view/configuration/ServiceHistory.jsp</result>
+	  	</action>
+	  	<action name="editPreferDealer" class="com.mazda.configuration.common.action.RegistrationAction" method="editPreferDealer">
+	  	<result name="success">/view/configuration/EditPreferDealer.jsp</result>
+	  	<result name="none">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="updateSelectedVehicalPreferredDealer" class="com.mazda.configuration.common.action.RegistrationAction" method="updateSelectedVehicalPreferredDealer">
+	  	<result name="success">/view/configuration/EditPreferDealer.jsp</result>
+	  	</action>
+	  	<action name="addVehicle" class="com.mazda.configuration.common.action.RegistrationAction" method="addVehicle">
+	  	<result name="success">/view/configuration/AddVehicle.jsp</result>
+	  	</action>
+	  	<action name="locateDealer" class="com.mazda.configuration.common.action.LocateDealerAction" method="locateDealer">
+	  	<result name="success">/view/configuration/LocateDealer.jsp</result>
+	  	</action>
+	  	<action name="sendCouponByEamil" class="com.mazda.configuration.common.action.MyServicesOfferAction" method="sendCouponByEamil">
+	  	</action>
+        <action name="editNewVehicle" class="com.mazda.configuration.common.action.RegistrationAction" method="editVehicle">
+	  	<result name="success">/view/configuration/EditNewVehicle.jsp</result>
+	  	</action>
+	  	<action name="deleteVehicle" class="com.mazda.configuration.common.action.RegistrationAction" method="deleteVehicle">
+	  	<result name="success">/view/configuration/MyMazda.jsp</result>
+	  	</action>
+	  	<action name="contactUs" class="com.mazda.configuration.common.action.ContactAction" method="contactUS">
+	  	<result name="success">view/configuration/ContactUs.jsp</result>
+	  	</action>
+	  	<action name="maintenanceSchedule" class="com.mazda.configuration.common.action.RegistrationAction" method="maintainSchedule">
+	  	<result name="success">view/configuration/MaintenanceSchedule.jsp</result>
+	  	</action>
+	  	<action name="addvechicle" class="com.mazda.configuration.common.action.RegistrationAction" method="addVehical">
+			<result name="success"  type="tiles">/add.tiles</result>
+	  	</action>
+	  	<action name="eGift" class="com.mazda.configuration.common.action.EgiftAction">
+			<result name="success">/view/configuration/Egift.jsp</result>
+	  	</action>
+	  	<action name="showUpdateSelectedVehicleEgift" class="com.mazda.configuration.common.action.EgiftAction" method="showUpdateSelectedVehicleEgift">
+	  		<result name="success">/view/configuration/Egift.jsp</result>
+	  	</action>
+	  	<action name="uploadImage" class="com.mazda.configuration.common.action.UploadImageAction">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">2097152</param>
+				<param name="allowedTypes">
+					image/png,image/gif,image/jpeg,image/pjpeg
+				</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<!-- <result name="success">/view/configuration/MyMazda.jsp</result> -->
+			<result name="success" type="tiles">/myMazda.tiles</result>
+		</action>
+		<action name="deleteImage" class="com.mazda.configuration.common.action.UploadImageAction" method="deleteImage">
+			<result name="success" type="tiles">/myMazda.tiles</result>
+		</action>
+	</package>
+</struts>    

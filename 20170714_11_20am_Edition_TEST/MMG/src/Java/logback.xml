@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true"  scanPeriod="60 seconds" >
+	<include file="${MMG_HOME}/logback-mmg.xml"/>
+	<root>
+		<level value="${DEBUG_FLAG}" />
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</root>
+</configuration>

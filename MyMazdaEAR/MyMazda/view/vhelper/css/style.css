@@ -1,0 +1,6545 @@
+@font-face {
+	font-family: 'Interstate-Regular';
+	src: url("../fonts/Interstate-Regular.eot?#iefix")
+		format("embedded-opentype"), url("../fonts/Interstate-Regular.woff")
+		format("woff"), url("../fonts/Interstate-Regular.ttf")
+		format("truetype"),
+		url("../fonts/Interstate-Regular.svg#Interstate-Regular")
+		format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Interstate-Light';
+	src: url("../fonts/Interstate-Light.eot?#iefix")
+		format("embedded-opentype"), url("../fonts/Interstate-Light.woff")
+		format("woff"), url("../fonts/Interstate-Light.ttf")
+		format("truetype"),
+		url("../fonts/Interstate-Light.svg#Interstate-Light") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Interstate-Bold';
+	src: url("../fonts/Interstate-Bold.eot?#iefix")
+		format("embedded-opentype"), url("../fonts/Interstate-Bold.woff")
+		format("woff"), url("../fonts/Interstate-Bold.ttf") format("truetype"),
+		url("../fonts/Interstate-Bold.svg#Interstate-Bold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url("../fonts/HelveticaNeue.eot?#iefix")
+		format("embedded-opentype"), url("../fonts/HelveticaNeue.woff")
+		format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"),
+		url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.btn-gray {
+	background: #fff !important;
+	text-transform: uppercase;
+}
+
+.btn-red {
+	background: #101010 !important;
+	text-transform: uppercase;
+}
+
+.padding-0 {
+	padding: 0px !important;
+}
+
+.margin-0 {
+	margin: 0px !important;
+}
+
+.margin-b {
+	margin-bottom: 20px;
+}
+
+.mandatory-field {
+	color: #d00 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	font-size: 14px !important;
+}
+
+.margin-l-0 {
+	margin-left: 0px;
+}
+
+.search-field1 input {
+	background-color: rgba(255, 255, 255, 0.9) !important;
+	color: #191919 !important;
+	font-size: 12px;
+	letter-spacing: .05em;
+	font-family: "InterstateLight",helvetica,arial,sans-serif !important;
+}
+
+.search-field1 .fa-map-marker {
+	margin: -28px 0 0 0 !important;
+	position: relative !important;
+	color: #d00 !important;
+	right: 15px;
+	margin-top: -20px;
+	font-size: 18px;
+	float: right;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+footer {
+	position: absolute;
+	margin-bottom: 0;
+	width: 100%;
+	bottom: 0px;
+}
+
+.modal {
+	z-index: 1150 !important;
+}
+
+.checkbox label,.checkbox .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .checkbox a,.checkbox .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .checkbox input,.radio label,.radio .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .radio a,.radio .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .radio input
+	{
+	font-weight: normal !important;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	background: #101010;
+}
+
+@media screen and (-ms-high-contrast: active) , ( -ms-high-contrast :
+	none) {
+	img[src*=".svg"] {
+		width: 100%;
+	}
+}
+
+span,ul,li,a,h1,h2,h3,h4,h5,h6,P {
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	margin: 0px !important;
+	padding: 0px !important;
+	font-size: 12px;
+	letter-spacing: .1em;
+}
+
+h3 {
+	font-family: 'InterstateRegular' !important;
+}
+
+body {
+	margin: 0 !important;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	padding: 0px;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+a,a:active,a:focus,button,button:focus,button:active,.btn,.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn.focus:active,.btn.active.focus
+	{
+	outline: none !important;
+	outline: 0 !important;
+	border: 0 !important;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a::-moz-focus-inner {
+	border: 0 !important;
+}
+
+input::-moz-focus-inner {
+	border: 0 !important;
+	outline: none !important;
+	outline: 0 !important;
+}
+
+a,a:visited,a:focus,a:active,a:hover {
+	outline: 0 none !important;
+}
+
+/*--Menu Section--*/
+.Menu-Section {
+	background: #191919;
+	padding: 20px 0px 20px 0px !important;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	max-height: 125px !important;
+}
+
+.Menu-Section .logo-div {
+	float: left;
+	width: 106px;
+	position: relative;
+	z-index: 2;
+}
+
+.Menu-Section .logo-div .logo-mobile,.Menu-Section .logo-div .logo-mobile-xs
+	{
+	display: none;
+}
+
+.Menu-Section .nav-div {
+	padding: 0px !important;
+}
+
+.Menu-Section .nav-div .searchfield-div {
+	width: 320px;
+	height: 40px;
+	float: right;
+	z-index: 2;
+	position: relative;
+}
+
+.Menu-Section .nav-div .searchfield-div .search-field {
+	margin: 30px 0 23px 0;
+}
+
+.Menu-Section .nav-div .searchfield-div .search-field input {
+	width: 280px;
+	color: #191919;
+	background: #fff;
+	font-size: 12px;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	letter-spacing: .05em;
+	height: 30px !important;
+	border: none;
+	box-shadow: 0px !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.Menu-Section .nav-div .searchfield-div .search-field i {
+	margin: -23px 50px 0 0;
+	float: right;
+	color: #d00;
+	font-size: 15px;
+}
+
+.Menu-Section .nav-div .searchfield-div .search-field .dropdown {
+	margin: -54px 0 0 0;
+	float: right;
+}
+
+.Menu-Section .nav-div .searchfield-div-pre {
+	width: 280px;
+	height: 40px;
+	float: right;
+	z-index: 2;
+	position: relative;
+}
+
+.Menu-Section .nav-div .searchfield-div-pre .search-field-pre {
+	margin: 30px 0 23px 0;
+}
+
+.Menu-Section .nav-div .searchfield-div-pre .search-field-pre input {
+	width: 280px;
+	color: #101010;
+	background: #fff;
+	font-size: 1em;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	letter-spacing: .05em;
+	height: 30px !important;
+	border: none;
+	box-shadow: 0px !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.Menu-Section .nav-div .searchfield-div-pre .search-field-pre i {
+	margin: -23px 12px 0 0;
+	float: right;
+	color: #d00;
+	font-size: 15px;
+}
+
+.Menu-Section .nav-div .nav-section {
+	margin-top: 40px;
+	float: left;
+	width: 100%;
+	left: 0px;
+	z-index: 1;
+	position: absolute;
+}
+
+.Menu-Section .nav-div .nav-section .Myprofile-link {
+	display: none;
+}
+
+.Menu-Section .nav-div .mid-menu-links .md-logout {
+	display: none;
+}
+
+.Menu-Section .nav-div .right-menu-links {
+	float: right;
+	width: 280px;
+}
+
+.Menu-Section .nav-div .right-menu-links ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.Menu-Section .nav-div .right-menu-links ul li a {
+	color: #666;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.Menu-Section .nav-div .right-menu-links ul li :hover {
+	color: #d00;
+}
+
+.Menu-Section .footer-text {
+	display: none;
+}
+
+/*--Forgot Password-*/
+.modal-backdrop.in {
+	opacity: 0.9 !important;
+}
+
+.modal-dialog {
+	margin: 10% auto 0 auto !important;
+	width: 417px !important;
+	border: 1px solid #ddd !important;
+	background: #f5f5f5 !important;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	letter-spacing: .1em;
+}
+
+.modal-dialog .modal-content {
+	color: #333;
+	padding: 0px 0px 30px 0px;
+	text-align: left;
+}
+
+.modal-dialog .modal-content .close-icon {
+	text-align: right;
+	width: 100%;
+	padding: 8px 10px 10px 6px;
+}
+
+.modal-dialog .modal-content i {
+	cursor: pointer;
+	cursor: hand;
+	font-size: 20px;
+	color: #333 !important;
+}
+
+.modal-dialog .modal-content h4 {
+	color: #333;
+	font-size: 14px;
+	padding: 0 20px !important;
+}
+
+.modal-dialog .modal-content p {
+	font-size: 11px;
+	color: #333 !important;
+	padding: 0 22px !important;
+}
+
+.modal-dialog .modal-content .form-inline {
+	padding: 20px;
+}
+
+.modal-dialog .modal-content .form-inline .form-group {
+	float: left;
+}
+
+.modal-dialog .modal-content .form-inline #passwordemail {
+	width: 240px;
+}
+
+.modal-dialog .modal-content .form-inline input {
+	font-size: 10px;
+	height: 30px;
+	display: list-item;
+	color: #333;
+}
+
+.modal-dialog .modal-content .form-inline label,.modal-dialog .modal-content .form-inline .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .modal-dialog .modal-content .form-inline a,.modal-dialog .modal-content .form-inline .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .modal-dialog .modal-content .form-inline input
+	{
+	font-weight: normal !important;
+	font-size: 11px;
+}
+
+.modal-dialog .modal-content .btn-red {
+	padding: 0px 10px !important;
+	margin: 20px 0 0 0;
+	height: 40px;
+}
+
+.modal-dialog .signin-popup .signin-form {
+	padding: 10px 20px 20px 20px;
+}
+
+.modal-dialog .signin-popup .signin-form .form-group {
+	margin-right: 15px;
+	float: left;
+	width: 134px !important;
+	margin-bottom: 0px;
+}
+
+.modal-dialog .signin-popup .signin-form .form-group input {
+	height: 30px;
+}
+
+.modal-dialog .signin-popup .signin-form .btn-red {
+	margin: 20px 0 0 0px;
+}
+
+.modal-dialog .signin-popup .signin-form p {
+	color: #333;
+	font-size: 12px;
+	padding: 0px !important;
+}
+
+.modal-dialog .signin-popup .signin-form p a {
+	color: #333;
+	text-decoration: underline;
+}
+
+.modal-dialog .signin-popup input[type="checkbox"] {
+	margin: 0px 0 0 -20px !important;
+}
+
+.modal-dialog .popup-vin img {
+	margin: 10px 20px;
+	width: 360px;
+}
+
+.modal-dialog .popup-vin p {
+	font-family: "HelveticaNeue";
+	font-size: 12px;
+}
+
+.modal-dialog .popup-driver h4 {
+	margin-bottom: 10px !important;
+}
+
+.modal-dialog .popup-driver p {
+	font-size: 12px;
+}
+
+.modal-dialog .popup-driver ul {
+	margin: 20px 20px 0 32px !important;
+}
+
+.modal-dialog .popup-driver ul li {
+	font-size: 12px;
+	line-height: 17px;
+	text-align: left;
+}
+
+.modal-dialog .Located-popup {
+	text-align: center;
+	padding: 20px;
+}
+
+.modal-dialog .Located-popup h4 {
+	text-align: center;
+}
+
+.modal-dialog .Located-popup img {
+	margin: 30px auto;
+}
+
+.modal-dialog .Located-popup p {
+	padding-bottom: 20px !important;
+	text-align: left !important;
+}
+
+.modal-dialog .Located-popup .btn {
+	margin: 0px;
+	padding: 7px 25px !important;
+}
+
+.modal-dialog .mail-modal .mail-modalform {
+	padding: 15px 20px 0 20px !important;
+}
+
+.modal-dialog .mail-modal .mail-modalform input {
+	height: 30px;
+}
+
+.modal-dialog .mail-modal .mail-modalform .btn {
+	margin: 0px 10px 0 0;
+}
+
+.modal-dialog .mail-modal .mail-modalform .forgotvalidation {
+	color: #333 !important;
+	padding: 10px 0 0 0 !important;
+}
+
+.modal-dialog .Error-popup {
+	color: #333 !important;
+	padding: 20px 30px 20px 30px !important;
+}
+
+.modal-dialog .Error-popup h6 {
+	color: #d00;
+	font-size: 14px;
+	padding: 0px 0 10px 0 !important;
+}
+
+.modal-dialog .Error-popup p {
+	color: #333 !important;
+	padding: 0px 0 0 0 !important;
+	font-size: 12px;
+}
+
+.modal-dialog .Error-popup p .errMsg {
+	font-size: 13px !important;
+	font-weight: bold !important;
+	margin-bottom: 10px !important;
+}
+
+.modal-dialog .Error-popup .btn-red {
+	float: right;
+	padding: 0 20px !important;
+}
+
+.forg-modal .modal-content .forgotvalidation {
+	color: #333 !important;
+	padding: 10px 0 0 0px !important;
+	font-weight: bold;
+}
+
+.forg-modal .modal-content p a {
+	color: #333;
+	text-decoration: underline;
+}
+
+#error-sucess .modal-dialog {
+	border: 0px !important;
+}
+
+/*--Footer---*/
+.Footer-Div {
+	background: #191919;
+	height: 180px;
+	color: #999 !important;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-weight: bold !important;
+	letter-spacing: .2em !important;
+	text-decoration: none !important;
+	text-transform: uppercase !important;
+}
+
+.Footer-Div ul {
+	list-style-type: none !important;
+}
+
+.Footer-Div ul li {
+	float: left;
+	list-style-type: none !important;
+}
+
+.Footer-Div ul li a, .Footer-Div a {
+	color: #999 !important;
+	font-size: 10px !important;
+	text-decoration: none !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.Footer-Div a:hover {
+	color: #fff !important;
+	text-decoration: none !important;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.Footer-Div .contact-link {
+	text-align: right;
+}
+
+.Footer-Div .contact-link .footer-logo {
+	display: none;
+}
+
+/*--Login Page--*/
+.Login-Page .Slider-Img {
+	background: url("../images/background-image.jpg") no-repeat center
+		center;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 450px;
+	padding: 0px;
+}
+
+.Login-Page .Slider-Img h1 {
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	color: #fff;
+	padding: 25px 0 10px 0 !important;
+}
+
+.Login-Page .Slider-Img h3 {
+	font-size: 16px;
+	font-family: "InterstateRegular";
+	color: #999;
+	padding-bottom: 10px !important;
+}
+
+.Login-Page .Slider-Img p {
+	font-size: 14px;
+	font-family: "HelveticaNeue";
+	color: #fff;
+	max-width: 650px;
+	margin: auto !important;
+	line-height: 18px;
+}
+
+.Login-Page .Slider-Img .search-field1 {
+	display: none;
+}
+
+.Login-Page .Signup-Div {
+	background: #f5f5f5;
+	width: 100%;
+	color: #101010;
+	padding: 0px 0px !important;
+}
+
+.Login-Page .Signup-Div h2 {
+	font-size: 18px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	color: #101010;
+	text-align: center !important;
+	padding-bottom: 10px !important;
+}
+
+.Login-Page .Signup-Div p {
+	font-size: 12px;
+	font-family: "InterstateRegular";
+	color: #101010;
+	padding: 5px 0 !important;
+}
+
+.Login-Page .Signup-Div .right-border {
+	border-right: 0px solid #fff !important;
+}
+
+.Login-Page .Signup-Div .signup-section {
+	width: 500px;
+	float: right;
+	margin-right: 50px;
+}
+
+.Login-Page .Signup-Div .signup-section .register-links {
+	padding: 4px 0 12px 0;
+}
+
+.Login-Page .Signup-Div .signup-section .register-links ul li {
+	list-style-type: none;
+	text-align: left;
+	font-size: 12px;
+	font-family: "InterstateRegular";
+	color: #101010;
+	text-decoration: none;
+	padding-left: 35px !important;
+}
+
+.Login-Page .Signup-Div .signup-section .ser-off {
+	background: url("../images/serviceoffers_icon.png") no-repeat;
+	background-position: left center;
+	background-size: 30px;
+	line-height: 35px;
+}
+
+.Login-Page .Signup-Div .signup-section .ser-rem {
+	background: url("../images/servicereminders_icon.png") no-repeat;
+	background-position: left center;
+	background-size: 30px;
+	line-height: 35px;
+}
+
+.Login-Page .Signup-Div .signup-section .ser-his {
+	background: url("../images/servicehistory_icon.png") no-repeat;
+	background-position: left center;
+	background-size: 30px;
+	line-height: 35px;
+}
+
+.Login-Page .Signup-Div .signin-section {
+	width: 500px;
+	margin-left: 50px;
+}
+
+.Login-Page .Signup-Div .signin-section label,.Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section input
+	{
+	font-size: 12px;
+	font-family: "InterstateRegular";
+	color: #101010;
+	font-weight: normal !important;
+}
+
+.Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section input a
+	{
+	padding-left: 10px !important;
+}
+
+.Login-Page .Signup-Div .signin-section input {
+	height: 30px;
+}
+
+.Login-Page .Signup-Div .signin-section .btn {
+	margin: auto !important;
+}
+
+.Login-Page .Signup-Div .signin-section .email,.Login-Page .Signup-Div .signin-section .psw
+	{
+	float: left !important;
+}
+
+.Login-Page .Signup-Div .signin-section .form-control {
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.Login-Page .Signup-Div .signin-section input[type=checkbox] {
+	margin-top: 0px;
+	height: auto !important;
+}
+
+.Login-Page .Signup-Div .signin-section .loginform-div {
+	width: 500px;
+	margin: auto !important;
+	margin-top: 8px !important;
+}
+
+.Login-Page .Signup-Div .signin-section .loginform-div .email-div {
+	width: 240px;
+}
+
+.Login-Page .Signup-Div .signin-section .loginform-div .password-field {
+	float: right;
+	width: 240px;
+}
+
+.Login-Page .Signup-Div .signin-section .checkbox {
+	width: 500px;
+	padding-left: 21px !important;
+}
+
+.Login-Page .Signup-Div .signin-section .checkbox label,.Login-Page .Signup-Div .signin-section .checkbox label a,.Login-Page .Signup-Div .signin-section label .checkbox a,.Login-Page .Signup-Div .signin-section .checkbox input
+	{
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	padding-left: 5px !important;
+	font-size: 12px !important;
+	cursor: text;
+	color: #101010;
+	text-transform: uppercase;
+	text-decoration: none !important;
+}
+
+.Login-Page .Signup-Div .signin-section .checkbox label a,.Login-Page .Signup-Div .signin-section label .checkbox a a,.Login-Page .Signup-Div .signin-section .checkbox input a
+	{
+	cursor: pointer;
+}
+
+.Login-Page .Signup-Div .signin-section .checkbox input {
+	cursor: pointer;
+}
+
+.Login-Page .Products-Div {
+	background: #fff;
+	padding: 0px 0px 0px 0px;
+}
+
+.Login-Page .Products-Div a {
+	text-decoration: none;
+}
+
+.Login-Page .Products-Div a :hover {
+	opacity: 0.5;
+}
+
+.Login-Page .Products-Div img {
+	width: 100%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.Login-Page .Products-Div img:hover {
+	opacity: 0.6;
+}
+
+.Login-Page .Products-Div p {
+	color: #191919;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: ..5em;
+}
+
+.Login-Page .Products-Div .prod1 {
+	background: url("../images/videosdemos.png") no-repeat center center;
+	min-height: 214px;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Login-Page .Products-Div .prod1 p {
+	padding: 0 35px !important;
+}
+
+.Login-Page .Products-Div .prod2 {
+	background: url("../images/insidemazda.png") no-repeat center center;
+	min-height: 214px;
+	padding: 20px 15px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Login-Page .Products-Div .prod2 p {
+	padding: 0 35px !important;
+}
+
+.Login-Page .Products-Div .prod3 {
+	background: url("../images/recall.png") no-repeat center center;
+	min-height: 214px;
+	padding: 20px 15px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Login-Page .Products-Div .prod3 p {
+	padding: 0 30px !important;
+}
+
+.Login-Page .Products-Div .prod4 {
+	background: url("../images/mobileapp.png") no-repeat center center;
+	min-height: 500px;
+	padding: 20px 15px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Login-Page .Products-Div .prod4 p {
+	padding: 0 34px !important;
+	color: #fff;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: .1em;
+}
+
+.Login-Page .Products-Div .prod5 {
+	background: url("../images/accessories.png") no-repeat center center;
+	min-height: 500px;
+	padding: 20px 15px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Login-Page .Products-Div .prod5 p {
+	padding: 0 25px !important;
+	color: #fff;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: .1em;
+}
+
+.Login-Page .Products-Div .prod6 {
+	background: url("../images/marketplace.png") no-repeat center center;
+	min-height: 500px;
+	padding: 20px 15px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Login-Page .Products-Div .prod6 p {
+	padding: 0 83px !important;
+	color: #fff;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: .1em;
+}
+
+.Login-Page .Products-Div h5 {
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 5px !important;
+}
+
+.Login-Page .Products-Div .col-sm-6 {
+	margin-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.Login-Page .More-Mazda {
+	padding: 0px 0px;
+	background: #f5f5f5;
+	margin-bottom: 140px !important;
+}
+
+.Login-Page .More-Mazda img {
+	margin: auto;
+}
+
+.Login-Page .More-Mazda h2 {
+	font-size: 22px;
+	color: #101010;
+	font-family: "InterstateRegular";
+	padding-bottom: 30px !important;
+}
+
+.Login-Page .More-Mazda h3 {
+	font-size: 14px;
+	padding: 10px 0px 5px 0 !important;
+	color: #666;
+	font-family: "InterstateRegular";
+	word-wrap: break-word;
+}
+
+.Login-Page .More-Mazda span {
+	font-size: 12px;
+	padding-bottom: 0px !important;
+	color: #101010;
+	font-family: "HelveticaNeue";
+}
+
+.Login-Page .More-Mazda .col-xs-12 {
+	margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 1199px) {
+	.Products-Div .container {
+		width: 100%;
+	}
+	.More-Mazda .container {
+		width: 100%;
+	}
+	.Footer-Div .container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 935px) {
+	.Login-Page .Signup-Div .signup-section {
+		width: 360px !important;
+		float: right;
+		margin-right: 20px;
+	}
+	.Login-Page .Signup-Div .signin-section {
+		width: 350px;
+		margin-left: 20px;
+	}
+	.Login-Page .Signup-Div .signin-section .loginform-div {
+		width: 240px;
+		float: left;
+	}
+	.Login-Page .Signup-Div .signin-section .checkbox {
+		width: 360px;
+		float: left;
+	}
+	.Login-Page .Signup-Div {
+		padding-bottom: 20px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.Login-Page .Slider-Img {
+		margin-top: 0px !important;
+		min-height: 450px !important;
+		background: url("../images/backgroundimage_mobile.jpg") no-repeat center
+			-10px;
+		width: 100%;
+		height: auto;
+		padding: 0px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.Login-Page .Slider-Img p {
+		padding: 0 15px 130px 15px !important;
+	}
+	.Login-Page .Slider-Img .search-field1 {
+		display: block !important;
+		padding: 20px 0px 0px 0px !important;
+	}
+	.Login-Page .Signup-Div p {
+		font-size: 10px;
+	}
+	.Login-Page .Signup-Div .signup-section {
+		width: 100% !important;
+		padding-bottom: 0px;
+		margin: auto;
+	}
+	.Login-Page .Signup-Div .signup-section .btn-gray {
+		width: 100%;
+		margin: 0 !important;
+	}
+	.Login-Page .Signup-Div .signup-section .register-links {
+		width: 233px;
+		margin: auto;
+	}
+	.Login-Page .Signup-Div .signin-section {
+		width: 100%;
+		padding-bottom: 30px;
+		border-top: 1px solid #fff;
+		margin: auto;
+		float: none;
+	}
+	.Login-Page .Signup-Div .signin-section .form-group {
+		margin-bottom: 10px !important;
+	}
+	.Login-Page .Signup-Div .signin-section .form-group .form-control {
+		width: 100%;
+	}
+	.Login-Page .Signup-Div .signin-section input {
+		height: 40px;
+	}
+	.Login-Page .Signup-Div .signin-section .btn-gray {
+		width: 100%;
+	}
+	.Login-Page .Signup-Div .signin-section .loginform-div {
+		width: 100%;
+	}
+	.Login-Page .Signup-Div .signin-section .loginform-div .email-div {
+		width: 100%;
+	}
+	.Login-Page .Signup-Div .signin-section .loginform-div .password-field {
+		width: 100%;
+	}
+	.Login-Page .Signup-Div .signin-section .loginform-div .checkbox {
+		text-align: left !important;
+		width: 100%;
+		padding: 0 0 0 20px !important;
+	}
+	.Login-Page .Signup-Div .signin-section .loginform-div .checkbox a {
+		text-decoration: underline;
+	}
+	.Login-Page .Signup-Div .signin-section .checkbox {
+		padding-left: 20px !important;
+	}
+	.Login-Page .Signup-Div .register-links {
+		text-align: center;
+	}
+	.Login-Page .Signup-Div .right-border {
+		border-right: 0px !important;
+	}
+	.Login-Page .Products-Div {
+		padding: 0px;
+		background: #fff;
+	}
+	.Login-Page .Products-Div .container {
+		padding: 0px;
+	}
+	.Login-Page .Products-Div .col-xs-12 {
+		padding: 2px 0 0px 0 !important;
+		margin: 0px !important;
+	}
+	.Login-Page .Products-Div .col-xs-12 p {
+		padding: 0px !important;
+	}
+	.Login-Page .More-Mazda {
+		padding: 15px 0px;
+		margin-bottom: 230px !important;
+	}
+	.Login-Page .More-Mazda .col-xs-4 {
+		padding: 0px 15px;
+	}
+	.Login-Page .Products-Div .prod4 p {
+		padding: 0 !important;
+	}
+	.Login-Page .Products-Div .prod4 {
+		background: url("../images/mobileapp_mobile.png") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.Login-Page .Products-Div .prod5 {
+		background: url("../images/accessories_mobile.png") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.Login-Page .Products-Div .prod6 {
+		background: url("../images/marketplace_mobile.png") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.More-Mazda h3 {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1087px) {
+	.Login-Page .Slider-Img {
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.Login-Page .Slider-Img {
+		height: 700px;
+	}
+}
+/*--JoinMazda Page--*/
+.Register-Page {
+	padding: 80px 0px 100px 0px;
+	margin-bottom: 100px;
+	color: #333;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	background-position: top center;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 850px;
+}
+
+.Register-Page .search-field1 {
+	display: none;
+}
+
+.Register-Page h1 {
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 25px;
+	line-height: 32px;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+.Register-Page p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .1em;
+}
+
+.Register-Page label,.Register-Page .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .Register-Page a,.Register-Page .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .Register-Page input
+	{
+	font-size: 13px;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.Register-Page h4 {
+	font-size: 1.1em !important;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.Register-Page h4 p {
+	width: auto;
+	float: right;
+	padding: 0px !important;
+}
+
+.Register-Page ul {
+	border-bottom: 0px !important;
+}
+
+.Register-Page ul li {
+	width: 50%;
+	height: 39px;
+	font-size: 18px !important;
+	font-family: "InterstateBold",helvetica,arial,sans-serif !important;
+	letter-spacing: .2em !important;
+	color: #191919 !important;
+}
+
+.Register-Page ul li a {
+	height: 39px;
+	padding: 10px 8px !important;
+	background: none !important;
+	border-radius: 0px !important;
+	border-bottom: 3px solid #999 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif!important;
+	letter-spacing: .2em!important;
+	color: #666!important;
+	font-size: 18px!important;
+	text-align: center;
+	pointer-events: none;
+	cursor: default;
+}
+
+.Register-Page ul li a i {
+	display: none;
+}
+
+.Register-Page ul li :hover {
+	border: 1px solid #660000 !important;
+}
+
+.Register-Page ul .test-class {
+	background-color: rgba(51, 51, 51, 0.5);
+}
+
+.Register-Page ul .test-class span {
+	display: none;
+}
+
+.Register-Page ul .active {
+	background-color: inherit;
+}
+
+.Register-Page ul .active a {
+	color: #191919 !important;
+	border-bottom: 3px solid #d00 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	letter-spacing: .2em !important;
+	font-size: 18px !important;
+}
+
+.Register-Page ul .active a span {
+	display: block;
+	color: #191919 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	letter-spacing: .2em !important;
+	font-size: 18px !important;
+}
+
+.Register-Page ul li a span {
+	color: #666 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	letter-spacing: .2em !important;
+	font-size: 18px !important;
+}
+
+.Register-Page .bootstrap-select span {
+	color: #999;
+	font-family: "InterstateBold";
+}
+
+.Register-Page .nav-tab-div {
+	background-color: transparent;
+}
+
+.Register-Page .nav-tab-div #responsive-tab {
+	border: none !important;
+	border-width: 0px 1px 1px 1px !important;
+	padding: 30px 0px 20px 0px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .border-right {
+	background: url("../images/strip-divider.png") repeat-y;
+	background-position: right center;
+	padding-left: 10px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .form-control {
+	height: 30px;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .form-group {
+	margin-bottom: 20px !important;
+	padding: 0px 5px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .checkbox {
+	padding-left: 27px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .checkbox label,.Register-Page .nav-tab-div #responsive-tab .checkbox .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .Register-Page .nav-tab-div #responsive-tab .checkbox a,.Register-Page .nav-tab-div #responsive-tab .checkbox .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .Register-Page .nav-tab-div #responsive-tab .checkbox input
+	{
+	padding-left: 10px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .checkbox input[type="checkbox"]
+	{
+	margin-top: 0px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .btn-red {
+	margin-left: 5px !important;
+	margin-top: 139px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab .addadditional-number {
+	color: #999;
+	text-decoration: underline;
+	margin-left: 5px !important;
+	font-family: "HelveticaNeue";
+}
+
+.Register-Page .nav-tab-div #responsive-tab #how-to h4 {
+	padding-bottom: 15px !important;
+	padding-left: 5px !important;
+	font-size: 15px !important;
+	font-family: "InterstateBold",helvetica,arial,sans-serif !important;
+	letter-spacing: .2em !important;
+	color: #191919 !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #how-to .border-right h4 p {
+	display: none;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features h4 {
+	padding-bottom: 15px !important;
+	font-size: 15px !important;
+	font-family: "InterstateBold",helvetica,arial,sans-serif !important;
+	letter-spacing: .2em !important;
+	color: #191919 !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features a {
+	color: #999;
+	font-family: "HelveticaNeue";
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information {
+	min-height: 520px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information h4
+	{
+	padding: 0 0 15px 5px !important;
+	font-size: 15px !important;
+	font-family: "InterstateBold",helvetica,arial,sans-serif !important;
+	letter-spacing: .2em !important;
+	color: #191919 !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information h4 p { }
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information .v-align
+	{
+	padding-top: 26px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information .v-align span
+	{
+	color: #999;
+	font-family: "HelveticaNeue";
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information .v-align-p
+	{
+	padding: 6px 0 6px 5px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .v-information .v-align-p span
+	{
+	color: #999;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer h4 p
+	{
+	width: auto;
+	float: right;
+	padding: 0px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio
+	{
+	margin: 15px 0 10px 0 !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio input[type="radio"]
+	{
+	background: #333 !important;
+	color: #fff !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio label h6,.Login-Page .Signup-Div .signin-section label .Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio a h6,.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio .Login-Page .Signup-Div .signin-section input h6,.Login-Page .Signup-Div .signin-section .Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio input h6
+	{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold !important;
+	line-height: 25px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio label span,.Login-Page .Signup-Div .signin-section label .Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio a span,.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio .Login-Page .Signup-Div .signin-section input span,.Login-Page .Signup-Div .signin-section .Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .radio input span
+	{
+	color: #666;
+	font-weight: normal !important;
+	padding: 5px 0 0 0 !important;
+	font-family: "HelveticaNeue" !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer p
+	{
+	padding: 0px 0 0px 0 !important;
+	color: #999;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .btn
+	{
+	margin-top: 0px !important;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .btn-red
+	{
+	margin-right: 30px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .dealers-list
+	{
+	height: 312px;
+}
+
+.Register-Page .nav-tab-div #responsive-tab #features .preferred-dealer .dealers-list .adddealer-link
+	{
+	padding: 0px 0 10px 0 !important;
+}
+
+.Register-Page .nav-tab-div .contact-inf h4 p {
+	display: none !important;
+}
+
+@media screen and (max-width: 1199px) {
+	.Register-Page .container {
+		width: 100%;
+	}
+	.Register-Page .panel-group .panel+.panel {
+		margin: 1px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.Register-Page .nav-tab-div #responsive-tab {
+		padding: 30px 0px 20px !important;
+	}
+	.Register-Page .nav-tab-div #responsive-tab .form-control {
+		font-size: 9px !important;
+	}
+	.Register-Page .nav-tab-div #responsive-tab .select-style {
+		font-size: 9px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.Register-Page {
+		padding: 30px 0px 170px 0px;
+		margin-top: 0px;
+		margin-bottom: 200px;
+	}
+	.Register-Page .addadditional-number {
+		margin-left: 0px !important;
+		float: right;
+		color: #fff !important;
+	}
+	.Register-Page .search-field1 {
+		display: block;
+	}
+	.Register-Page .container {
+		padding: 0px;
+	}
+	.Register-Page h1 {
+		margin-top: 20px !important;
+		text-align: center !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.Register-Page .Reg-head {
+		padding: 0 15px !important;
+	}
+	.Register-Page p {
+		color: #333;
+		padding: 10px 0 30px !important;
+		text-align: right !important;
+	}
+	.Register-Page h4 {
+		margin-bottom: 20px !important;
+		color: #191919;
+		font-size: 15px !important;
+	}
+	.Register-Page .nav-tab-div {
+		background: none;
+	}
+	.Register-Page .nav-tab-div .form-control {
+		height: 40px;
+		font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+		font-size: 13px !important;
+		color: #191919 !important;
+		letter-spacing: .1em;
+	}
+	.Register-Page .nav-tab-div .panel-heading {
+		background: #d6d6d6 !important;
+		border-radius: 0px;
+		padding: 12px 15px 8px 15px !important;
+	}
+	.Register-Page .nav-tab-div .panel-heading h4 a,.Register-Page .nav-tab-div .panel-heading h4 a span
+		{
+		color: #666 !important;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		letter-spacing: .2em;
+		width: 100%;
+		pointer-events: none;
+		cursor: default;
+	}
+	.Register-Page .nav-tab-div .panel-heading h4 a i,.Register-Page .nav-tab-div .panel-heading h4 a span i
+		{
+		float: right !important;
+		display: block;
+	}
+	.Register-Page .nav-tab-div .panel {
+		background: none !important;
+		border: 0px !important;
+	}
+	.Register-Page .nav-tab-div .panel .panel-title a {
+		color: #fff;
+	}
+	.Register-Page .nav-tab-div .panel .form-group {
+		margin: 10px 0 10px 0 !important;
+		padding-left: 0 !important;
+	}
+	.Register-Page .nav-tab-div .panel .panel-body {
+		padding: 15px 0px !important;
+	}
+	.Register-Page .nav-tab-div .border-right .form-group {
+		padding: 0px;
+		margin-bottom: 10px !important;
+	}
+	.Register-Page .nav-tab-div .border-right h4 {
+		padding: 0 0 20px 0 !important;
+		font-size: 14px !important;
+	}
+	.Register-Page .nav-tab-div .border-right .v-align {
+		float: right;
+		padding: 0px 0 10px 0;
+	}
+	.Register-Page .nav-tab-div .border-right .v-align a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	.Register-Page .nav-tab-div .contact-inf h4 p {
+		display: block !important;
+	}
+	.Register-Page .nav-tab-div .account-inf {
+		padding-top: 15px;
+	}
+	.Register-Page .nav-tab-div .account-inf .checkbox {
+		padding-left: 25px;
+	}
+	.Register-Page .nav-tab-div .account-inf .btn {
+		width: 100%;
+	}
+	.Register-Page .nav-tab-div .account-inf h4 {
+		padding: 0 !important;
+		font-size: 15px !important;
+		color: #191919;
+	}
+	.Register-Page .nav-tab-div .account-inf h4 p {
+		display: none !important;
+	}
+	.Register-Page .nav-tab-div .account-inf .form-group {
+		padding: 0px;
+		margin-bottom: 10px !important;
+	}
+	.Register-Page .nav-tab-div #features-collapse .v-align-p {
+		display: none;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer h4 {
+		font-size: 14px !important;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer h4 p {
+		display: none;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer p {
+		text-align: left !important;
+		padding: 10px 0 0 0 !important;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer p a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer .btn {
+		width: 100% !important;
+		margin-top: 20px;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer .dealers-list {
+		margin-top: 10px;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio {
+		margin: 15px 0 10px 0 !important;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio label,.Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio a,.Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio input
+		{
+		color: #333;
+		font-size: 12px;
+		font-weight: bold !important;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio label span,.Login-Page .Signup-Div .signin-section label .Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio a span,.Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio .Login-Page .Signup-Div .signin-section input span,.Login-Page .Signup-Div .signin-section .Register-Page .nav-tab-div .preferred-dealer .dealers-list .radio input span
+		{
+		color: #666;
+		font-weight: normal !important;
+	}
+	.Register-Page .nav-tab-div .preferred-dealer .dealers-list .adddealer-link
+		{
+		padding: 0px 0 10px 0 !important;
+	}
+	#myTab-accordion {
+		margin-bottom: 0px !important;
+	}
+}
+/*--Postlogin Page--*/
+.LocateDealer {
+	padding: 80px 0px 30px 0px;
+	margin-bottom: 100px;
+	color: #fff;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.LocateDealer h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.LocateDealer .hed1 {
+	padding-bottom: 20px !important;
+}
+
+.LocateDealer .hed2 {
+	display: none;
+}
+
+.LocateDealer p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.LocateDealer .search-field1 {
+	display: block;
+	width: 280px;
+}
+
+.LocateDealer .LocateDealer-radio {
+	background-color: #f5f5f5;
+	border: none;
+	padding: 10px 30px 30px 0;
+	margin-bottom: 30px !important;
+}
+
+.LocateDealer .LocateDealer-radio .radio {
+	padding: 20px 0 20px 20px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.LocateDealer .LocateDealer-radio .radio label,.LocateDealer .LocateDealer-radio .radio .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .LocateDealer .LocateDealer-radio .radio a,.LocateDealer .LocateDealer-radio .radio .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .LocateDealer .LocateDealer-radio .radio input
+	{
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+	cursor: default !important;
+}
+
+.LocateDealer .LocateDealer-radio .radio label a,.Login-Page .Signup-Div .signin-section label .LocateDealer .LocateDealer-radio .radio a a,.LocateDealer .LocateDealer-radio .radio .Login-Page .Signup-Div .signin-section input a,.Login-Page .Signup-Div .signin-section .LocateDealer .LocateDealer-radio .radio input a
+	{
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 12px !important;
+	font-weight: bold;
+	letter-spacing: .1em;
+	line-height: 20px;
+	margin-left: 20px !important;
+}
+
+.LocateDealer .LocateDealer-radio .radio label .mazda-link,.Login-Page .Signup-Div .signin-section label .LocateDealer .LocateDealer-radio .radio a .mazda-link,.LocateDealer .LocateDealer-radio .radio .Login-Page .Signup-Div .signin-section input .mazda-link,.Login-Page .Signup-Div .signin-section .LocateDealer .LocateDealer-radio .radio input .mazda-link
+	{
+	color: #999;
+	font-size: 12px;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	margin-left: 0px !important;
+	display: block;
+	margin-bottom: 5px !important;
+}
+
+.LocateDealer .LocateDealer-radio .radio label p,.Login-Page .Signup-Div .signin-section label .LocateDealer .LocateDealer-radio .radio a p,.LocateDealer .LocateDealer-radio .radio .Login-Page .Signup-Div .signin-section input p,.Login-Page .Signup-Div .signin-section .LocateDealer .LocateDealer-radio .radio input p
+	{
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px !important;
+	letter-spacing: .2em;
+	line-height: 20px;
+	padding: 5px 0 !important;
+}
+
+.LocateDealer .LocateDealer-radio .radio:nth-last-child(-n+2) {
+	border-bottom: 0px;
+}
+
+.LocateDealer .ld-buttons {
+	text-align: right;
+}
+
+.LocateDealer .ld-buttons .btn {
+	margin: 20px 0 0 20px !important;
+}
+
+.LocateDealer .ld-buttons .radio+.radio {
+	margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+	.LocateDealer {
+		background: #f5f5f5 !important;
+		padding: 30px 0px 30px 0px;
+		margin-bottom: 250px;
+	}
+	.LocateDealer h1 {
+		text-align: center;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.LocateDealer .hed1 {
+		display: none;
+	}
+	.LocateDealer .hed2 {
+		display: block;
+		padding-top: 20px !important;
+		font-size: 24px;
+	}
+	.LocateDealer .container {
+		padding: 0px 15px;
+		margin-bottom: 30px
+	}
+	.LocateDealer .search-field1 {
+		display: block !important;
+		width: 100%;
+	}
+	.LocateDealer .LocateDealer-radio {
+		border: 0px;
+		background: none;
+		padding: 10px 0px 0px 10px;
+		margin: 0px !important;
+	}
+	.LocateDealer .ld-buttons .btn {
+		width: 100%;
+		margin: 0px 0 20px 0px !important;
+	}
+}
+/*--Locatedealer Page--*/
+.PostLogin-Message-Block {
+	padding: 5px;
+	margin-bottom: 15px;
+	vertical-align: middle;
+	background-color: transparent;
+	color: #d00;
+	font: 12px normal Verdana, Geneva, sans-serif;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.PostLogin-Message-Border {
+	border: 3px solid #101010;
+	-webkit-border-radius: 7px !important;
+	-moz-border-radius: 7px !important;
+	-ms-border-radius: 7px !important;
+	border-radius: 7px !important;
+}
+
+.Email-Diasbled-Message {
+	vertical-align: middle;
+	background-color: transparent;
+	color: #d00;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 16px;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.PostLogin-Page .PostLogin-Links {
+	background: #f5f5f5;
+	padding: 40px 0 50px 0;
+}
+
+.PostLogin-Page {
+	background: #101010;
+}
+
+.PostLogin-Page .search-field1 {
+	display: none;
+}
+
+.PostLogin-Page .PostLogin-Header {
+	padding: 15px 0px 30px 0px;
+	color: #fff;
+	/* background: #fff url("../images/homepage-bg.png") no-repeat center;
+	background-size: 1170px auto !important;  */
+	background-color: #101010;
+	width: 100%;
+	height: 600px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.PostLogin-Page .PostLogin-Header .container {
+	height: 100%;
+	background: transparent;
+	/* For browsers that do not support gradients */
+	/* background: -webkit-linear-gradient(transparent, black); */
+	/* For Safari 5.1 to 6.0 */
+	/* background: -o-linear-gradient(transparent, black); */
+	/* For Opera 11.1 to 12.0 */
+	/* background: -moz-linear-gradient(transparent, black); */
+	/* For Firefox 3.6 to 15 */
+	/* background: linear-gradient(transparent, black); */
+	/* Standard syntax (must be last) */
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div {
+	height: 330px;
+	margin-top: 5px;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading {
+	padding: 0 20px 0 20px;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading h1
+	{
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	float: left;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading h4
+	{
+	font-size: 14px;
+	color: #fff;
+	font-family: "InterstateBold";
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .btn
+	{
+	float: right;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .row
+	{
+	margin-top: 15px;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .row p
+	{
+	font-family: "HelveticaNeue";
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px !important;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .evi-btn1
+	{
+	display: none;
+}
+
+.PostLogin-Page .PostLogin-Header .Car-Div img {
+	margin: auto;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div {
+	padding: 20px 20px 20px 0;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div h3 {
+	font-family: "InterstateBold" !important;
+	font-size: 14px;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div h4 {
+	font-family: "InterstateBold";
+	font-size: 14px;
+	padding: 15px 0 5px 0 !important;
+	color: #d00;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div h4 a {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div p {
+	font-family: "HelveticaNeue";
+	font-size: 12px;
+	color: #fff;
+	padding-bottom: 10px !important;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div p a {
+	color: #fff;
+	font-family: "HelveticaNeue";
+	font-size: 11px;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div p :hover {
+	text-decoration: none;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div p u {
+	text-decoration: none;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div p span {
+	font-family: "HelveticaNeue";
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer {
+	background: none;
+	background-position: bottom center;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer .Dealer-info
+	{
+	height: 125px;
+}
+
+.PostLogin-Page .PostLogin-Header .Service-Coupons {
+	padding: 20px;
+}
+
+.PostLogin-Page .PostLogin-Header .Service-Coupons p {
+	font-family: "HelveticaNeue";
+	font-size: 12px;
+	color: #d6d6d6;
+	padding: 5px 0 !important;
+}
+
+.PostLogin-Page .PostLogin-Header .Service-Coupons .sc-img2 {
+	margin-bottom: 15px;
+}
+
+.PostLogin-Page .PostLogin-Header .Service-Coupons .sc-img1,.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Coupons .sc-img
+	{
+	display: none;
+}
+
+.PostLogin-Page .PostLogin-Header .Ser-Div .padding-l {
+	padding-left: 0px;
+}
+
+.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box {
+	background-color: rgba(38, 38, 38, 0.8);
+	padding: 15px;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-ms-border-radius: 4px !important;
+	border-radius: 4px !important;
+	margin-top: 14px;
+}
+
+.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box h3 {
+	font-family: "InterstateBold" !important;
+	font-size: 14px;
+	padding: 0px 0 10px 0 !important;
+	color: #d00;
+}
+
+.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box p {
+	font-family: "HelveticaNeue";
+	font-size: 12px;
+	color: #fff;
+	line-height: 19px;
+}
+
+.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box p a {
+	font-family: "HelveticaNeue";
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.PostLogin-Page .Vehicle-Videos {
+	background-color: #fff;
+	padding: 0;
+}
+
+.PostLogin-Page .Vehicle-Videos h2 {
+	font-size: 18px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	color: #666;
+	margin-bottom: 20px !important;
+}
+
+.PostLogin-Page .Vehicle-Videos .Video-Box img {
+	width: 100%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.PostLogin-Page .Vehicle-Videos .Video-Box img:hover {
+	opacity: 0.6;
+}
+
+.PostLogin-Page .Vehicle-Videos .Video-Txt a:hover {
+	text-decoration: none;
+}
+
+.PostLogin-Page .Vehicle-Videos .Video-Txt h3 {
+	font-size: 14px;
+	color: #666;
+	font-family: "InterstateBold" !important;
+	padding: 20px 0 10px 0 !important;
+}
+
+.PostLogin-Page .Vehicle-Videos .Video-Txt p {
+	font-size: 14px;
+	color: #999;
+	font-family: "HelveticaNeue";
+}
+
+.PostLogin-Page .More-Mazda {
+	padding: 0px 0px;
+	background: #f5f5f5;
+	margin-bottom: 140px !important;
+}
+
+.PostLogin-Page .More-Mazda img {
+	margin: auto;
+}
+
+.PostLogin-Page .More-Mazda h2 {
+	font-size: 22px;
+	color: #101010;
+	font-family: "InterstateRegular";
+	padding-bottom: 30px !important;
+}
+
+.PostLogin-Page .More-Mazda h3 {
+	font-size: 14px;
+	padding: 10px 0px 5px 0 !important;
+	color: #666;
+	font-family: "InterstateRegular";
+	word-wrap: break-word;
+}
+
+.PostLogin-Page .More-Mazda span {
+	font-size: 12px;
+	padding-bottom: 0px !important;
+	color: #101010;
+	font-family: "HelveticaNeue";
+}
+
+.PostLogin-Page .More-Mazda .col-xs-12 {
+	margin: 0 0 30px 0;
+}
+
+/*---common--*/
+.Menu2 {
+	background-color: #fff;
+	margin-top: -1px;
+	max-height: 61px !important;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+.Menu2 .sub-menu2 {
+	border: 0px;
+	border-radius: 0px;
+	background: none;
+	min-height: 0px !important;
+	margin: 0px;
+}
+
+.Menu2 .sub-menu2 .navbar-header {
+	padding: 22px 0 20px 0px;
+	min-width: 30px;
+}
+
+.Menu2 .sub-menu2 .navbar-header a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.Menu2 .sub-menu2 .navbar-header .summary {
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	font-family: "MazdaRegular" !important;
+	font-size: 15px;
+	letter-spacing: .2em;
+	cursor: pointer !important;
+}
+
+.Menu2 .sub-menu2 .navbar-collapse {
+	padding: 0px;
+}
+
+.Menu2 .sub-menu2 #bs-example-navbar-collapse-1 {
+	border: 0px;
+}
+
+.Menu2 .sub-menu2 ul {
+	float: right;
+	z-index: 0;
+	margin-right: -10px !important;
+}
+
+.Menu2 .sub-menu2 ul li a {
+	color: #999;
+	padding: 20px 12px 20px 0 !important;
+	text-transform: uppercase;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	letter-spacing: .1em;
+	position: relative;
+	text-align: right;
+	/* border-left: 1px solid #d5d5d5 !important; */
+}
+
+.Menu2 .sub-menu2 ul li a:hover {
+	color: #101010;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.Menu2-no-divider {
+	font-size: 16px !important;
+}
+
+.Menu2-divider {
+	border-left: 1px solid #d5d5d5 !important;
+	margin-right: 13px !important;
+	font-size: 16px !important;
+}
+
+.Menu2-active {
+	color: #101010 !important
+}
+
+@media screen and (max-width: 1199px) {
+	.PostLogin-Page .container {
+		width: 100%;
+	}
+	.Menu2 .container {
+		width: 100%;
+	}
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 12px !important;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Coupons .sc-img1,.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Coupons .sc-img2
+		{
+		display: none;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Coupons .sc-img {
+		display: block;
+		margin-bottom: 10px;
+	}
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 11px !important;
+	}
+}
+
+@media screen and (max-width: 968px) {
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading h1
+		{
+		font-size: 25px;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .btn
+		{
+		font-size: 13px !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div {
+		padding: 15px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer h3 {
+		font-size: 11px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer h4 {
+		font-size: 11px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer h4 a {
+		font-size: 10px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer .btn {
+		font-size: 12px !important;
+	}
+	.Menu2 .sub-menu2 .navbar-header {
+		padding: 20px 0 20px 0px;
+	}
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 10px !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.PostLogin-Page .container {
+		width: auto;
+	}
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 9.5px !important;
+	}
+}
+@media screen and (max-width: 850px) {
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 9px !important;
+	}
+}
+@media screen and (max-width: 800px) {
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 8px !important;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.PostLogin-Page {
+		background: #f5f5f5;
+	}
+	.Menu2 {
+		border-bottom: none;
+	}
+	.Menu2-no-divider {
+		display: none !important;
+	}
+	.Menu2-divider {
+		display: none !important;
+	}
+	.Menu2-active {
+		color: #999 !important
+	}
+	.PostLogin-Page .container {
+		margin-bottom: 0px;
+	}
+	.PostLogin-Page .More-Mazda {
+		margin-bottom: 150px !important;
+	}
+	.PostLogin-Page .More-Mazda .more-mazda-div {
+		padding-bottom: 90px !important;
+	}
+	.PostLogin-Page .PostLogin-Links {
+		padding: 40px 0 0 0;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div {
+		margin-top: 30px;
+	}
+	.PostLogin-Page .search-field1 {
+		display: block !important;
+		padding: 20px 0 !important;
+	}
+	.PostLogin-Page .PostLogin-Header {
+		padding: 40px 0 0px 0;
+		background-position: top center;
+		background-size: 100%;
+		min-height: 1100px;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div img {
+		max-height: 200px;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .col-xs-12 {
+		padding: 0px;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading {
+		width: 100%;
+		text-align: center;
+		padding: 20px 0 0 0;
+		background: none !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading p
+		{
+		text-align: left;
+		color: #fff;
+		padding: 0 15px !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .evi-btn
+		{
+		display: none;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading .evi-btn1
+		{
+		display: block;
+		width: 100%;
+		margin: 20px 0 !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Car-Div .user-created .Car-Heading h4
+		{
+		text-align: left;
+		padding: 0 0 5px 15px !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div {
+		border: 0px;
+		padding: 0px;
+		background: none;
+		height: auto;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer {
+		background: none;
+		-webkit-border-radius: 4px !important;
+		-moz-border-radius: 4px !important;
+		-ms-border-radius: 4px !important;
+		border-radius: 4px !important;
+		padding: 0;
+		margin: 15px 0 15px 0;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer h3 {
+		text-align: center;
+		color: #666;
+		font-size: 14px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer h4 {
+		font-size: 12px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer h4 a {
+		font-size: 12px;
+		color: #999 !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer p {
+		padding-bottom: 8px;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer p a {
+		font-family: "HelveticaNeue";
+		color: #999 !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer p .phone-link
+		{
+		line-height: 29px;
+		text-decoration: underline;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer p span {
+		font-family: "HelveticaNeue";
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer .Dealer-info
+		{
+		height: auto;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Dealer .Dealer-info span
+		{
+		color: #999;
+	}
+	.PostLogin-Page .PostLogin-Header .Service-Coupons {
+		padding: 0;
+		background: none;
+		margin: 15px 0 15px 0;
+	}
+	.PostLogin-Page .PostLogin-Header .Service-Coupons .sc-img,.PostLogin-Page .PostLogin-Header .Psd-Div .Service-Coupons .sc-img2
+		{
+		display: none;
+	}
+	.PostLogin-Page .PostLogin-Header .Service-Coupons .sc-img1 {
+		display: block;
+		margin: 10px auto;
+		height: auto !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div h3 {
+		color: #fff;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div p {
+		color: #fff !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div p a {
+		color: #fff !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .btn {
+		width: 100%;
+	}
+	.PostLogin-Page .PostLogin-Header .Psd-Div .br-bottom {
+		display: none;
+	}
+	.PostLogin-Page .PostLogin-Header .Ser-Div .padding-l {
+		padding: 0px !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box {
+		-webkit-border-radius: 4px !important;
+		-moz-border-radius: 4px !important;
+		-ms-border-radius: 4px !important;
+		border-radius: 4px !important;
+		background: #eee;
+		text-align: center;
+		margin: 0 0 14px 0;
+		padding: 10px;
+	}
+	.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box p {
+		color: #666 !important;
+		line-height: 20px !important;
+	}
+	.PostLogin-Page .PostLogin-Header .Ser-Div .Ser-box p a {
+		color: #666 !important;
+	}
+	.PostLogin-Page .Vehicle-Videos {
+		background: #fff;
+		padding: 0;
+	}
+	.PostLogin-Page .Vehicle-Videos h2 {
+		text-align: center;
+	}
+	.PostLogin-Page .Vehicle-Videos .Video-Txt {
+		margin: 10px 0 20px 0;
+		background: #fff;
+	}
+	.PostLogin-Page .Vehicle-Videos .Video-Txt a:hover {
+		text-decoration: none;
+	}
+	.PostLogin-Page .Vehicle-Videos .Video-Txt h3 {
+		padding: 0px 0 10px !important;
+	}
+	.PostLogin-Page .Vehicle-Videos .Video-Txt p {
+		font-size: 11px;
+	}
+	.Menu2 .container {
+		padding: 0px;
+	}
+	.Menu2 .sub-menu2 .navbar-header {
+		background: #282828;
+		width: 100%;
+		text-align: center;
+		padding: 10px 15px 10px 20px;
+		margin: 0px !important;
+		border: none !important;
+	}
+	.Menu2 .sub-menu2 .navbar-header a {
+		text-decoration: none;
+		color: #fff !important;
+		font-size: 18px;
+		padding-left: 0px !important;
+		line-height: 24px;
+	}
+	.Menu2 .sub-menu2 .navbar-header button {
+		background: none;
+		padding: 0 0px 0px 0;
+		margin: 0px;
+		border: 0px;
+		float: right;
+	}
+	.Menu2 .sub-menu2 .navbar-header button i {
+		font-size: 25px;
+		color: #fff;
+	}
+	.Menu2 .sub-menu2 #bs-example-navbar-collapse-1 {
+		background: #282828;
+	}
+	.Menu2 .sub-menu2 .navbar-collapse {
+		padding: 0px;
+		margin: 0px !important;
+	}
+	.Menu2 .sub-menu2 ul {
+		width: 100%;
+		margin: 0px !important;
+	}
+	.Menu2 .sub-menu2 ul li {
+		border-top: 1px solid #333;
+		text-align: center;
+	}
+	.Menu2 .sub-menu2 ul li a {
+		font-size: 1em !important;
+		color: #999;
+	}
+}
+/*--Recall Info Page--*/
+.Recallinfo-page {
+	padding: 0px 0px 30px 0px;
+	color: #fff;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.Recallinfo-page h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 40px 0 30px 0 !important;
+}
+
+.Recallinfo-page p {
+	color: #191919;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: .1em;
+	line-height: 20px;
+}
+
+.Recallinfo-page .search-field1 {
+	display: none;
+}
+
+.Recallinfo-page .Car-Box {
+	background: #fff;
+	padding: 30px 60px !important;
+	margin-bottom: 30px !important;
+	color: #666;
+}
+
+.Recallinfo-page .Car-Box .Car-Img h2 {
+	font-size: 18px;
+	color: #333;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 0px 0 20px 0 !important;
+}
+
+.Recallinfo-page .Car-Box .Car-Img img {
+	margin: auto;
+}
+
+.Recallinfo-page .Car-Box h3 {
+	font-size: 14px !important;
+	color: #d00 !important;
+	font-family: "InterstateRegular";
+	padding-top: 20px !important;
+}
+
+.Recallinfo-page .Car-Box .CarData-Row {
+	color: #666;
+	font-size: 14px;
+	border-bottom: 1px solid #999;
+	padding: 15px 0 8px 0;
+}
+
+.Recallinfo-page .Car-Box .CarData-Row table tr td {
+	text-transform: uppercase;
+	font-family: "InterstateLight";
+	padding-bottom: 7px;
+	vertical-align: top;
+}
+
+.Recallinfo-page .Car-Box .CarData-Row table tr .bold-txt {
+	font-family: "InterstateBold";
+	width: 115px;
+}
+
+.Recallinfo-page .Car-Box .CarData-Row table tr .bold-txt span {
+	float: right;
+}
+
+.Recallinfo-page .Car-Box .CarData-Row h3 {
+	font-size: 14px;
+}
+
+.Recallinfo-page .Car-Box .CarData-Row:nth-last-child(1) {
+	border-bottom: 0px !important;
+}
+
+@media screen and (max-width: 767px) {
+	.Recallinfo-page {
+		padding: 0px !important;
+		margin-bottom: 50px;
+	}
+	.Recallinfo-page h1 {
+		text-align: center;
+		padding: 20px 20px !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.Recallinfo-page .container {
+		padding: 0px;
+	}
+	.Recallinfo-page p {
+		padding: 20px 15px !important;
+	}
+	.Recallinfo-page .search-field1 {
+		display: block !important;
+		width: 100%;
+		padding: 20px 15px !important;
+	}
+	.Recallinfo-page .Car-Box {
+		padding: 20px 20px !important;
+		margin: 0 15px !important;
+	}
+	.Recallinfo-page .Car-Box .Car-Data {
+		padding: 0 15px;
+	}
+}
+/*--Vehicle Demo--*/
+.VehicleDemo-page {
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 100px;
+	color: #fff;
+	background: #f5f5f5;
+	min-height: 850px;
+}
+
+.VehicleDemo-page #modelPDF a {
+	color: #d6d6d6;
+	text-decoration: none;
+	margin-left: 10px !important;
+}
+
+.VehicleDemo-page .search-field1 {
+	display: none;
+}
+
+.VehicleDemo-page #videoContent .video-div:nth-child(2n+1) {
+	clear: both;
+}
+
+.VehicleDemo-page #videoContent .col-sm-6 {
+	padding-right: 0px;
+}
+
+.VehicleDemo-page .VideoDemo-header {
+	padding-bottom: 30px !important;
+	padding-top: 40px;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.VehicleDemo-page .VideoDemo-header .select-style select {
+	text-transform: uppercase;
+}
+
+.VehicleDemo-page .VideoDemo-header h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.VehicleDemo-page .VideoDemo-header p {
+	padding: 20px 0 30px 0 !important;
+	color: #191919;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .1em;
+}
+
+.VehicleDemo-page .VideoDemo-header .form-inline {
+	margin-bottom: 20px !important;
+}
+
+.VehicleDemo-page .VideoDemo-header .btn-default {
+	margin-top: 20px !important;
+}
+
+.VehicleDemo-page .VideoDemo-header .year {
+	width: 150px !important;
+}
+
+.VehicleDemo-page .VideoDemo-header .form-group {
+	padding-left: 0px !important;
+}
+
+.VehicleDemo-page .VideoDemo-header .form-group label,.VehicleDemo-page .VideoDemo-header .form-group .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .VehicleDemo-page .VideoDemo-header .form-group a,.VehicleDemo-page .VideoDemo-header .form-group .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .VehicleDemo-page .VideoDemo-header .form-group input
+	{
+	font-size: 13px !important;
+    color: #666;
+    font-family: "InterstateBold", helvetica, arial, sans-serif;
+    letter-spacing: .2em;
+}
+
+.VehicleDemo-page .VideoDemo-header .select-trim {
+	width: 130px !important;
+	margin-right: 15px;
+}
+
+.VehicleDemo-page .VideoDemo-header .select-model {
+	width: 295px !important;
+	margin-right: 15px;
+}
+
+.VehicleDemo-page .VideoDemo-header .submit-btn,.VehicleDemo-page .VideoDemo-header .submit-btn1
+	{
+	float: left;
+	width: 100px;
+}
+
+.VehicleDemo-page .form-control {
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.VehicleDemo-page .Select-video {
+	background: #f5f5f5 !important;
+	padding: 30px 0px !important;
+}
+
+.VehicleDemo-page .Select-video .select-v-w {
+	width: 70%;
+}
+
+.VehicleDemo-page .Select-video .Select-result .search-field i {
+	margin: -25px 12px 0 0;
+	float: right;
+	color: #d00;
+}
+
+.VehicleDemo-page .Select-video .Select-result .search-field input {
+	background: #f3f3f3;
+	font-size: 11px;
+	font: "InterstateRegular";
+}
+
+.VehicleDemo-page .Select-video .Select-result .video-div h2 {
+	font-size: 18px;
+	color: #666;
+	padding: 0px 0 20px 0 !important;
+	font-weight: bold;
+}
+
+.VehicleDemo-page .Select-video .Select-result .video-div p {
+	padding: 10px 0 !important;
+}
+
+.VehicleDemo-page .Select-video .Select-result .video-div .video-div-box
+	{
+	padding: 0px 0px 25px 0px !important;
+}
+
+.VehicleDemo-page .Select-video .Select-result .video-div .video-div-box h3
+	{
+	font-size: 14px;
+	color: #666;
+	padding: 0px !important;
+	margin-top: 10px !important;
+}
+
+.VehicleDemo-page .Select-video .Select-result .video-div .No-Videostext
+	{
+	color: #d00;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: .1em;
+	padding: 30px 0 30px 0 !important;
+}
+
+.VehicleDemo-page .Select-video .Select-result ul {
+	padding: 20px 0 0 0 !important;
+}
+
+.VehicleDemo-page .Select-video .Select-result ul li {
+	list-style-type: none;
+	line-height: 30px;
+}
+
+.VehicleDemo-page .Select-video .Select-result ul li a {
+	color: #666;
+	text-decoration: none;
+}
+
+.VehicleDemo-page .Select-video .Select-result #searchDiv {
+	border-bottom: 0px solid #999;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .panel {
+	background: none !important;
+	-webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+	margin: 20px 0 0 0 !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .panel .list-group-item {
+	background: none !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .panel .list-group-item:focus
+	{
+	color: #d00;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .panel a.list-group-item-success
+	{
+	background: none !important;
+	color: #666;
+	font-size: 12px !important;
+	padding: 6px 0 !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .second-level {
+	padding-left: 10px !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .second-level a {
+	color: #666;
+	font-size: 14px !important;
+	padding: 4px 0 !important;
+	text-decoration: none !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .second-level .list-group-submenu
+	{
+	padding-left: 10px !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .second-level .list-group-submenu a
+	{
+	text-decoration: none !important;
+}
+
+.VehicleDemo-page .Select-video .vertical-menu .second-level .list-group-submenu a i
+	{
+	margin-right: 5px;
+}
+
+.VehicleDemo-page .Select-video .search-links a .fa-play-circle-o {
+	float: left !important;
+	height: 30px;
+}
+
+.VehicleDemo-page .Select-video .search-links a div {
+	float: center;
+	height: 15px;
+	padding-left: 15px;
+}
+
+.VehicleDemo-page .Select-video .search-links a span {
+	float: center;
+	height: 15px;
+	padding-left: 15px;
+	color: #868383;
+	font-size: 10px;
+}
+
+.VehicleDemo-page .Select-video .search-links :focus,.VehicleDemo-page .Select-video .search-links :focus span
+	{
+	color: #d00 !important;
+}
+
+@media screen and (max-width: 991px) {
+	.VehicleDemo-page .VideoDemo-header {
+		padding-bottom: 30px !important;
+		padding-top: 40px;
+	}
+	.VehicleDemo-page .Select-video {
+		padding: 30px 0px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.VehicleDemo-page {
+		margin-bottom: 200px;
+	}
+	.VehicleDemo-page .search-field1 {
+		display: block;
+		padding: 20px 0 !important;
+	}
+	.VehicleDemo-page #videoContent .col-sm-6 {
+		padding-right: 15px;
+	}
+	.VehicleDemo-page .VideoDemo-header {
+		padding-bottom: 30px !important;
+		padding-top: 40px;
+	}
+	.VehicleDemo-page .VideoDemo-header h1 {
+		text-align: center;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.VehicleDemo-page .VideoDemo-header .form-group {
+		width: 100% !important;
+		padding-right: 0px !important;
+	}
+	.VehicleDemo-page .VideoDemo-header .select-trim {
+		width: 100% !important;
+	}
+	.VehicleDemo-page .VideoDemo-header .select-model {
+		width: 100% !important;
+	}
+	.VehicleDemo-page .VideoDemo-header .submit-btn,.VehicleDemo-page .VideoDemo-header .submit-btn1
+		{
+		float: left;
+		width: 100%;
+	}
+	.VehicleDemo-page .VideoDemo-header .submit-btn .btn,.VehicleDemo-page .VideoDemo-header .submit-btn1 .btn
+		{
+		width: 100%;
+	}
+	.VehicleDemo-page .VideoDemo-header .model {
+		width: 100%;
+	}
+	.VehicleDemo-page .jp-video-360p {
+		height: 433px !important;
+	}
+	.VehicleDemo-page .Select-video .Select-result .video-div {
+		padding: 10px 0px 10px 0px !important;
+	}
+}
+/*--Service Coupons Page--*/
+.ServiceCoupons-Page,.ServiceReminder-Page {
+	padding: 0px 0px 30px 0px;
+	margin-bottom: 150px;
+	color: #666;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.ServiceCoupons-Page h1,.ServiceReminder-Page h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 40px 0 30px 0 !important;
+}
+
+.ServiceCoupons-Page .search-field1,.ServiceReminder-Page .search-field1
+	{
+	display: none;
+}
+
+.ServiceCoupons-Page .nav-tab-div .panel-group,.ServiceReminder-Page .nav-tab-div .panel-group
+	{
+	margin: 0px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .nav-tabs,.ServiceReminder-Page .nav-tab-div .nav-tabs
+	{
+	z-index: 1px;
+	position: relative;
+	background-color: #f5f5f5;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul,.ServiceReminder-Page .nav-tab-div ul
+	{
+	border-bottom: 0px solid #660000 !important;
+	z-index: 1;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul li,.ServiceReminder-Page .nav-tab-div ul li
+	{
+	width: 25%;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul li a,.ServiceReminder-Page .nav-tab-div ul li a
+	{
+	padding: 10px 8px !important;
+	font-size: 18px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	background: none !important;
+	border-radius: 0px !important;
+	color: #666 !important;
+	text-align: center;
+	letter-spacing: .2em;
+}
+
+.ServiceReminder-Page .nav-tab-div .responsive-tab .servicetext li span
+	{
+	font-size: 14px;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul li a i,.ServiceReminder-Page .nav-tab-div ul li a i
+	{
+	display: none;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul li :hover,.ServiceReminder-Page .nav-tab-div ul li :hover
+	{
+	border: 1px solid #660000;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .tab-dropdown-ul,.ServiceReminder-Page .nav-tab-div ul .tab-dropdown-ul
+	{
+	width: 100%;
+	background-color: #f5f5f5;
+	border: none !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .tab-dropdown-ul li,.ServiceReminder-Page .nav-tab-div ul .tab-dropdown-ul li
+	{
+	width: 100%;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .tab-dropdown-ul li a,.ServiceReminder-Page .nav-tab-div ul .tab-dropdown-ul li a
+	{
+	border-bottom: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .tab-dropdown-ul li :hover,.ServiceReminder-Page .nav-tab-div ul .tab-dropdown-ul li :hover
+	{
+	border: 0px solid #660000 !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .test-class,.ServiceReminder-Page .nav-tab-div ul .test-class
+	{
+	background-color: transparent;
+	border-bottom: 3px solid #999 !important;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .active,.ServiceReminder-Page .nav-tab-div ul .active
+	{
+	background-color: inherit;
+	margin-bottom: -1px !important;
+	border-bottom: 3px solid #d00 !important;
+	color: #101010;
+}
+
+.ServiceCoupons-Page .nav-tab-div ul .active a,.ServiceReminder-Page .nav-tab-div ul .active a
+	{
+	border: 0px solid #ccc !important;
+	color: #101010 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: .2em;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab,.ServiceReminder-Page .nav-tab-div .responsive-tab
+	{
+	border: none;
+	background-color: #f5f5f5;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .servicetext,.ServiceReminder-Page .nav-tab-div .responsive-tab .servicetext
+	{
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	-ms-border-radius: 6px !important;
+	border-radius: 6px !important;
+	border: 1px solid #ccc;
+	margin: 60px 30px !important;
+	background: #fff;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .servicetext li,.ServiceReminder-Page .nav-tab-div .responsive-tab .servicetext li
+	{
+	list-style-type: none;
+	padding: 10px !important;
+	color: #666;
+	width: 100%;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	letter-spacing: .1em;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .servicetext li :hover,.ServiceReminder-Page .nav-tab-div .responsive-tab .servicetext li :hover
+	{
+	border: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div
+	{
+	padding: 0px 30px 0 30px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div
+	{
+	background: none;
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 1px solid #666;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading
+	{
+	padding: 10px 0;
+	background: none;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading .panel-title a,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading .panel-title a
+	{
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading .panel-title a span,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading .panel-title a span
+	{
+	font-size: 13px;
+	color: #333;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	font-family: "InterstateBold",helvetica,arial,sans-serif !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading .panel-title a i,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-heading .panel-title a i
+	{
+	font-size: 25px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body
+	{
+	padding: 0px;
+	border-top: 0px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .print-icons,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .print-icons
+	{
+	margin-bottom: 10px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .print-icons a,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .print-icons a
+	{
+	color: #666;
+	font-size: 18px;
+	margin-right: 15px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text
+	{
+	background: #fff;
+	color: #666;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .logo-img,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .logo-img
+	{
+	padding: 15px 0 15px 20px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .logo-txt,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .logo-txt
+	{
+	float: right;
+	padding: 15px 20px 15px 0px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .red-strip,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .red-strip
+	{
+	background: #d00;
+	padding: 10px 0 10px 20px;
+	color: #fff;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text
+	{
+	padding: 15px 20px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text p,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text p
+	{
+	color: #191919;
+	font-size: 14px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul
+	{
+	padding: 5px 0 10px 0 !important;
+	margin-left: 16px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul li,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul li
+	{
+	list-style-type: initial;
+	font-size: 14px;
+	width: 100%;
+	line-height: 20px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text span,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text span
+	{
+	color: #191919;
+	font-size: 14px;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text h1,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text h1
+	{
+	color: #666;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	float: right;
+	padding: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary
+	{
+	margin-left: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li
+	{
+	list-style-type: none !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li .fa-square,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li .fa-square
+	{
+	color: #C3B600;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary :hover,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary :hover
+	{
+	border: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .responsive-tab .accordion-div:nth-last-child(-n+1) .panel-div,.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div:nth-last-child(-n+1) .panel-div
+	{
+	border: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .More-tabs,.ServiceReminder-Page .nav-tab-div .More-tabs
+	{
+	background-color: rgba(51, 51, 51, 0.5) !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .More-tabs .dropdown-menu,.ServiceReminder-Page .nav-tab-div .More-tabs .dropdown-menu
+	{
+	min-width: 100%;
+	background: none;
+	border: 1px solid #660000;
+}
+
+.ServiceCoupons-Page .nav-tab-div .More-tabs .dropdown-menu li,.ServiceReminder-Page .nav-tab-div .More-tabs .dropdown-menu li
+	{
+	width: 100%;
+	font-size: 12px;
+	background-color: rgba(51, 51, 51, 0.5);
+	border-bottom: 1px solid #660000 !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .More-tabs .dropdown-menu li a,.ServiceReminder-Page .nav-tab-div .More-tabs .dropdown-menu li a
+	{
+	border: 0px !important;
+}
+
+.ServiceCoupons-Page .nav-tab-div .More-tabs .dropdown-menu :hover,.ServiceReminder-Page .nav-tab-div .More-tabs .dropdown-menu :hover
+	{
+	border: 0px;
+}
+
+@media screen and (max-width: 1199px) {
+	.ServiceCoupons-Page .container,.ServiceReminder-Page .container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.ServiceCoupons-Page .nav-tab-div .panel-group,.ServiceReminder-Page .nav-tab-div .panel-group
+		{
+		margin: 0px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-group .panel+.panel,.ServiceReminder-Page .nav-tab-div .panel-group .panel+.panel
+		{
+		margin: 0px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui,.ServiceReminder-Page .nav-tab-div .panel-ui
+		{
+		background: #f5f5f5;
+		border-radius: 0px;
+		border: 0px;
+		color: #666;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .panel-heading,.ServiceReminder-Page .nav-tab-div .panel-ui .panel-heading
+		{
+		background: #d6d6d6 !important;
+		border-radius: 0px;
+		padding: 12px 15px 8px 15px !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .panel-heading h4 a,.ServiceReminder-Page .nav-tab-div .panel-ui .panel-heading h4 a
+		{
+		color: #333 !important;
+		text-decoration: none;
+		font-size: 18px;
+		width: 100%;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		letter-spacing: .2em;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .panel-heading h4 a i,.ServiceReminder-Page .nav-tab-div .panel-ui .panel-heading h4 a i
+		{
+		float: right !important;
+		display: block;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div
+		{
+		padding: 0;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div
+		{
+		background: none;
+		border: 0px;
+		border-radius: 0px;
+		border-bottom: 1px solid #999 !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading
+		{
+		padding: 10px 0 !important;
+		background: none !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading .panel-title a,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading .panel-title a
+		{
+		font-size: 14px;
+		color: #666 !important;
+		text-decoration: none;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading .panel-title a span,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading .panel-title a span
+		{
+		font-size: 14px;
+		color: #666 !important;
+		font-weight: bold;
+		font-family: "InterstateLight", helvetica, arial, sans-serif;
+		letter-spacing: .1em;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading .panel-title a i,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-heading .panel-title a i
+		{
+		font-size: 25px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body
+		{
+		padding: 0px;
+		border-top: 0px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .print-icons,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .print-icons
+		{
+		margin-bottom: 10px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .print-icons a,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .print-icons a
+		{
+		color: #666;
+		font-size: 18px;
+		margin-right: 15px !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text
+		{
+		background: #fff;
+		color: #666;
+		border: 1px solid #ccc;
+		margin-bottom: 15px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .logo-img,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .logo-img
+		{
+		padding: 15px 0 15px 20px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .logo-txt,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .logo-txt
+		{
+		float: right;
+		padding: 15px 20px 15px 0px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .red-strip,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .red-strip
+		{
+		background: #d00;
+		padding: 10px 0 10px 20px;
+		color: #fff;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text
+		{
+		padding: 15px 20px !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text p,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text p
+		{
+		color: #666;
+		font-size: 14px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul
+		{
+		padding: 5px 0 10px 0 !important;
+		margin-left: 16px !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul li,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text ul li
+		{
+		list-style-type: initial;
+		font-size: 14px;
+		width: 100%;
+		line-height: 20px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text span,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text span
+		{
+		color: #999;
+		font-size: 14px;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text h1,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div .panel-div .panel-body .panel-text .panelbody-text h1
+		{
+		color: #666;
+		font-size: 25px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		text-align: center;
+		padding: 0px 0 10px 0 !important;
+	}
+	.ServiceCoupons-Page .nav-tab-div .panel-ui .accordion-div:nth-last-child(-n+1) .panel-div,.ServiceReminder-Page .nav-tab-div .panel-ui .accordion-div:nth-last-child(-n+1) .panel-div
+		{
+		border: 0px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.ServiceCoupons-Page,.ServiceReminder-Page {
+		padding: 0px 0px 0px 0px;
+		margin-bottom: 150px;
+	}
+	.ServiceCoupons-Page .container,.ServiceReminder-Page .container {
+		padding: 0px;
+	}
+	.ServiceCoupons-Page .container .search-field1,.ServiceReminder-Page .container .search-field1
+		{
+		display: block;
+		padding: 20px 0 !important;
+	}
+	.ServiceCoupons-Page h1,.ServiceReminder-Page h1 {
+		padding: 30px 0 20px 0 !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		text-align: center;
+	}
+	.ServiceCoupons-Page .panel-group .panel+.panel,.ServiceReminder-Page .panel-group .panel+.panel
+		{
+		margin: 1px 0 0 0 !important;
+	}
+	.ServiceCoupons-Page .servicetext li,.ServiceReminder-Page .servicetext li
+		{
+		list-style-type: none;
+		padding: 10px !important;
+		color: #666;
+		width: 100% !important;
+	}
+	.ServiceCoupons-Page .servicetext li :hover,.ServiceReminder-Page .servicetext li :hover
+		{
+		border: 0px !important;
+	}
+	.ServiceCoupons-Page .accordion-div .panel-div .panel-heading .panel-title a span,.ServiceReminder-Page .accordion-div .panel-div .panel-heading .panel-title a span
+		{
+		width: 300px;
+		overflow: hidden;
+		display: inline-block;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.ServiceCoupons-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary,.ServiceReminder-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary
+		{
+		margin-left: 0px !important;
+	}
+	.ServiceCoupons-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li,.ServiceReminder-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li
+		{
+		list-style-type: none !important;
+	}
+	.ServiceCoupons-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li .fa-square,.ServiceReminder-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary li .fa-square
+		{
+		color: #C3B600;
+	}
+	.ServiceCoupons-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary :hover,.ServiceReminder-Page .accordion-div .panel-div .panel-body .panel-text .panelbody-text .m-summary :hover
+		{
+		border: 0px !important;
+	}
+}
+/*--ContactUs Page--*/
+.ContactUs-page {
+	padding: 80px 0px 30px 0px;
+	color: #333;
+	background: #f5f5f5;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.ContactUs-page h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.ContactUs-page .search-field1 {
+	display: none;
+}
+
+.ContactUs-page p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.ContactUs-page .ContactUs-Div {
+	background-color: #f5f5f5;
+	border: 0px solid #aaa;
+	padding: 0px 20px 0px 0px;
+	border-radius: 5px;
+}
+
+.ContactUs-page .ContactUs-Div h4 {
+	font-size: 18px !important;
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 20px 0 30px 0px !important;
+}
+
+.ContactUs-page .ContactUs-Div h4 p {
+	display: none;
+}
+
+.ContactUs-page .ContactUs-Div input {
+	height: 30px;
+	width: 310px;
+	font-size: 11px;
+}
+
+.ContactUs-page .ContactUs-Div label,.ContactUs-page .ContactUs-Div .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .ContactUs-page .ContactUs-Div a,.ContactUs-page .ContactUs-Div .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .ContactUs-page .ContactUs-Div input
+	{
+	font-size: 13px;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+}
+.ContactUs-page .ContactUs-Div .form-group {
+	margin-bottom: 20px !important;
+}
+
+.ContactUs-page .ContactUs-Div .Contact-border {
+	background: url("../images/strip-divider.png") repeat-y;
+	background-position: left center;
+	padding-left: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+.ContactUs-page .ContactUs-Div .Contact-border p {
+	float: right;
+	padding: 20px 0 30px 0 !important;
+}
+
+.ContactUs-page .ContactUs-Div .Contact-border textarea {
+	width: 300px;
+}
+
+.ContactUs-page .ContactUs-Div .btn {
+	margin: 0 0 30px 15px;
+}
+
+/* style all input elements with a required attribute. add class="required-input" to textboxes */
+.required-text {
+	width: 100% !important;
+	text-align: right !important;
+	color: #666 !important;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	letter-spacing: .05em !important;
+	display: block !important;
+	text-align: right !important;
+}
+.required-alert {
+    border: 2px solid #d00 !important;
+    background: #fff url("../images/required.png") no-repeat center right !important;
+    -o-transition:.3s;
+	-ms-transition:.3s;
+	-moz-transition:.3s;
+	-webkit-transition:.3s;
+	transition:.3s;
+}
+
+
+@media screen and (max-width: 767px) {
+	.ContactUs-page {
+		padding: 30px 0 30px 0 !important;
+		margin-bottom: 50px;
+	}
+	.ContactUs-page h1 {
+		margin-top: 20px !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.ContactUs-page h1,.ContactUs-page p {
+		text-align: center;
+	}
+	.ContactUs-page p {
+		padding: 20px 0 10px 0 !important;
+	}
+	.ContactUs-page .search-field1 {
+		display: block;
+	}
+	.ContactUs-page .ContactUs-Div {
+		border: 0px;
+		background-color: rgba(29, 29, 29, 0);
+		padding-bottom: 80px !important;
+		margin-bottom: 200px !important;
+	}
+	.ContactUs-page .ContactUs-Div h4 {
+		padding: 20px 0 10px 0px !important;
+		font-size: 16px !important;
+		width: 100%;
+		float: left;
+	}
+	.ContactUs-page .ContactUs-Div h4 p {
+		display: block;
+		float: right;
+		padding: 0px !important;
+	}
+	.ContactUs-page .ContactUs-Div .col-xs-12 {
+		padding: 0px;
+	}
+	.ContactUs-page .ContactUs-Div input {
+		height: 40px;
+		width: 100% !important;
+	}
+	.ContactUs-page .ContactUs-Div textarea {
+		width: 100% !important;
+	}
+	.ContactUs-page .ContactUs-Div .Contact-border {
+		background: none !important;
+		padding-left: 0px !important;
+	}
+	.ContactUs-page .ContactUs-Div .Contact-border p {
+		display: none;
+	}
+	.ContactUs-page .ContactUs-Div .btn {
+		margin: 0 0 30px 0px;
+		margin-top: 15px !important;
+		display: block;
+	}
+}
+/*--AddNewVehicle Page--*/
+.AddNewVehicle-Page {
+	padding: 80px 0px 30px 0px;
+	margin-bottom: 100px;
+	color: #333;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.AddNewVehicle-Page h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.AddNewVehicle-Page .search-field1 {
+	display: none;
+}
+
+.AddNewVehicle-Page p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.AddNewVehicle-Page .clear {
+	clear: both;
+}
+
+.AddNewVehicle-Page label,.AddNewVehicle-Page .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .AddNewVehicle-Page a,.AddNewVehicle-Page .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .AddNewVehicle-Page input
+	{
+	font-size: 13px;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div {
+	border: 0px solid #660000;
+	padding: 0px;
+	background-color: transparent;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .form-group {
+	padding-left: 0px !important;
+	margin-bottom: 20px !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div input {
+	height: 30px;
+	font-size: 11px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .form-control {
+	height: 30px;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div #mileage {
+	width: 223px !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information {
+	background: none;
+	background-position: right center;
+	padding: 0 30px 30px 0;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information h4 {
+	font-size: 18px !important;
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 30px 0 15px 0 !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information h4 p {
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align {
+	padding: 26px 0 0 0;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align a {
+	color: #999;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align span {
+	color: #999;
+	font-family: "HelveticaNeue";
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align-p {
+	padding: 6px 0 !important;
+	color: #d6d6d6 !important;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div {
+	padding: 0 30px 30px 40px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div h4 {
+	font-size: 18px !important;
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 30px 0 15px 0 !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div h4 p {
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer
+	{
+	height: 311px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .Editdealer-text
+	{
+	padding-bottom: 10px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .Editdealer-text h6
+	{
+	color: #333;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold !important;;
+	letter-spacing: .2em;
+	line-height: 25px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .Editdealer-text span
+	{
+	color: #666;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+	font-weight: normal !important;;
+	letter-spacing: .1em;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer h4
+	{
+	color: #d00 !important;
+	font-size: 14px;
+	font-weight: bold !important;
+	padding: 15px 0 10px 0px !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer p
+	{
+	padding: 0px 0 0px 0 !important;
+	color: #d6d6d6;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .phonecls
+	{
+	display: None;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .phone-number
+	{
+	margin-left: 5px !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer a
+	{
+	color: #999 !important;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+	width: 100%;
+	float: left;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .button_section {
+	margin-right: 10px !important;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .button_section .btn {
+	margin-right: 10px;
+}
+
+.AddNewVehicle-Page .AddNewVehicle-div .spancolor {
+	color: #999 !important;
+	padding-top: 0px !important;
+	font-family: "HelveticaNeue" !important;
+}
+
+.AddNewVehicle-Page .bootstrap-select span {
+	color: #999999;
+	font-family: "InterstateBold";
+}
+
+@media screen and (max-width: 1199px) {
+	.AddNewVehicle-Page .container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.AddNewVehicle-Page {
+		padding: 85px 0px 100px 0px;
+	}
+	.AddNewVehicle-Page .col-sm-7.v-align,.AddNewVehicle-Page .col-sm-8.v-align
+		{
+		padding-top: 40px !important;
+	}
+	.AddNewVehicle-Page .col-sm-5.v-align {
+		padding-top: 30px !important;
+	}
+}
+
+@media screen and (max-width: 835px) {
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information {
+		padding: 0 20px 30px 20px;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div {
+		padding: 0 20px 30px 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.AddNewVehicle-Page {
+		padding: 30px 0px 100px 0px;
+		margin-bottom: 250px;
+	}
+	.AddNewVehicle-Page .container {
+		padding: 0px !important;
+		margin-bottom: 30px;
+	}
+	.AddNewVehicle-Page .search-field1 {
+		display: block;
+	}
+	.AddNewVehicle-Page h1 {
+		text-align: center;
+		color: #191919 !important;
+		margin-top: 20px !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.AddNewVehicle-Page .display-none {
+		display: none;
+	}
+	.AddNewVehicle-Page p {
+		text-align: center;
+	}
+	.AddNewVehicle-Page .p-header {
+		padding: 10px 15px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div {
+		border: none;
+		padding: 0px;
+		background-color: rgba(29, 29, 29, 0);
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .spancolor {
+		color: #fff !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .form-group {
+		padding-right: 0px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div h4 {
+		font-size: 18px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div h4 p {
+		display: block !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .bootstrap-select.form-control {
+		margin-bottom: 0 !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .form-control {
+		height: 40px;
+		margin-bottom: 10px !important;
+		font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+		font-size: 13px !important;
+		color: #191919 !important;
+		letter-spacing: .1em;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .spacing-mazda {
+		margin-bottom: 10px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information {
+		background-image: none;
+		padding: 0 15px;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information h4 {
+		padding: 20px 0 10px 0 !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information h4 p {
+		color: #666 !important;
+		font-family: InterstateRegular;
+		text-align: right;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align-p {
+		display: none !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align {
+		float: left;
+		padding: 0 0 25px 0 !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align a {
+		color: #fff;
+		text-decoration: underline;
+		font-family: "InterstateRegular" !important;
+		font-size: 12px;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align span {
+		
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align a {
+		float: right;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .v-align-p {
+		padding: 0 !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information .align-Space {
+		display: None;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information a {
+		color: #999;
+		text-decoration: none;
+		font-family: "HelveticaNeue" !important;
+		font-size: 12px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .v-information p {
+		display: none;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div {
+		padding: 0 15px 0px 15px;
+		background: #fff;
+		margin-top: 20px !important;
+		background: #fff;
+		margin-bottom: 50px;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div h4 {
+		color: #666 !important;
+		text-align: center;
+		font-size: 18px !important;
+		font-weight: bold !important;
+		margin-top: 15px !important;
+		font-family: "InterstateBold";
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div h4 p {
+		display: none !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer
+		{
+		height: auto;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer h4
+		{
+		text-align: left !important;
+		font-size: 14px !important;
+		margin-top: 0px !important;
+		color: #d00000 !important;
+		padding: 15px 0 7px 0px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer p
+		{
+		text-align: left !important;
+		padding-bottom: 20px !important;
+		font-family: "InterstateRegular" !important;
+		color: #999;
+		padding-top: 5px !important;
+		font-size: 13px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer a
+		{
+		color: #999 !important;
+		text-decoration: none;
+		font-family: "InterstateRegular" !important;
+		font-size: 12px !important;
+		margin-top: 0px !important;
+		margin-bottom: 25px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .phonecls
+		{
+		margin-top: -158px !important;
+		display: block !important;
+		float: right !important;
+		font-family: "InterstateRegular";
+		color: #999 !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .phone-number
+		{ /*float: right;*/
+		margin-top: 0px !important;
+		font-size: 13px !important;
+		text-decoration: underline;
+		color: #999 !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .preferred-dealer-div .preferred-dealer .phone
+		{ /*float: right;*/
+		margin-top: 20px !important;
+		font-size: 13px !important;
+		color: #999 !important;
+		display: block;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div #mileage {
+		width: 100% !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .button_section {
+		margin-top: 25px !important;
+		width: 100% !important;
+		margin-bottom: 0 !important;
+		height: 125px !important;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .button_section .btn {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.AddNewVehicle-Page .AddNewVehicle-div .btn-cancel {
+		margin-top: 0px !important;
+		margin-bottom: 40px !important;
+	}
+	.AddNewVehicle-Page #addDealerphone {
+		text-decoration: underline;
+	}
+	.AddNewVehicle-Page #dealerContentId td,.AddNewVehicle-Page #dealerContentId span
+		{
+		color: #999;
+	}
+}
+/*--AddServiceRecord Page--*/
+.AddService-page {
+	padding: 0px 0px 130px 0px !important;
+	color: #fff;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.AddService-page h1 {
+	padding-top: 30px !important;
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.AddService-page .search-field1 {
+	display: none;
+}
+
+.AddService-page p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.AddService-page p span {
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+}
+
+.AddService-page .width_80 {
+	width: 84% !important;
+}
+
+.AddService-page label,.AddService-page .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .AddService-page a,.AddService-page .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .AddService-page input
+	{
+	font-size: 13px;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.AddService-page .AddService-div {
+	padding: 0px;
+	background-color: #f5f5f5;
+}
+
+.AddService-page .AddService-div .form-group {
+	padding-left: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+.AddService-page .AddService-div #datetimepicker1 {
+	position: relative;
+}
+
+.AddService-page .AddService-div #datetimepicker1 .calenderspan {
+	float: left;
+	height: 30px;
+	border: 0px !important;
+	background: 0px !important;
+	font-size: 25px;
+	color: #999;
+	margin-top: 2px !important;
+	margin-left: 15px !important;
+}
+
+.AddService-page .AddService-div #datetimepicker1 .calenderspan .glyphicon-calendar
+	{
+	font-size: 25px;
+}
+
+.AddService-page .AddService-div .calenderspan {
+	float: left;
+	height: 30px;
+	height: 30px;
+	border: 0px !important;
+	background: 0px !important;
+	font-size: 25px;
+	color: #999;
+	margin-top: -4px;
+	margin-left: 7px;
+}
+
+.AddService-page .AddService-div input.form-control.formcontrol-padding.s-date-field
+	{
+	border-radius: 3px;
+}
+
+.AddService-page .AddService-div input {
+	height: 30px;
+	font-size: 13px;
+}
+
+.AddService-page .AddService-div .s-information {
+	background: none;
+	background-position: right center;
+	padding: 0 30px 30px 0;
+}
+
+.AddService-page .AddService-div .s-information h4 {
+	font-size: 15px !important;
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+	padding: 10px 0 30px 0 !important;
+}
+
+.AddService-page .AddService-div .s-information h4 p { }
+
+.AddService-page .AddService-div select {
+	font-size: 13px;
+}
+
+.AddService-page .AddService-div .select-style {
+	width: 335px !important;
+}
+
+.AddService-page .AddService-div .form-control-textarea {
+	height: 120px !important;
+	width: 100% !important;
+	margin-bottom: 20px !important;
+	margin-top: 0px !important;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+	border-radius: 4px;
+	padding: 10px;
+	border: 2px solid #555;
+}
+
+.AddService-page .AddService-div .s-date-field {
+	width: 30%;
+}
+
+.AddService-page .AddService-div .s-current-mileage,.AddService-page .AddService-div .s-location
+	{
+	width: 240px !important;
+}
+
+.AddService-page .AddService-div .s-cost {
+	width: 160px !important;
+}
+
+.AddService-page .comments-padding {
+	padding: 0 30px 30px 30px;
+}
+
+.AddService-page .comments-padding h4 {
+	color: #d00 !important;
+	font-size: 14px;
+	font-weight: bold !important;
+	padding: 15px 0 10px 0px !important;
+	height: 65px;
+}
+
+.AddService-page .comments-padding h4 p {
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+	margin-top: 5px !important;
+}
+
+.AddService-page .comments-padding .button_section {
+	margin-top: 99px;
+}
+
+.AddService-page .comments-padding .btn-default {
+	margin-top: 10px !important;
+	margin-right: 10px !important;
+}
+
+.AddService-page .bootstrap-select span {
+	color: #999999;
+	font-family: "InterstateBold";
+}
+
+@media screen and (max-width: 991px) {
+	.AddService-page .AddService-div .s-date-field {
+		width: 42% !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.AddService-page {
+		padding: 0px 0px 0px 0px;
+		margin-bottom: 250px;
+	}
+	.AddService-page .search-field1 {
+		display: block;
+		padding: 20px 0;
+	}
+	.AddService-page .comments-padding {
+		padding: 0;
+	}
+	.AddService-page h1 {
+		text-align: center;
+		color: #191919 !important;
+		margin-top: 20px !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		padding: 0px !important;
+	}
+	.AddService-page .p-header {
+		padding: 10px 0 !important;
+	}
+	.AddService-page p {
+		
+	}
+	.AddService-page .comments-padding h4 {
+		padding: 0px 0px 0px !important;
+		height: auto;
+	}
+	.AddService-page .AddService-div {
+		border: none;
+		padding: 0px;
+		background-color: rgba(29, 29, 29, 0);
+	}
+	.AddService-page .AddService-div h4 p {
+		display: none !important;
+	}
+	.AddService-page .AddService-div .select-style {
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .input.form-control.formcontrol-padding.s-date-field
+		{
+		width: 82% !important;
+	}
+	.AddService-page .AddService-div .form-group {
+		margin-bottom: 20px !important;
+	}
+	.AddService-page .AddService-div #datetimepicker1 .calenderspan {
+		float: none;
+		position: absolute;
+		right: 20px;
+		top: -5px;
+		z-index: 99;
+		height: 30px;
+		border: 0px !important;
+		margin-top: 11px !important;
+		margin-left: 0px !important;
+		margin-right: 0 !important;
+	}
+	.AddService-page .AddService-div #datetimepicker1 .calenderspan .glyphicon-calendar
+		{
+		font-size: 18px;
+	}
+	.AddService-page .AddService-div .calenderspan {
+		float: left;
+		height: 30px;
+		border: 0px !important;
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+	}
+	.AddService-page .AddService-div input.form-control.formcontrol-padding.s-date-field
+		{
+		border-left-top-radius: 3px;
+		border-left-bottom-radius: 4px;
+		font-size: 11px;
+		height: 40px;
+		margin-bottom: 10px !important;
+		font-family: "InterstateBold";
+	}
+	.AddService-page .AddService-div .form-control-textarea {
+		width: 100% !important;
+		height: 150px !important;
+		margin-top: 0px !important;
+		padding: 10px;
+		margin-bottom: 24px !important;
+		font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+		font-size: 13px !important;
+		color: #191919 !important;
+		letter-spacing: .1em;border-radius: 4px;
+		border: 2px solid #555;
+	}
+	.AddService-page .AddService-div .s-date-field {
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .s-information {
+		padding: 0;
+		background: none;
+	}
+	.AddService-page .AddService-div .s-information h4 {
+		padding: 20px 0 10px 0 !important;
+	}
+	.AddService-page .AddService-div .s-information h4 p {
+		display: block !important;
+		padding: 0px !important;
+		margin: 0px !important;
+		float: right !important;
+		color: #333 !important;
+		font-family: InterstateRegular;
+	}
+	.AddService-page .AddService-div .s-information .s-current-mileage {
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .s-information .s-location {
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .s-information .s-location {
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .s-information .s-cost {
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .s-information .ServiceTypeformcontrol
+		{
+		width: 100% !important;
+	}
+	.AddService-page .AddService-div .btn {
+		margin-top: 0px !important;
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+	.AddService-page .AddService-div .button_section {
+		margin-top: 0;
+	}
+	.AddService-page .AddService-div .btn-cancel {
+		margin-top: 0px !important;
+		margin-bottom: 50px !important;
+	}
+}
+/*--EditNewVehicle Page--*/
+.EditNewVehicle-Page {
+	padding: 0px 0px 50px 0px !important;
+	margin-bottom: 100px;
+	color: #333;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.EditNewVehicle-Page h1 {
+	padding-top: 30px !important;
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EditNewVehicle-Page .search-field1 {
+	display: none;
+}
+
+.EditNewVehicle-Page p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.EditNewVehicle-Page label,.EditNewVehicle-Page .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .EditNewVehicle-Page a,.EditNewVehicle-Page .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .EditNewVehicle-Page input
+	{
+	font-size: 13px;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div {
+	border: none;
+	padding: 0px;
+	background-color: transparent;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .form-group {
+	padding-left: 0px !important;
+	margin-bottom: 20px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div input {
+	height: 30px;
+	font-size: 11px;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .form-control {
+	height: 40px;
+	margin-bottom: 10px !important;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div #mileage {
+	width: 223px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information {
+	padding: 0 30px 30px 0;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information h4 {
+	padding: 30px 0 15px 0 !important;
+	margin: 0 0 20px 0 !important;
+	color: #191919 !important;
+	font-size: 18px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information h4 p {
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+	display: none;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information .edit_drive_info
+	{
+	padding: 0 0 0 0 !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align {
+	padding: 26px 0 0 0;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align a {
+	color: #999;
+	text-decoration: none;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align span {
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align-p {
+	padding: 6px 0 !important;
+	color: #d6d6d6 !important;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+	padding-bottom: 14px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div {
+	padding: 0 0 30px 30px;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div h4 {
+	padding: 30px 0 15px 0 !important;
+	margin: 0 0 10px 0 !important;
+	color: #191919 !important;
+	font-size: 18px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+}
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div h4 p {
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer
+	{
+	height: 260px;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .Editdealer-text
+	{
+	padding-bottom: 10px;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .Editdealer-text h6
+	{
+	color: #333;
+	margin-bottom: 5px !important;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: .2em;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .Editdealer-text span
+	{
+	color: #666;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+	font-weight: normal !important;
+	letter-spacing: .1em;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer h4
+	{
+	color: #333 !important;
+	font-size: 14px;
+	font-weight: bold !important;
+	padding: 15px 0 10px 0px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer p
+	{
+	padding: 0px 0 0px 0 !important;
+	color: #666;
+	font-size: 12px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .phonecls
+	{
+	display: None;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .phone-number
+	{
+	margin-left: 5px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer a
+	{
+	color: #999 !important;
+	font-family: "HelveticaNeue" !important;
+	font-size: 12px;
+	margin-bottom: 0px !important;
+	width: 100%;
+	float: left;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .button_section .btn {
+	margin-right: 10px !important;
+}
+
+.EditNewVehicle-Page .EditNewVehicle-div .spancolor {
+	color: #999 !important;
+	padding-top: 0px !important;
+	font-family: "HelveticaNeue" !important;
+}
+
+.EditNewVehicle-Page .bootstrap-select span {
+	color: #999999;
+	font-family: "InterstateBold";
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.EditNewVehicle-Page {
+		padding: 0px 0px 100px 0px;
+	}
+	.EditNewVehicle-Page .col-sm-7.v-align,.EditNewVehicle-Page .col-sm-8.v-align
+		{
+		padding-top: 40px !important;
+	}
+	.EditNewVehicle-Page .col-sm-5.v-align {
+		padding-top: 30px !important;
+	}
+	.EditNewVehicle-Page .AddNewVehicle-div .v-information .v-align {
+		padding: 23px 0 0 0;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information {
+		padding: 0 20px 30px 20px;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div {
+		padding: 0 20px 30px 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.EditNewVehicle-Page {
+		padding: 0px 0px 30px 0px;
+		margin-bottom: 250px;
+	}
+	.EditNewVehicle-Page form {
+		margin: 0 -15px;
+	}
+	.EditNewVehicle-Page .container {
+		padding: 0px;
+	}
+	.EditNewVehicle-Page .search-field1 {
+		display: block;
+		margin: 20px 0;
+	}
+	.EditNewVehicle-Page .p-header {
+		padding: 10px 15px !important;
+	}
+	.EditNewVehicle-Page h1 {
+		text-align: center;
+		color: #191919 !important;
+		margin-top: 20px !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		padding: 0px !important;
+	}
+	.EditNewVehicle-Page p {
+		text-align: center;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div {
+		border: none;
+		padding: 0px;
+		background-color: rgba(29, 29, 29, 0);
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .spancolor {
+		color: #fff !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .form-group {
+		padding-right: 0px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div h4 {
+		font-size: 18px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div h4 p {
+		display: block !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .form-control {
+		height: 40px;
+		margin-bottom: 10px !important;
+		font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+		font-size: 13px !important;
+		color: #191919 !important;
+		letter-spacing: .1em;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .spacing-mazda {
+		margin-bottom: 10px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information {
+		background-image: none;
+		padding: 0 15px;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information h4 {
+		padding: 20px 0 10px 0 !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information h4 p {
+		color: #fff !important;
+		font-family: InterstateRegular;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align-p {
+		display: none !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align {
+		float: right;
+		padding: 0 0 10px 0 !important;
+		display: None;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align span {
+		color: #666;
+		font-family: "InterstateLight", helvetica, arial, sans-serif;
+		font-size: 13px;
+		font-weight: bold;
+		letter-spacing: .1em;
+		display: none;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information .v-align a {
+		color: #fff;
+		text-decoration: none;
+		font-family: "InterstateRegular" !important;
+		font-size: 12px;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information .align-Space {
+		display: None;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information a {
+		color: #999;
+		text-decoration: underline;
+		font-family: "HelveticaNeue" !important;
+		font-size: 12px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .v-information p {
+		display: none;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div {
+		padding: 0 15px 0px 15px;
+		background: #fff;
+		margin-top: 20px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div h4 {
+		color: #191919 !important;
+		text-align: center;
+		font-size: 18px !important;
+		font-weight: bold !important;
+		margin-top: 0px !important;
+		font-family: "InterstateBold";
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div h4 p {
+		display: none !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer
+		{
+		height: auto;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer h4
+		{
+		text-align: left !important;
+		font-size: 14px !important;
+		margin-top: 0px !important;
+		color: #d00000 !important;
+		padding: 15px 0 7px 0px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer p
+		{
+		text-align: left !important;
+		padding-bottom: 0px !important;
+		font-family: "InterstateRegular" !important;
+		color: #999;
+		padding-top: 0px !important;
+		font-size: 13px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer a
+		{
+		color: #999 !important;
+		text-decoration: none;
+		font-family: "InterstateRegular" !important;
+		font-size: 12px !important;
+		margin-top: 0px !important;
+		margin-bottom: 25px !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .phonecls
+		{
+		margin-top: -158px !important;
+		display: block !important;
+		float: right !important;
+		font-family: "InterstateRegular";
+		color: #999 !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .phone-number
+		{ /*float: right;*/
+		margin-top: 0px !important;
+		font-size: 13px !important;
+		text-decoration: underline;
+		color: #999 !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .preferred-dealer-div .preferred-dealer .phone
+		{ /*float: right;*/
+		display: block;
+		margin-top: 20px !important;
+		font-size: 13px !important;
+		color: #999 !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div #mileage {
+		width: 100% !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .button_section {
+		width: 100% !important;
+		margin-bottom: 0 !important;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .button_section .btn {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.EditNewVehicle-Page .EditNewVehicle-div .btn-cancel {
+		margin-top: 0px !important;
+		margin-bottom: 40px !important;
+	}
+	.EditNewVehicle-Page #addDealerphone {
+		text-decoration: underline;
+	}
+	.EditNewVehicle-Page phone {
+		margin-top: 10px !important;
+	}
+	#editdealer td,#editdealer span {
+		color: #999;
+	}
+}
+/*--EditServiceRecord Page--*/
+.EditService-page {
+	padding: 80px 0px 130px 0px;
+	color: #fff;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.EditService-page h1 {
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+}
+
+.EditService-page .search-field1 {
+	display: none;
+}
+
+.EditService-page p {
+	padding: 10px 0 30px 0 !important;
+	color: #fff;
+}
+
+.EditService-page .width_80 {
+	width: 84% !important;
+}
+
+.EditService-page label,.EditService-page .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .EditService-page a,.EditService-page .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .EditService-page input
+	{
+	font-size: 11px !important;
+	font-weight: normal;
+	color: #fff !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+}
+
+.EditService-page .EditService-div {
+	border: 1px solid #660000;
+	padding: 0px;
+	background-color: rgba(29, 29, 29, 0.8);
+}
+
+.EditService-page .EditService-div .form-group {
+	padding-left: 0px !important;
+	margin-bottom: 0 !important;
+}
+
+.EditService-page .EditService-div #datetimepicker1 {
+	position: relative;
+}
+
+.EditService-page .EditService-div #datetimepicker1 .calenderspan {
+	float: left;
+	height: 30px;
+	height: 30px;
+	border: 0px !important;
+	background: 0px !important;
+	font-size: 25px;
+	color: #999;
+	margin-top: 2px !important;
+	margin-left: 15px !important;
+}
+
+.EditService-page .EditService-div #datetimepicker1 .calenderspan .glyphicon-calendar
+	{
+	font-size: 25px;
+}
+
+.EditService-page .EditService-div .calenderspan {
+	float: left;
+	height: 30px;
+	height: 30px;
+	border: 0px !important;
+	background: 0px !important;
+	font-size: 25px;
+	color: #999;
+	margin-top: -4px;
+	margin-left: 7px;
+}
+
+.EditService-page .EditService-div input.form-control.formcontrol-padding.s-date-field
+	{
+	border-radius: 3px;
+}
+
+.EditService-page .EditService-div input {
+	height: 30px;
+	font-size: 11px;
+}
+
+.EditService-page .EditService-div .s-information {
+	background: url("../images/strip-divider.png") repeat-y;
+	background-position: right center;
+	padding: 0 30px 30px 30px;
+}
+
+.EditService-page .EditService-div .s-information h4 {
+	font-size: 14px !important;
+	color: #fff !important;
+	padding: 30px 0 30px 0 !important;
+}
+
+.EditService-page .EditService-div .s-information h4 p {
+	display: none;
+}
+
+.EditService-page .EditService-div select {
+	height: 30px;
+	font-size: 13px;
+}
+
+.EditService-page .EditService-div .form-control-textarea {
+	height: 120px !important;
+	width: 100% !important;
+	margin-bottom: 20px !important;
+	margin-top: 0px !important;
+	border-radius: 4px;
+	padding: 10px;
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+	border: 2px solid #555;
+}
+
+.EditService-page .EditService-div .s-date-field {
+	/*width: 150px !important;*/
+	width: 30%;
+}
+
+.EditService-page .EditService-div .s-current-mileage,.EditService-page .EditService-div .s-location
+	{
+	width: 240px !important;
+}
+
+.EditService-page .EditService-div .s-cost {
+	width: 160px !important;
+}
+
+.EditService-page .comments-padding {
+	padding: 0 30px 30px 30px;
+}
+
+.EditService-page .comments-padding h4 {
+	color: #d00 !important;
+	font-size: 14px;
+	font-weight: bold !important;
+	padding: 15px 0 10px 0px !important;
+	height: 65px;
+}
+
+.EditService-page .comments-padding h4 p {
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+	margin-top: 5px !important;
+}
+
+.EditService-page .comments-padding .button_section {
+	margin-top: 86px;
+}
+
+.EditService-page .comments-padding .btn-default {
+	margin-top: 10px !important;
+	margin-right: 10px !important;
+}
+
+.EditService-page .bootstrap-select span {
+	color: #999999;
+	font-family: "InterstateBold";
+}
+
+@media screen and (max-width: 991px) {
+	.EditService-page {
+		padding: 85px 15px 100px 15px;
+	}
+	.EditService-page .EditService-div .s-date-field {
+		width: 42% !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.EditService-page {
+		padding: 30px 0px 0px 0px;
+		margin-bottom: 250px;
+	}
+	.EditService-page .search-field1 {
+		display: block;
+	}
+	.EditService-page .comments-padding {
+		padding: 0;
+	}
+	.EditService-page h1 {
+		text-align: center;
+		color: #191919 !important;
+		margin-top: 20px !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.EditService-page .width_80 {
+		width: 100% !important;
+	}
+	.EditService-page .p-header {
+		padding: 10px 0 !important;
+	}
+	.EditService-page p {
+		text-align: center;
+	}
+	.EditService-page .comments-padding h4 {
+		padding: 0px 0px 0px !important;
+		height: auto;
+	}
+	.EditService-page .EditService-div {
+		border: none;
+		padding: 0px;
+		background-color: rgba(29, 29, 29, 0);
+	}
+	.EditService-page .EditService-div h4 p {
+		display: none !important;
+	}
+	.EditService-page .EditService-div .input.form-control.formcontrol-padding.s-date-field
+		{
+		width: 82% !important;
+	}
+	.EditService-page .EditService-div .form-group {
+		margin-bottom: 0px !important;
+	}
+	.EditService-page .EditService-div #datetimepicker1 .calenderspan {
+		float: none;
+		position: absolute;
+		right: 20px;
+		top: -5px;
+		z-index: 99;
+		height: 30px;
+		border: 0px !important;
+		background: #fff !important;
+		margin-top: 7px !important;
+		margin-left: 0px !important;
+		margin-right: 0 !important;
+	}
+	.EditService-page .EditService-div #datetimepicker1 .calenderspan .glyphicon-calendar
+		{
+		font-size: 18px;
+	}
+	.EditService-page .EditService-div .calenderspan {
+		float: left;
+		height: 30px;
+		border: 0px !important;
+		background: #fff !important;
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+	}
+	.EditService-page .EditService-div input.form-control.formcontrol-padding.s-date-field
+		{
+		border-left-top-radius: 3px;
+		border-left-bottom-radius: 4px;
+		font-size: 11px;
+		height: 30px;
+		margin-bottom: 10px !important;
+		font-family: "InterstateBold";
+		color: #999;
+	}
+	.EditService-page .EditService-div .form-control-textarea {
+		width: 100% !important;
+		height: 150px;
+		margin-top: 0px !important;
+		border-radius: 4px;
+		padding: 10px;
+		margin-bottom: 24px !important;
+		font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+		font-size: 13px !important;
+		color: #191919 !important;
+		letter-spacing: .1em;
+	}
+	.EditService-page .EditService-div .s-date-field {
+		width: 100% !important;
+	}
+	.EditService-page .EditService-div .s-information {
+		background: none;
+		padding: 0;
+	}
+	.EditService-page .EditService-div .s-information h4 {
+		padding: 20px 0 10px 0 !important;
+	}
+	.EditService-page .EditService-div .s-information h4 p {
+		display: block !important;
+		padding: 0px !important;
+		margin: 0px !important;
+		float: right;
+		color: #fff !important;
+		font-family: InterstateRegular;
+	}
+	.EditService-page .EditService-div .s-information .s-current-mileage {
+		width: 100% !important;
+	}
+	.EditService-page .EditService-div .s-information .s-location {
+		width: 100% !important;
+	}
+	.EditService-page .EditService-div .s-information .s-location {
+		width: 100% !important;
+	}
+	.EditService-page .EditService-div .s-information .s-cost {
+		width: 100% !important;
+	}
+	.EditService-page .EditService-div .s-information .ServiceTypeformcontrol
+		{
+		width: 100% !important;
+	}
+	.EditService-page .EditService-div .btn {
+		margin-top: 0px !important;
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+	.EditService-page .EditService-div .button_section {
+		margin-top: 0;
+	}
+	.EditService-page .EditService-div .btn-cancel {
+		margin-top: 0px !important;
+		margin-bottom: 50px !important;
+	}
+}
+/*--ServiceHistory Page--*/
+.ServiceHistory-Page {
+	padding: 0px 0px 30px 0px;
+	margin-bottom: 100px;
+	color: #333;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.ServiceHistory-Page .search-field1 {
+	display: none;
+}
+
+.ServiceHistory-Page h1 {
+	padding: 40px 0 30px 0 !important;
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.ServiceHistory-Page .nav-tab-div .nav-tabs {
+	z-index: 1px;
+	position: relative;
+	background-color: #f5f5f5;
+}
+
+.ServiceHistory-Page .nav-tab-div ul {
+	border-bottom: 0px solid #660000 !important;
+	z-index: 1;
+}
+
+.ServiceHistory-Page .nav-tab-div ul li {
+	width: 25%;
+}
+
+.ServiceHistory-Page .nav-tab-div ul li a {
+	padding: 10px 8px !important;
+	background: none !important;
+	text-align: center;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: .2em;
+}
+
+.ServiceHistory-Page .nav-tab-div ul li a i {
+	display: none;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .tab-dropdown-ul {
+	width: 100%;
+	background-color: #333333;
+	border: 1px solid #660000 !important;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .tab-dropdown-ul li {
+	width: 100%;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .tab-dropdown-ul li a {
+	border-bottom: 0px !important;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .tab-dropdown-ul li :hover {
+	border: 0px solid #660000 !important;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .test-class {
+	background-color: transparent;
+	border-bottom: 3px solid #999 !important;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .active {
+	background-color: inherit;
+	margin-bottom: -1px !important;
+	border-bottom: 3px solid #d00 !important;
+	color: #101010;
+}
+
+.ServiceHistory-Page .nav-tab-div ul .active a {
+	color: #333;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab {
+	border: 0px solid #660000;
+	background-color: none;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div {
+	padding: 20px 0px;
+	margin-bottom: 30px;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .row
+	{
+	padding: 0px 0 20px 0;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div p
+	{
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div p span
+	{
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .SH-hedding p
+	{
+	padding-top: 0px !important;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .btn
+	{
+	float: right;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text
+	{
+	background: #f5f5f5;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-header
+	{
+	border-bottom: 2px solid #d5d5d5;
+	padding: 1px 1px !important;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-header h3,.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-header p,.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-header span
+	{
+	color: #191919;
+	font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-header .edit-icon
+	{
+	float: right;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-header .edit-icon i
+	{
+	font-size: 20px;
+	color: #555;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-text
+	{
+	color: #666;
+	padding: 20px 15px;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-text p
+	{
+	line-height: 25px !important;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-text span
+	{
+	line-height: 25px !important;
+	color: #191919;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: .1em;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .ServiceHistory-text .sh-text .col-sm-3
+	{
+	width: 150px !important;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .servicetext
+	{
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	-ms-border-radius: 6px !important;
+	border-radius: 6px !important;
+	border: 1px solid #d00;
+	margin: 60px 0 !important;
+	width: 100%;
+	background: #fff;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .servicetext li
+	{
+	list-style-type: none;
+	padding: 10px !important;
+	color: #666;
+	width: 100%;
+}
+
+.ServiceHistory-Page .nav-tab-div .responsive-tab .ServiceHistory-Div .servicetext li :hover
+	{
+	border: 0px !important;
+}
+
+@media screen and (max-width: 1199px) {
+	.ServiceHistory-Page .container {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.ServiceHistory-Page .nav-tab-div .panel-group {
+		margin: 0px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel-group .panel+.panel {
+		margin: 0px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel {
+		background: #fff;
+		border-radius: 0px;
+		border: 0px;
+		color: #666;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .panel-heading {
+		background: #d6d6d6 !important;
+		border-radius: 0px;
+		padding: 12px 15px 8px 15px !important;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .panel-heading h4 a {
+		color: #333 !important;
+		text-decoration: none;
+		font-size: 18px;
+		width: 100%;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		letter-spacing: .2em;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .panel-heading h4 a i {
+		float: right !important;
+		display: block;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div p,.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div span
+		{
+		color: #666 !important;
+		letter-spacing: .1em;
+		line-height: 18px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .SH-hedding p
+		{
+		padding-top: 0px !important;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .SH-hedding .btn
+		{
+		margin-top: 0px !important;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .btn {
+		width: 100%;
+		margin: 15px 0 !important;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text
+		{
+		border: 0px solid #d00;
+		margin-bottom: 20px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-header
+		{
+		border-bottom: 2px solid #d5d5d5;
+		padding: 10px 10px !important;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-header h3,.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-header p,.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-header span
+		{
+		color: #666;
+		font-family: "InterstateBold" !important;
+		font-size: 11px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-header .edit-icon
+		{
+		float: right;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-header .edit-icon i
+		{
+		font-size: 20px;
+		color: #666;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-text
+		{
+		color: #666;
+		padding: 10px 10px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-text p,.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .ServiceHistory-text .sh-text span
+		{
+		color: #666 !important;
+		font-size: 11px !important;
+		line-height: 23px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.ServiceHistory-Page {
+		padding: 0 0 50px 0 !important;
+		margin-bottom: 260px;
+	}
+	.ServiceHistory-Page .Ser-head {
+		padding: 0 15px !important;
+	}
+	.ServiceHistory-Page .Ser-head .search-field1 {
+		display: block;
+		padding: 20px 0 !important;
+	}
+	.ServiceHistory-Page h1 {
+		text-align: center;
+		padding: 30px 0 20px 0 !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.ServiceHistory-Page .panel-group .panel+.panel {
+		margin: 1px 0 0 0 !important;
+	}
+	.ServiceHistory-Page .container {
+		padding: 0px;
+		width: 100%;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel-group {
+		margin: 0px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel-group .panel+.panel {
+		margin: 0px;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .SH-hedding p
+		{
+		padding-top: 0px !important;
+	}
+	.ServiceHistory-Page .nav-tab-div .panel .ServiceHistory-Div .SH-hedding .btn
+		{
+		margin-top: 15px !important;
+	}
+}
+/*--EditAccountInformation Page--*/
+.EditAccountInformation-Page {
+	padding: 80px 0px 30px 0px;
+	margin-bottom: 40px;
+	color: #fff;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.EditAccountInformation-Page .search-field1 {
+	display: none;
+}
+
+.EditAccountInformation-Page h1 {
+	padding: 0px 0 30px 0 !important;
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EditAccountInformation-Page p {
+	padding: 10px 0 30px 0 !important;
+	color: #666;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: .7em;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.EditAccountInformation-Page label,.EditAccountInformation-Page .Login-Page .Signup-Div .signin-section label a,.Login-Page .Signup-Div .signin-section label .EditAccountInformation-Page a,.EditAccountInformation-Page .Login-Page .Signup-Div .signin-section input,.Login-Page .Signup-Div .signin-section .EditAccountInformation-Page input
+	{
+	font-size: 13px;
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EditAccountInformation-Page .EditAccount-div {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+}
+
+.EditAccountInformation-Page .EditAccount-div h5 {
+	padding: 20px 0 10px 5px !important;
+	margin: 0 0 20px 0 !important;
+	color: #666 !important;
+	border-bottom: 3px solid #d00 !important;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EditAccountInformation-Page .EditAccount-div h5 p {
+	float: right;
+	padding: 0px !important;
+}
+
+.EditAccountInformation-Page .EditAccount-div .paddin_30 {
+	padding: 0 30px;
+}
+
+.EditAccountInformation-Page .EditAccount-div .paddin_30 .form-group {
+	margin-bottom: 20px !important;
+	padding: 0px 5px !important;
+}
+
+.EditAccountInformation-Page .EditAccount-div .paddin_30 .form-control {
+	font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	color: #191919 !important;
+	letter-spacing: .1em;
+}
+
+.EditAccountInformation-Page .EditAccount-div .addadditional-number {
+	color: #999;
+	text-decoration: underline;
+	margin-left: 5px !important;
+	font-family: "HelveticaNeue";
+}
+
+.EditAccountInformation-Page .EditAccount-div .btn-spacing {
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+.EditAccountInformation-Page .EditAccount-div .btn-spacing .btn {
+	margin-right: 10px !important;
+}
+
+@media screen and (max-width: 767px) {
+	.EditAccountInformation-Page {
+		padding: 30px 0px 0px 0px;
+		margin-bottom: 250px;
+	}
+	.EditAccountInformation-Page .search-field1 {
+		display: block;
+	}
+	.EditAccountInformation-Page h1 {
+		text-align: center !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		margin: 20px 0 0 0 !important;
+		padding: 0px !important;
+	}
+	.EditAccountInformation-Page .EditAccount-div {
+		border: 0px;
+		background: none;
+		padding: 0px !important;
+	}
+	.EditAccountInformation-Page .EditAccount-div h4 {
+		padding: 10px 0 !important;
+	}
+	.EditAccountInformation-Page .EditAccount-div .paddin_30 {
+		padding: 0px !important;
+	}
+	.EditAccountInformation-Page .EditAccount-div .paddin_30 .form-group {
+		padding: 0px !important;
+	}
+	.EditAccountInformation-Page .EditAccount-div .paddin_30 .form-control {
+		height: 40px;
+	}
+	.EditAccountInformation-Page .btn-spacing .btn {
+		width: 100%;
+		margin-bottom: 20px !important;
+	}
+}
+/*--Maintenance Schedule Page--*/
+.Maintenance-Page {
+	padding: 80px 0px 50px 0px;
+	margin-bottom: 140px;
+	color: #fff;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.Maintenance-Page h1 {
+	padding: 0 0 30px 0 !important;
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.Maintenance-Page .M-Container {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 30px 30px;
+	overflow: scroll;
+}
+
+.Maintenance-Page .M-Container h2 {
+	font-size: 18px;
+	color: #666;
+	padding-bottom: 5px !important;
+}
+
+.Maintenance-Page .M-Container p {
+	font-size: 12px;
+	color: #666;
+	padding-top: 250px !important;
+}
+
+.Maintenance-Page .M-Container .M-Text .row {
+	position: relative;
+}
+
+.Maintenance-Page .M-Container .M-Text .bottom-align-text {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.Maintenance-Page .M-Container .M-Text p {
+	color: #666;
+}
+
+@media screen and (max-width: 767px) {
+	.Maintenance-Page {
+		margin-bottom: 250px;
+	}
+	.Maintenance-Page h1 {
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		text-align: center;
+		margin-bottom: 150px;
+	}
+}
+/*--ServiceReminder Page--*/
+.ServiceReminder-Page .nav-tab-div .panel-group {
+	margin: 0px;
+}
+
+.ServiceReminder-Page .nav-tab-div .nav-tabs {
+	z-index: 1px;
+	position: relative;
+	background-color: #f5f5f5;
+}
+
+.ServiceReminder-Page .nav-tab-div .responsive-tab {
+	border: 0px solid #660000;
+	background-color: #f5f5f5;
+}
+
+.ServiceReminder-Page .nav-tab-div .responsive-tab .panelbody-text h4 {
+	font-size: 12px;
+	color: #d00;
+}
+
+.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div {
+	padding: 0px 30px !important;
+}
+
+.ServiceReminder-Page .nav-tab-div .responsive-tab .accordion-div:nth-last-child(-n+1) .panel-div
+	{
+	border: 0px !important;
+}
+
+/*--Media Queries--*/
+@media screen and (max-width: 1199px) {
+	.Menu-Section .container {
+		width: 100% !important;
+	}
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 12px !important;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 11px !important;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 10.5px !important;
+	}
+}
+
+@media screen and (max-width: 1045px) {
+	.Menu-Section .nav-div .nav-section {
+		margin-top: 50px;
+	}
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 10.5px !important;
+		padding: 8px 4px !important;
+	}
+	.Menu-Section .nav-div .nav-section .right-menu-links {
+		margin: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-section .right-menu-links li a {
+		font-size: 10px !important;
+		padding: 8px 4px !important;
+	}
+	.Menu-Section .nav-div .nav-section .right-menu-links .mymazda-link .menu-link
+		{
+		padding-right: 23px !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.footer-div {
+		padding: 30px 15px;
+	}
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 10.5px !important;
+		letter-spacing: .1em !important;
+	}
+}
+
+@media screen and (max-width: 835px) {
+	.Menu-Section .nav-div .searchfield-div {
+		
+	}
+	.Menu-Section .nav-div .nav-section .mid-menu-links {
+		margin-left: 120px !important;
+	}
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 10px !important;
+		letter-spacing: 0em !important;
+		padding: 8px 6px !important;
+	}
+	.Menu-Section .nav-div .nav-section .right-menu-links {
+		width: 240px;
+	}
+	.Menu-Section .nav-div .nav-section .right-menu-links li a {
+		font-size: 9px !important;
+		padding: 8px 3px !important;
+	}
+	.Menu-Section .nav-div .nav-container .mid-menu-links .submenu-list1 {
+		padding-left: 18% !important;
+	}
+	.Menu-Section .nav-div .nav-container .mid-menu-links .submenu-list2 {
+		padding-left: 27.5% !important;
+	}
+	.Menu-Section .nav-div .nav-container .mid-menu-links .submenu-list3 {
+		padding-left: 41% !important;
+	}
+	.Menu-Section .nav-div .nav-container .mid-menu-links .submenu-list4 {
+		padding-left: 46.5% !important;
+	}
+	.Menu-Section .nav-div .hr-menu {
+		float: left;
+		width: 225px;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.Menu-Section .nav-div .nav-section .mid-menu-links .menu-link {
+		font-size: 9.5px !important;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.Login-Page .Signup-Div .signup-section {
+		margin-right:0px !important;
+		width: 450px;
+	}
+	.Login-Page .Signup-Div .signin-section {
+		margin-left:0px !important;
+	}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.Menu-Section .nav-div .searchfield-div {
+		display: none;
+	}
+	.search-field1 input {
+		height: 40px;
+	}
+	.Menu-Section {
+		padding: 0px !important;
+		z-index: 2;
+	}
+	.Menu-Section .logo-div {
+		z-index: 2;
+		float: none;
+		margin: auto;
+		padding: 14px 0;
+		width: 60% !important;
+	}
+	.Menu-Section .container {
+		padding: 0px;
+		height: 64px;
+	}
+	.Menu-Section .nav-div {
+		z-index: 3;
+	}
+	.Menu-Section .nav-div .hr-menu {
+		float: left;
+		width: 100%;
+	}
+	.Menu-Section .nav-div .nav-toggle {
+		padding: 12px 11px !important;
+		border-right: 1px solid #666 !important;
+		height: 64px;
+		background: none;
+	}
+	.Menu-Section .nav-div .nav-container .nav-menu .nav-dropdown .menu-item
+		{
+		clear: both;
+	}
+	.Menu-Section .nav-div .nav-container .container {
+		padding: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links {
+		margin-left: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .Myprofile-link
+		{
+		display: block;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .md-logout
+		{
+		display: block;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .md-logout a i
+		{
+		float: right;
+		color: #333;
+		font-size: 19px;
+		margin-right: 5px;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .submenu-list1
+		{
+		padding-left: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .submenu-list2
+		{
+		padding-left: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .submenu-list3
+		{
+		padding-left: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links .submenu-list4
+		{
+		padding-left: 0px !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links li {
+		background: #f5f5f5 !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links li a {
+		font-size: 1.1em !important;
+		padding: 10px 10px !important;
+		color: #666 !important;
+		letter-spacing: .2em !important;
+		font-family: "InterstateBold", helvetica, arial, sans-serif !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links li ul li
+		{
+		background: #fff !important;
+	}
+	.Menu-Section .nav-div .nav-container .container .mid-menu-links li ul li a
+		{
+		font-size: 13px !important;
+		padding: 10px 10px !important;
+		color: #191919 !important;
+		letter-spacing: .1em !important;
+		font-family: "InterstateLight", helvetica, arial, sans-serif !important;
+	}
+	.Menu-Section .nav-div .nav {
+		margin-top: 0px;
+	}
+	.Menu-Section .nav-div .right-menu-links {
+		display: none;
+	}
+	.Menu-Section .footer-text {
+		padding: 25px 10px 0px 10px;
+		width: 100%;
+		display: block;
+	}
+	.Menu-Section .footer-text a {
+		color: #999 !important;
+		font-size: 12px;
+		width: 100% !important;
+		text-decoration: underline;
+		display: table;
+		padding-bottom: 15px !important;
+	}
+	.Menu-Section .footer-text p {
+		color: #999 !important;
+		font-size: 12px;
+		padding: 20px 0 0px 0 !important;
+	}
+	.Menu-Section .footer-text span {
+		text-decoration: none;
+		color: #999 !important;
+		font-size: 12px;
+	}
+	.Menu-Section .logo-div {
+		padding: 14px 0;
+	}
+	.Menu-Section .logo-div .logo-mobile-xs {
+		display: block;
+		margin: auto !important;
+		height: 31px;
+	}
+	.Menu-Section .logo-div img {
+		width: auto !important;
+	}
+	.Menu-Section .logo-div .logo-desktop {
+		display: none;
+	}
+	.Menu-Section .search-field {
+		display: none;
+	}
+	.modal-dialog .modal-content {
+		text-align: center;
+	}
+	.modal-dialog .modal-content .form-inline {
+		padding: 10px;
+	}
+	.modal-dialog .modal-content .form-inline .form-group {
+		width: 100% !important;
+	}
+	.modal-dialog .modal-content .form-inline .form-group .email,.modal-dialog .modal-content .form-inline .form-group .Login-Page .Signup-Div .signin-section .psw,.Login-Page .Signup-Div .signin-section .modal-dialog .modal-content .form-inline .form-group .psw
+		{
+		float: left;
+	}
+	.modal-dialog .modal-content .form-inline #passwordemail {
+		width: 100%;
+	}
+	.modal-dialog .modal-content .form-inline .btn-red {
+		width: 100% !important;
+		margin: 0px;
+	}
+	.modal-dialog .modal-content .form-inline input {
+		height: 40px;
+	}
+	.modal-dialog .modal-content .btn {
+		height: 40px;
+	}
+	.forg-modal .modal-content p {
+		padding: 0 22px !important;
+	}
+	.forg-modal .modal-content .forgotvalidation {
+		color: #660000 !important;
+		padding: 10px 0 0 0 !important;
+	}
+	.Footer-Div {
+		padding: 10px 0 !important;
+		margin-top: 20px;
+		height: auto;
+	}
+	.Footer-Div ul {
+		
+	}
+	.Footer-Div .contact-link {
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.btn-gray {
+		height: 45px;
+		padding: 11px 14px !important;
+	}
+	.btn-red {
+		height: 45px;
+		padding: 11px 14px !important;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.Menu-Section .logo-div .logo-desktop,.Menu-Section .logo-div .logo-mobile
+		{
+		display: none;
+	}
+	.Menu-Section .logo-div .logo-mobile-xs {
+		display: block;
+		margin: 0px auto 0px auto;
+	}
+	.modal-dialog {
+		margin: 30% auto 0 auto !important;
+		width: 290px !important;
+	}
+	.modal-dialog .modal-content .form-inline {
+		margin-top: 15px;
+	}
+	.modal-dialog .popup-vin img {
+		margin: 10px 20px;
+		width: 248px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.scroll-div {
+		overflow-y: auto;
+		height: 550px;
+	}
+}
+
+@media screen and (max-height: 375px) {
+	.scroll-div {
+		overflow-y: auto;
+		height: 300px;
+		padding-bottom: 30px;
+	}
+}
+
+/*--EgiftDetails Page--*/
+.EgiftDetails-Page {
+	padding: 0px 0px 150px 0px !important;
+	color: #333;
+	background: #f5f5f5;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 850px;
+}
+
+.EgiftDetails-Page .search-field1 {
+	display: none;
+}
+
+.EgiftDetails-Page h1 {
+	padding: 40px 0 30px 0 !important;
+	color: #191919;
+	font-size: 25px;
+	line-height: 32px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EgiftDetails-Page .nav-tab-div .nav-tabs {
+	z-index: 1px;
+	position: relative;
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+.EgiftDetails-Page .nav-tab-div ul {
+	border-bottom: 0px solid #660000 !important;
+	z-index: 1;
+}
+
+.EgiftDetails-Page .nav-tab-div ul li {
+	width: 25%;
+}
+
+.EgiftDetails-Page .nav-tab-div ul li a {
+	padding: 10px 8px !important;
+	font-size: 12px;
+	background: none !important;
+	border-radius: 0px !important;
+	color: #333 !important;
+	text-align: center;
+	border-right: 0px solid #101010 !important;
+}
+
+.EgiftDetails-Page .nav-tab-div ul li a i {
+	display: none;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .tab-dropdown-ul {
+	width: 100%;
+	background-color: #f5f5f5;
+	border: 0px solid #660000 !important;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .tab-dropdown-ul li {
+	width: 100%;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .tab-dropdown-ul li a {
+	border-bottom: 0px !important;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .tab-dropdown-ul li :hover {
+	border: 0px solid #660000 !important;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .test-class {
+	background-color: transparent;
+	border-bottom: 3px solid #999 !important;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .active {
+	background-color: inherit;
+	margin-bottom: -1px !important;
+	border-bottom: 3px solid #d00 !important;
+	color: #101010;
+}
+
+.EgiftDetails-Page .nav-tab-div ul .active a {
+	border: 0px solid #ccc !important;
+	color: #333;
+	font-size: 18px;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab {
+	border: 0px solid #ccc;
+	background-color: transparent;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div {
+	padding: 20px 40px 0px 0px;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .row {
+	padding: 0px 0 10px 0px;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .egift-label
+	{
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+	padding-left: 15px !important;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div p {
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div span {
+	color: #191919;
+	font-family: "InterstateLight", helvetica, arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div label
+	{
+	color: #666;
+	font-family: "InterstateBold", helvetica, arial, sans-serif;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .SH-hedding p
+	{
+	padding-top: 0px !important;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .btn {
+	float: right;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text
+	{
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-header
+	{
+	border-bottom: 0px solid #ccc;
+	padding: 10px 15px !important;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-header h3,.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-header p,.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-header span
+	{
+	color: #666;
+	font-family: "InterstateBold" !important;
+	font-size: 14px;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-header .edit-icon
+	{
+	float: right;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-header .edit-icon i
+	{
+	font-size: 20px;
+	color: #666;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-text
+	{
+	color: #666;
+	padding: 20px 15px;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .EgiftDetails-text .sh-text .col-sm-3
+	{
+	width: 150px !important;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .servicetext
+	{
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	-ms-border-radius: 6px !important;
+	border-radius: 6px !important;
+	border: 0px solid #ccc;
+	margin: 60px 0 !important;
+	width: 100%;
+	background: #fff;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .servicetext li
+	{
+	list-style-type: none;
+	padding: 10px !important;
+	color: #666;
+	width: 100%;
+}
+
+.EgiftDetails-Page .nav-tab-div .responsive-tab .EgiftDetails-Div .servicetext li :hover
+	{
+	border: 0px !important;
+}
+
+@media screen and (max-width: 1199px) {
+	.EgiftDetails-Page .container {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.EgiftDetails-Page .nav-tab-div .panel-group {
+		margin: 0px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel-group .panel+.panel {
+		margin: 0px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel {
+		background: #fff;
+		border-radius: 0px;
+		border: 0px;
+		color: #666;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .panel-heading {
+		background: #d6d6d6 !important;
+		border-radius: 0px;
+		padding: 12px 15px 8px 15px !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .panel-heading h4 a {
+		color: #333 !important;
+		text-decoration: none;
+		font-size: 18px;
+		width: 100%;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+		letter-spacing: .2em;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .panel-heading h4 a i {
+		float: right !important;
+		display: block;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div p,.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div span
+		{
+		color: #ccc !important;
+		letter-spacing: .1em;
+		line-height: 18px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .SH-hedding p {
+		padding-top: 0px !important;
+		color: #666 !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .SH-hedding span
+		{
+		color: #666 !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .SH-hedding .btn
+		{
+		margin-top: 0px !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .btn {
+		width: 100%;
+		margin: 15px 0 !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text
+		{
+		border: 1px solid #ccc;
+		margin-top: 20px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-header
+		{
+		border-bottom: 1px solid #ccc;
+		padding: 10px 15px !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-header h3,.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-header p,.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-header span
+		{
+		color: #666;
+		font-family: "InterstateBold" !important;
+		font-size: 11px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-header .edit-icon
+		{
+		float: right;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-header .edit-icon i
+		{
+		font-size: 20px;
+		color: #666;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-text
+		{
+		color: #666;
+		padding: 20px 15px;
+		margin-left: 20px !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-text p,.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .EgiftDetails-text .sh-text span
+		{
+		color: #666 !important;
+		font-size: 11px !important;
+		line-height: 23px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.EgiftDetails-Page {
+		padding: 0px !important;
+		margin-bottom: 220px;
+	}
+	.EgiftDetails-Page .Ser-head {
+		padding: 0 15px !important;
+	}
+	.EgiftDetails-Page .Ser-head .search-field1 {
+		display: block;
+		padding: 20px 0 !important;
+	}
+	.EgiftDetails-Page h1 {
+		text-align: center;
+		padding: 30px 0 20px 0 !important;
+		font-size: 20px;
+		line-height: 32px;
+		font-family: "InterstateBold", helvetica, arial, sans-serif;
+	}
+	.EgiftDetails-Page .panel-group .panel+.panel {
+		margin: 1px 0 0 0 !important;
+	}
+	.EgiftDetails-Page .container {
+		padding: 0px;
+		width: 100%;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel-group {
+		margin: 0px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel-group .panel+.panel {
+		margin: 0px;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .SH-hedding p {
+		padding-top: 0px !important;
+	}
+	.EgiftDetails-Page .nav-tab-div .panel .EgiftDetails-Div .SH-hedding .btn
+		{
+		margin-top: 15px !important;
+	}
+}
+/*# sourceMappingURL=style.css.map */
